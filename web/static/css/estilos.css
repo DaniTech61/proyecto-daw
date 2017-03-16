@@ -1,0 +1,77 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	bottom:0;
+	margin: 0;
+	background: url(../images/madrid3.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow-y: auto;
+	overflow: auto;
+}
+
+#panel{
+	-webkit-box-shadow: 0px 0px 26px 10px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 26px 10px rgba(0,0,0.75);
+	box-shadow: 0px 0px 26px 10px rgba(230, 184, 0,0.75);
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height:300px;
+	width:500px;
+	display:flex;
+	border-radius:15px;
+	background:rgba(0,0,0,0.6);
+    opacity: 1;
+}
+
+#anon{
+	position:relative;
+	float:left;
+	height:100%;
+	width:50%;
+	display:table;
+	border-right:3px solid black;
+	padding:5px;
+}
+
+#anon > span{
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 	
+	color:#FFBF00;
+}
+
+
+
+#log{
+	position:relative;
+	float:left;
+	height:100%;
+	width:50%;
+	display:table;
+	padding:5px;
+}
+
+#log>form{
+	display: table-cell; 
+	vertical-align: middle; 
+	text-align: center; 	
+	color:#FFBF00;
+}
+
+a:link{
+	color:#FFBF00;
+}
+
+a:active{
+	color:#FFBF00;
+}
+
+a:visited{
+	color:#FFBF00;
+}

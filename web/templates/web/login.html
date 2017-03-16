@@ -1,3 +1,59 @@
-<html>
-	<p>Hello World!</p>
+{% load staticfiles %}
+{% include "web/includes/registro.html" %}
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beware</title>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="{% static 'css/estilos.css' %}">
+	<style type="text/css">
+		.bs-example {
+		  margin: 20px;
+		}
+		.error {
+			color: red;
+		}
+	</style>
+	<script>
+
+    </script> 
+</head>
+<body>
+    <h1></h1>
+	<div class="container-fluid fill">
+			<div id="panel">
+				<div id="anon">
+					<span>
+						<label for="anonimo">¿No tienes cuenta?</label><br>
+						<div id="registro"><div class="bs-example">
+						<a href="#myModal" data-toggle="modal">Regístrate</a>						
+						</div>
+					</div>
+					</span>
+				</div>
+				<div id="log">
+					<form role="form" action="src/validar_usuario.php" method="POST">
+						<div class="form-group">
+							<label for="usuario">Usuario</label>
+							<input type="text" class="form-control" placeholder="Nombre de usuario" name="usuario"><br>
+							<span class="error"></span>
+						</div>
+						<div class="form-group">
+							<label for="contrasena">Contraseña</label>
+							<input type="password" name="pass" class="form-control" placeholder="Contraseña">
+							<span class="error"></span>
+						</div>
+						<button type="submit" class="btn btn-default">Acceder</button>
+					</form>
+				</div>
+			</div>
+	</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
 </html>
