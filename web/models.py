@@ -24,7 +24,7 @@ class Turismo(models.Model):
 class Comentarios(models.Model):
 	autor = models.ForeignKey('auth.User',on_delete=models.CASCADE)
 	local = models.ForeignKey('Local',on_delete=models.CASCADE)
-	título = models.CharField(max_length=50)
+	titulo = models.CharField(max_length=50)
 	comentario = models.TextField()
 	fecha_publicacion = models.DateTimeField(
 			blank=True, null=True)
