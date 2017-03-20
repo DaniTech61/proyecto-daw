@@ -1,0 +1,36 @@
+{% extends 'web/base.html' %}
+{% block content %}
+<div class="login">
+	{% if form.errors %}
+		<p>{{ form.errors }}</p>
+	{% endif %}
+	<form role="form" method="POST" action="{% url 'alta' %}">
+	{% csrf_token %}
+		<div class="form-group">
+			<label for="usuario">Nombre de usuario</label>
+			{{ form.username }}				
+		</div>		
+		
+		<div class="form-group">
+			<label for="contrasena">Contrase&#241;a</label>
+			{{ form.password }}
+		</div>
+		<div class="form-group">
+			<label for="email">Email</label>
+			{{ form.email }}
+		</div>
+		<div class="form-group">
+			<label for="nombre">Nombre real</label>
+			{{ form.first_name }}
+		</div>
+		<div class="form-group">
+			<label for="apellidos">Apellidos</label>
+			{{ form.last_name }}
+		</div>
+		 <input type="hidden" name="next" value="{{ next }}">
+		<button type="submit" class="btn btn-primary">Confirmar</button>
+	</form><br>
+	¿Volver a la pantalla de <a href="{% url 'login' %}"> login </a>
+
+</div>
+{% endblock content %}

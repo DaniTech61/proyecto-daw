@@ -75,3 +75,12 @@ a:active{
 a:visited{
 	color:#FFBF00;
 }
+
+/* Estilos página de registro */
+.login{
+	width:300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10%;
+}
+/* Fin */
