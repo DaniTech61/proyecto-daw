@@ -29,5 +29,5 @@ class Comentarios(models.Model):
 	fecha_publicacion = models.DateTimeField(
 			blank=True, null=True)
 	def publish(self):
-		self.published_date = timezone.now()
+		self.fecha_publicacion = timezone.now()
 		self.save()
