@@ -1,4 +1,8 @@
 {% extends 'web/base.html' %}
+{% load staticfiles %}
+{%block stylesheet %}
+	<link rel="stylesheet" href="{% static 'css/estilosRegistro.css' %}">
+{% endblock stylesheet%}
 {% block content %}
 <div class="login">
 	{% if form.errors %}

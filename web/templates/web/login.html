@@ -1,39 +1,57 @@
 {% extends 'web/base.html' %}
+{% load staticfiles %}
+{%block stylesheet %}
+	<link rel="stylesheet" href="{% static 'css/estilosLogin.css' %}">
+{% endblock stylesheet%}
+
 {% block content %}
-    <h1></h1>
-	<div class="container-fluid fill">
-			<div id="panel">
-				<div id="anon">
-					<span>
-						<label for="anonimo">¿No tienes cuenta?</label><br>
-						<div id="registro">
-							<div class="bs-example">
-								<a href="{% url 'alta' %}">Regístrate</a>						
-							</div>
-					</div>
-					</span>
-				</div>
-				<div id="log">
-					{% if form.errors %}
-						<p>Usuario y contraseña no coinciden</p>
-					{% endif %}
-					<form method="post" action="{% url 'login' %}">
-					{% csrf_token %}
-						<div class="form-group">
-							<label for="usuario">Usuario</label>
-							{{ form.username.label_tag }}
-							{{ form.username }}	<br>
-							<span class="error"></span>
+<div class="container-fluid fill">
+	<div id="panel">
+		<div id="presentacion">
+		<h1>Bienvenido a InvenitMadrid</h1><br><br>
+		<p>
+			InvenitMadrid es el lugar indicado para todos aquellos que quieran descubrir la gastronomía y turismo
+			que ofrece Madrid.
+		</p>
+		<p>
+			Regístrate en mi web y tendrás acceso a sitios turísticos de interés, bares,locales y restaurantes que cuentan
+			además con las valoraciones y reseñas de la gente que los ha visitado.			
+		</p>
+		<p>
+			Conoce Madrid como nunca antes lo habías hecho, no importa si estás de visita o si vives en la ciudad.<br>
+			En esta página descubrirás sitios que no conocías antes.<br>
+		</p>
+		</div>
+		<div id="acceso">
+			<div id="anon">
+				<span>
+					<label for="anonimo">¿No tienes cuenta?</label><br>
+					<div id="registro">
+						<div class="bs-example">
+							<a href="{% url 'alta' %}">Regístrate</a>						
 						</div>
-						<div class="form-group">
-							<label for="contrasena">Contraseña</label>
-							{{ form.password }}
-							<span class="error"></span>
-						</div>
-						 <input type="hidden" name="next" value="{{ next }}">
-						<button type="submit" class="btn btn-default">Acceder</button>
-					</form>
 				</div>
+				</span>
 			</div>
+			<div id="log">
+				{% if form.errors %}
+					<p>Usuario y contraseña no coinciden</p>
+				{% endif %}
+				<form method="post" action="{% url 'login' %}">
+				{% csrf_token %}
+					<div class="form-group">
+						{{ form.username.label_tag }}
+						{{ form.username }}
+					</div>
+					<div class="form-group">
+						<label for="contrasena">Contraseña</label>
+						{{ form.password }}
+					</div>
+					<input type="hidden" name="next" value="{{ next }}">
+					<button type="submit" class="btn btn-default">Acceder</button>
+				</form>
+			</div>
+		</div>
 	</div>
+</div>
 {% endblock content %}
