@@ -67,3 +67,28 @@ h3 {
 p{
 	text-align:center;
 }
+
+#tur, #gastro{
+	width:200px;
+	height:200px;
+}
+#imgTur{
+	float:left;
+	margin-left:100px;
+	vertical-align:middle;
+}
+#spanTur{
+	float:left;
+	margin-left:60px;
+	line-height:200px;
+}
+#imgGastro{
+	float:right;
+	margin-right:100px;
+	vertical-align:middle;
+}
+
+#spanGastro{
+	margin-left:700px;
+	line-height:200px;
+}

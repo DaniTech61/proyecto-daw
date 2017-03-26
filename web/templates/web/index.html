@@ -2,12 +2,14 @@
 {% load staticfiles %}
 {%block stylesheet %}
 	<link rel="stylesheet" href="{% static 'css/estilosIndex.css' %}">
+	<link rel="stylesheet" href="{% static 'css/ihover.css' %}">
+	<link rel="stylesheet" href="{% static 'css/ihover.min.css' %}">
 {% endblock stylesheet%}
 {% block content %}
 <div class="img1">
   <div class="caption">
     <h3 id="cabecera" style="text-align:center;">InvenitMadrid</h3>
-  </div>
+  </div> 
 </div>
 
 <div style="color: black;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
@@ -22,8 +24,16 @@
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>Descubre las mejores vistas y lugares que te dejarán con la boca abierta</p>
+  <div style="color:#ddd;background-color:black;text-align:left;padding:20px 80px;height:250px">
+    <div id="imgTur" class="ih-item circle effect19">
+		<a href="#">
+        <div class="img"><img src="{% static 'images/madridTurismo.jpg' %}" alt="img"></div>
+        <div class="info">
+          <h3>Turismo</h3>
+          <p>Visita turística</p>
+        </div></a>
+	</div>
+	<span id="spanTur">Descubre las mejores vistas y lugares que te dejarán con la boca abierta</span>
   </div>
 </div>
 
@@ -34,8 +44,16 @@
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:black;text-align:center;padding:50px 80px;text-align: justify;">
-    <p>¿Tienes hambre? Te presentamos los mejores lugares para degustar la gastronomía española</p>
+  <div style="color:#ddd;background-color:black;text-align:center;padding:20px 80px;height:250px">
+    <span id="spanGastro">¿Tienes hambre? Te presentamos los mejores lugares para degustar la gastronomía española</span>
+	    <div id="imgGastro" class="ih-item circle effect19">
+			<a href="#">
+			<div class="img"><img src="{% static 'images/gastronomia.jpg' %}" alt="img"></div>
+			<div class="info">
+			  <h3>Gastronomía<br>Locales</h3>
+			  <p>Visita gastronómica</p>
+			</div></a>
+		</div>
   </div>
 </div>
 
