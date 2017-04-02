@@ -5,36 +5,41 @@
 {% endblock stylesheet%}
 
 {% block content %}
-<div class="container-fluid fill">
-	<div id="panel">
-		<div id="presentacion">
-		<h1>Bienvenido a InvenitMadrid</h1><br><br>
-		<p>
-			InvenitMadrid es el lugar indicado para todos aquellos que quieran descubrir la gastronomía y turismo
-			que ofrece Madrid.
-		</p>
-		<p>
-			Regístrate en mi web y tendrás acceso a sitios turísticos de interés, bares,locales y restaurantes que cuentan
-			además con las valoraciones y reseñas de la gente que los ha visitado.			
-		</p>
-		<p>
-			No importa si estás de visita o si vives en la ciudad, conoce Madrid como nunca antes lo habías hecho. <br>
-			En esta página descubrirás sitios que no conocías<br>
-			<h3>Adéntrate</h3>
-		</p>
-		</div>
-		<div id="acceso">
-			<div id="anon">
-				<span>
-					<label for="anonimo">¿No tienes cuenta?</label><br>
-					<div id="registro">
-						<div class="bs-example">
-							<a href="{% url 'alta' %}">Regístrate</a>						
-						</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-3 col-lg-2"></div>
+		<div class="col-md-6 col-lg-8">
+				<div id="presentacion">
+					<h1>Bienvenido a InvenitMadrid</h1><br><br>
+					<p>
+						InvenitMadrid es el lugar indicado para todos aquellos que quieran descubrir la gastronomía y turismo
+						que ofrece Madrid.
+					</p>
+					<p>
+						Regístrate en mi web y tendrás acceso a sitios turísticos de interés, bares,locales y restaurantes que cuentan
+						además con las valoraciones y reseñas de la gente que los ha visitado.			
+					</p>
+					<p>
+						No importa si estás de visita o si vives en la ciudad, conoce Madrid como nunca antes lo habías hecho. <br>
+						En esta página descubrirás sitios que no conocías<br>
+						<h3>Adéntrate</h3>
+					</p>
 				</div>
-				</span>
+		</div>
+		<div class="col-md-3 col-lg-2"></div>
+	</div>
+	<div class="row">
+		<div class="col-md-3 col-lg-2"></div>
+		<div class="col-md-3 col-lg-4">
+			<div id="cuadroRegistro">
+				<label for="anonimo">¿No tienes cuenta?</label><br>
+				<div id="registro">
+						<a href="{% url 'alta' %}">Regístrate</a>						
+				</div>
 			</div>
-			<div id="log">
+		</div>
+		<div class="col-md-3 col-lg-4">
+			<div id="cuadroLogin">
 				{% if form.errors %}
 					<p>Usuario y contraseña no coinciden</p>
 				{% endif %}
@@ -53,6 +58,9 @@
 				</form>
 			</div>
 		</div>
-	</div>
+		<div class="col-md-3 col-lg-2"></div>
+	</div>	
+		
+
 </div>
 {% endblock content %}
