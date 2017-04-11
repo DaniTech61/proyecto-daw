@@ -7,31 +7,41 @@
 {% block content %}
 	
 <div class="container contenido">
-{% include "web/includes/menu.html" %}
-	
-	
+{% include "web/includes/menu.html" %}	
+
 	{% for sitio in turismo %}
-	<div class="row">	
-		<div class="col-md-12 box">
+	<div class="col-md-4 content">
 		{% if forloop.counter|divisibleby:2 %}			
-			<div id="info">
+			<div class="info">
 				<img class="thumbnail" src="{% static sitio.imagen %}"/>
 				<h3>{{ sitio.nombreSitio }}</h3>
-				<p>{{ sitio.direccion }}</p>
 				<div class="descripcion">{{ sitio.descripcion }}</div>
 			</div>
+
 		{% else %}
-			<div id="info">
+			<div class="info">
 				<img class="thumbnail" src="{% static sitio.imagen %}"/>
-				<h3>{{ sitio.nombreSitio }}</h3>
-				<p>{{ sitio.direccion }}</p>		
+				<h3>{{ sitio.nombreSitio }}</h3>		
 				<div class="descripcion">{{ sitio.descripcion }}</div>	
 			</div>
 		{% endif %}
-		 <div class="box-wrap clearfix"></div>
-		</div>
-	</div>
+	</div>	
 	{% endfor %}
-	
+<div class="row">
+	<div class="pagination">
+		<span class="step-links">
+			{% if turismo.has_previous %}
+				<a href="?page={{ turismo.previous_page_number }}">Anterior</a>
+			{% endif %}
+
+			<span class="current">
+				Página {{ turismo.number }} de {{ turismo.paginator.num_pages }}
+			</span>
+			{% if turismo.has_next %}
+				<a href="?page={{ turismo.next_page_number }}">Siguiente</a>
+			{% endif %}
+		</span>
+	</div>	
+</div>
 </div>
 {% endblock content %}

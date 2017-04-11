@@ -1,11 +1,11 @@
 img{
-	width: 250px;
-	height: 250px;
+	width: 300px;
+	height: 300px;
 }
 
-.row div[id*="info"] .descripcion{ 
-	height:auto;
-	width:auto;
+.descripcion{ 
+	height:50px;
+	width:300px;
 	text-overflow:ellipsis;
 	white-space:nowrap; 
 	overflow:hidden; 
@@ -28,7 +28,7 @@ img{
 }
 
 .contenido {
-	background-color:black;
+	background-color:white;
 
 }
 
@@ -41,3 +41,20 @@ body {
 	margin-top:51px;
 }
 
+.pagination{
+	margin-left:40%;
+	margin-right:auto;
+}
+
+.info{
+	width:300px;
+	height:400px;
+	display:inline-block;
+	text-align:center;
+	float:left;
+
+}
+
+.content{
+	
+}

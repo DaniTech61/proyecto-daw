@@ -11,6 +11,7 @@ from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
 from .models import Comentarios
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -68,7 +69,17 @@ def index(request):
     
 	
 def lista_turismo(request):
-	turismo = Turismo.objects.all()
+	lista_turismo = Turismo.objects.all()
+	paginator = Paginator(lista_turismo, 6)
+	page = request.GET.get('page')
+	
+	try:
+		turismo=paginator.page(page)
+	except PageNotAnInteger:
+		turismo=paginator.page(1)
+	except EmptyPage:
+		turismo=paginator.page(paginator.num_pages)
+		
 	return render(request, 'web/turismo.html', {'turismo': turismo})
 	
 def lista_gastronomia(request):
