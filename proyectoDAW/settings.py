@@ -125,3 +125,7 @@ STATIC_ROOT = os.path.join(BASE_DIR,'static')
 LOGIN_REDIRECT_URL = "/inicio"
 # Redirect when login is not correct.
 LOGIN_URL = '/'
+
+FIXTURE_DIRS = (
+   '/fixtures/',
+)

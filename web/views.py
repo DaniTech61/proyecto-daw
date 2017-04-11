@@ -8,6 +8,9 @@ from django.contrib.auth import authenticate, login as auth_login
 from web.forms import AltaForm
 from web.forms import LoginForm
 from django.views.decorators.csrf import ensure_csrf_cookie
+from .models import Local
+from .models import Turismo
+from .models import Comentarios
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -63,3 +66,10 @@ def index(request):
 	else:
 		return render(request,'web/login.html')
     
+	
+def lista_turismo(request):
+	turismo = Turismo.objects.all()
+	return render(request, 'web/turismo.html', {'turismo': turismo})
+	
+def lista_gastronomia(request):
+	return render(request, 'web/gastronomia.html', {})

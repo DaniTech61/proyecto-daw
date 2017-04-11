@@ -1,0 +1,38 @@
+{% extends 'web/base.html' %}
+{% load staticfiles %}
+{%block stylesheet %}
+	<link rel="stylesheet" href="{% static 'css/estilosTurismo.css' %}">
+{% endblock stylesheet%}
+
+{% block content %}
+	<header>{% include "web/includes/menu.html" %}</header>
+<div class="container contenido">
+
+
+	
+	
+	{% for sitio in turismo %}
+	<div class="row">	
+		<div class="col-md-12 box">
+		{% if forloop.counter|divisibleby:2 %}			
+			<div id="info">
+				<img class="thumbnail" src="{% static sitio.imagen %}"/>
+				<h3>{{ sitio.nombreSitio }}</h3>
+				<p>{{ sitio.direccion }}</p>
+				<div class="descripcion">{{ sitio.descripcion }}</div>
+			</div>
+		{% else %}
+			<div id="info">
+				<img class="thumbnail" src="{% static sitio.imagen %}"/>
+				<h3>{{ sitio.nombreSitio }}</h3>
+				<p>{{ sitio.direccion }}</p>		
+				<div class="descripcion">{{ sitio.descripcion }}</div>	
+			</div>
+		{% endif %}
+		 <div class="box-wrap clearfix"></div>
+		</div>
+	</div>
+	{% endfor %}
+	
+</div>
+{% endblock content %}

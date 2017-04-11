@@ -1,0 +1,11 @@
+[
+	{
+		"model": "web.Turismo",
+		"fields": {
+		"nombreSitio": "Templo de Debod",
+		"direccion": "Calle Ferraz, 1, 28008 Madrid",
+		"descripcion": ,
+		"imagen": "/images/debod.jpg"
+		}
+	},
+]
