@@ -1,5 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
+from .models import Local,Turismo
 from django.forms import ModelForm,CharField,Form,PasswordInput
 
 class AltaForm(ModelForm):
@@ -23,3 +24,32 @@ class LoginForm(ModelForm):
 			'username': forms.TextInput(attrs={'class': 'form-control'}),
 			
         }
+		
+class FiltroTurismoForm(forms.Form):
+	class Meta:
+		model = Turismo
+	CATEGORIAS_TURISMO = (
+		('---', '---'),
+		('fuente', 'Fuente'),
+		('parque', 'Parque'),
+		('museo', 'Museo'),
+		('teatro', 'Teatro'),
+		('auditorio', 'Auditorio'),	
+		('puerta', 'Puerta'),
+		('otros', 'Otros'),
+	)
+	select = forms.ChoiceField(widget=forms.Select(attrs={'class': 'form-control', 'onChange':'form.submit();'}), choices=CATEGORIAS_TURISMO)
+		
+		
+class FiltroGastronomiaForm(forms.Form):
+	class Meta:
+		model = Local
+	CATEGORIAS_LOCALES = (
+		('copas', 'Copas'),
+		('noche', 'Noche'),
+		('comer', 'Comer'),
+		('tapeo', 'Tapas'),
+		('dulce', 'Dulce'),
+		('varios', 'Varios'),
+	)
+	select = forms.ChoiceField(widget=forms.Select, choices=CATEGORIAS_LOCALES)

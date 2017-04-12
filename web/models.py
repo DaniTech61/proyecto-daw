@@ -6,6 +6,15 @@ class Local(models.Model):
 	direccion = models.CharField(max_length=60)
 	descripcion = models.TextField()
 	imagen = models.CharField(max_length=60)
+	CATEGORIAS_LOCALES = (
+		('copas', 'Copas'),
+		('noche', 'Noche'),
+		('comer', 'Comer'),
+		('tapeo', 'Tapas'),
+		('dulce', 'Dulce'),
+		('varios', 'Varios'),
+	)
+	categoria = models.CharField(max_length=10, choices=CATEGORIAS_LOCALES, default='varios')
 	fechaAlta = models.DateTimeField(default=timezone.now)
 	def alta(self):
 		self.fechaAlta = timezone.now()
@@ -16,6 +25,16 @@ class Turismo(models.Model):
 	direccion = models.CharField(max_length=60)
 	descripcion = models.TextField()
 	imagen = models.CharField(max_length=60)
+	CATEGORIAS_TURISMO = (
+		('fuente', 'Fuente'),
+		('parque', 'Parque'),
+		('museo', 'Museo'),
+		('teatro', 'Teatro'),
+		('auditorio', 'Auditorio'),	
+		('puerta', 'Puerta'),
+		('otros', 'Otros'),
+	)
+	categoria = models.CharField(max_length=15, choices=CATEGORIAS_TURISMO, default='otros')
 	fechaAlta = models.DateTimeField(default=timezone.now)
 	def alta(self):
 		self.fechaAlta = timezone.now()

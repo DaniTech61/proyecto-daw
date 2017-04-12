@@ -7,6 +7,8 @@ from django.shortcuts import render
 from django.contrib.auth import authenticate, login as auth_login
 from web.forms import AltaForm
 from web.forms import LoginForm
+from web.forms import FiltroTurismoForm
+from web.forms import FiltroGastronomiaForm
 from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
@@ -69,10 +71,22 @@ def index(request):
     
 	
 def lista_turismo(request):
-	lista_turismo = Turismo.objects.all()
-	paginator = Paginator(lista_turismo, 6)
 	page = request.GET.get('page')
-	
+	lista_turismo = ""
+	if request.method == 'POST':
+		if request.POST.get('Borrar'):
+			if 'filtroTurismo' in request.session:
+				del request.session['filtroTurismo']		
+		else:
+			filtro=request.POST.get('select') 
+			request.session['filtroTurismo'] = filtro
+
+	if 'filtroTurismo' not in request.session:
+		lista_turismo = Turismo.objects.order_by('nombreSitio')
+	else:
+		lista_turismo = Turismo.objects.filter(categoria=request.session['filtroTurismo'])
+		
+	paginator = Paginator(lista_turismo, 6)
 	try:
 		turismo=paginator.page(page)
 	except PageNotAnInteger:
@@ -80,7 +94,19 @@ def lista_turismo(request):
 	except EmptyPage:
 		turismo=paginator.page(paginator.num_pages)
 		
-	return render(request, 'web/turismo.html', {'turismo': turismo})
+	form = FiltroTurismoForm()	
+	data = {
+		'form': form,
+		'turismo': turismo, 
+	}	
+	return render(request, 'web/turismo.html', data)
+
+def lugar_turismo(request,nombreSitio):
+	turismo = Turismo.objects.get(nombreSitio=nombreSitio)
+	data = {
+		'sitio':turismo,
+	}
+	return render(request, 'web/turismo/turismo.html',data)
 	
 def lista_gastronomia(request):
 	return render(request, 'web/gastronomia.html', {})

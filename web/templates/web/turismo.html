@@ -8,25 +8,39 @@
 	
 <div class="container contenido">
 {% include "web/includes/menu.html" %}	
-
+	<div class="row">
+		<div class="col-md-3 col-md-offset-4">
+			<form id="filtrarTurismo" method="POST" action="{% url 'turismo' %}">
+			{% csrf_token %}
+				<div class="form-group">
+					<label for="opciones">Filtrar por :</label>
+						{{ form.select }}
+				</div>
+				<input type="submit" name="Borrar" value="Eliminar Filtro" class="btn btn-primary">
+			</form>
+		</div>
+	</div>
+	<div class="row">
 	{% for sitio in turismo %}
 	<div class="col-md-4 content">
 		{% if forloop.counter|divisibleby:2 %}			
 			<div class="info">
 				<img class="thumbnail" src="{% static sitio.imagen %}"/>
-				<h3>{{ sitio.nombreSitio }}</h3>
+				<h3><a href="{% url 'detalleTurismo' nombreSitio=sitio.nombreSitio %}">{{ sitio.nombreSitio }}</a></h3>
 				<div class="descripcion">{{ sitio.descripcion }}</div>
 			</div>
 
 		{% else %}
 			<div class="info">
 				<img class="thumbnail" src="{% static sitio.imagen %}"/>
-				<h3>{{ sitio.nombreSitio }}</h3>		
+				<h3><a href="{% url 'detalleTurismo' nombreSitio=sitio.nombreSitio %}">{{ sitio.nombreSitio }}</a></h3>		
 				<div class="descripcion">{{ sitio.descripcion }}</div>	
 			</div>
 		{% endif %}
 	</div>	
 	{% endfor %}
+	</div>
+<footer>	
 <div class="row">
 	<div class="pagination">
 		<span class="step-links">
@@ -43,5 +57,6 @@
 		</span>
 	</div>	
 </div>
+</footer>
 </div>
 {% endblock content %}
