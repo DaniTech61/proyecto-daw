@@ -1,0 +1,506 @@
+[
+{
+    "model": "web.local",
+    "pk": "99 Sushi Bar Hermosilla",
+    "fields": {
+        "direccion": "Calle de Hermosilla, 4, 28001 Madrid",
+        "descripcion": "Tempura de langostinos, pez mantequilla con trufa y cocina japonesa en \u00edntimo sal\u00f3n con bonsais y tonos rojos.",
+        "imagen": "/images/gastro/99.jpg",
+        "telefono": "914 31 27 15",
+        "email": "",
+        "web": "http://www.99sushibar.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:36:05Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Bar Cock",
+    "fields": {
+        "direccion": "Calle Reina, 16 28004",
+        "descripcion": "Bar de referencia en cuanto a c\u00f3cteles se refiere, tanto en cl\u00e1sicos como en las \u00faltimas creaciones, con una amplia selecci\u00f3n de vodkas, whiskys, licores, ginebras, rones, brandies, etc.\r\n\r\nEste palacete franc\u00e9s que conserva su decoraci\u00f3n original, de aire antiguo y bohemio, goza de una amplia y fiel clientela, en especial en fines de semana. Sin embargo, para mantener un ambiente tranquilo y agradable, el local mantiene el aforo limitado, lo que hace que puedan formarse colas para entrar.\r\n\r\nSituado en la parte de atr\u00e1s del famoso Chicote, en los aleda\u00f1os a la Gran V\u00eda, en otros tiempos fue una especie de reservado de \u00e9ste para los clientes m\u00e1s selectos, ya que, seg\u00fan dicen, ambos locales est\u00e1n conectados a trav\u00e9s de una chimenea. Leyendas aparte, si quieres tomarte un exquisito c\u00f3ctel, en agradable y selecto ambiente, conversaci\u00f3n tranquila y buena m\u00fasica: \u00e9ste es tu local.",
+        "imagen": "/images/gastro/cock.jpg",
+        "telefono": "(+34) 91 532 28 26",
+        "email": "joseastiarraga@barcock.com",
+        "web": "http://www.barcock.com/",
+        "categoria": "noche",
+        "fechaAlta": "2017-04-13T15:53:20Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Bodega La Ardosa",
+    "fields": {
+        "direccion": "Calle Col\u00f3n, 13 28004",
+        "descripcion": "En 1892, Rafael Fern\u00e1ndez abri\u00f3 varias tabernas con el nombre de La Ardosa, en recuerdo del pueblo del mismo nombre de la provincia de Toledo. La de Malasa\u00f1a conserva todav\u00eda elementos de su decoraci\u00f3n original, como el r\u00f3tulo de cristal grabado, el z\u00f3calo de azulejos y el ventilador.\r\n\r\nLa Ardosa se ha convertido en un lugar \u00fanico donde, durante estos a\u00f1os, han ido ense\u00f1ando a muchos aficionados a degustar cerveza de forma diferente y a muchos camareros a darle importancia a la forma de servirla.\r\n\r\nOfrecen una gran variedad de cervezas irlandesas a precios muy asequibles, vermouth de grifo, cervezas rubias, buenos vinos de la Ribera y de Rioja. Para picar ofrecen canap\u00e9s variados, salmorejo, salazones, cecina de Le\u00f3n o jam\u00f3n de pato, pero, sobre todo, destaca su tortilla de patatas, la especialidad de la casa y una de las mejores de toda la capital.",
+        "imagen": "/images/gastro/laArdosa.jpg",
+        "telefono": "(+34) 91 521 49 79",
+        "email": "",
+        "web": "http://www.laardosa.es/",
+        "categoria": "tapeo",
+        "fechaAlta": "2017-04-13T15:10:05Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Cacao Sampaka",
+    "fields": {
+        "direccion": "Calle Orellana, 4 28004",
+        "descripcion": "Cacao Sampaka naci\u00f3 para recuperar la cultura del cacao y el chocolate. Su materia prima es el mejor cacao de Venezuela y Ecuador, que se elabora de manera artesanal sin a\u00f1adir ning\u00fan aditivo.\r\n\r\nAdem\u00e1s de la tienda, donde se pueden encontrar diferentes y sorprendentes mezclas y tipos de chocolates, el local tiene una cafeter\u00eda donde degustar sus especialidades y sus deliciosos surtidos. Esta chocolater\u00eda gourmet tambi\u00e9n tiene tiendas en Barcelona, Valencia, Lisboa, Riyadh, Tokyo y Osaka.",
+        "imagen": "/images/gastro/sampaka.jpg",
+        "telefono": "(+34) 91 319 58 40",
+        "email": "madrid-centro@cacaosampaka.com",
+        "web": "http://www.cacaosampaka.com",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:46:25Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Casa Labra",
+    "fields": {
+        "direccion": "Calle Tetu\u00e1n, 12 28013",
+        "descripcion": "Esta antigua casa de comidas fue fundada en 1860 en el n\u00famero 12 de la calle Tetu\u00e1n, en las inmediaciones de la Puerta del Sol. Su mayor reclamo lo constituyen las tapas, fundamentalmente de bacalao, en tajadas reci\u00e9n fritas y en croquetas. El local conserva su decoraci\u00f3n original, con una fachada curva adaptada a la estructura del edificio y un curioso cartel de cristal con el r\u00f3tulo del establecimiento.\r\n\r\nEn su interior, adem\u00e1s de su mostrador de cinc y las tradicionales mesas de m\u00e1rmol, el visitante puede recrear la vista en las pintadas y numerosos refranes que hacen alusi\u00f3n a la historia del local. Y es que este restaurante ha pasado a la historia de Madrid porque en \u00e9l fund\u00f3 Pablo Iglesias, en la clandestinidad, el Partido Socialista Obrero Espa\u00f1ol, concretamente el 2 de mayo de 1879. Su evoluci\u00f3n ha llevado a sus actuales regentes, la familia Molina, a abrir un peque\u00f1o restaurante.",
+        "imagen": "/images/gastro/casaLabra.jpg",
+        "telefono": "(+34) 91 531 00 81",
+        "email": "",
+        "web": "http://www.casalabra.es",
+        "categoria": "tapeo",
+        "fechaAlta": "2017-04-13T14:52:21Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Chocolat Factory",
+    "fields": {
+        "direccion": "Calle General Per\u00f3n, 40, local 36 28020",
+        "descripcion": "La idea de esta cadena de tiendas con presencia en Madrid surgi\u00f3 de un arquitecto belga que creci\u00f3 rodeado de habas de cacao y que ha aportado a la cultura del chocolate imaginaci\u00f3n y creatividad para hacerlo objeto de deseo no s\u00f3lo para el paladar, sino tambi\u00e9n para la vista. Un para\u00edso junto al Santiago Bernabeu en la zona de Castellana.\r\n\r\nA partir de la mezcla de diferentes ingredientes, texturas y sabores, Chocolat Factory ha conseguido crear 56 variedades de bombones. Para ello utiliza cacao de Java, Venezuela o Sao Tom\u00e9, que tambi\u00e9n adopta formas tan diversas como una invitaci\u00f3n de boda, una cabeza, un animal, o puede ser bebido o transformado en deliciosa mousse para meter en el microondas, entre otras posibilidades.\r\n\r\nAlgunos de los dise\u00f1os de sus productos, como The Tubes, han sido premiados en varios cert\u00e1menes y se presentan como el regalo perfecto para cualquier celebraci\u00f3n. Adem\u00e1s, ofrecen mezclas tan atrevidas como l\u00e1minas de chocolate con un toque de sal acompa\u00f1ado de vino, o la combinaci\u00f3n de cacao con mermelada de naranja, pera o casta\u00f1a.",
+        "imagen": "/images/gastro/factory.jpg",
+        "telefono": "(+34) 91 417 99 98",
+        "email": "chocolatfactory@chocolatfactory.com",
+        "web": "http://www.chocolatfactory.com",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:50:12Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Chocolater\u00eda",
+    "fields": {
+        "direccion": "Calle Ibiza, 33 28009",
+        "descripcion": "Con todo el sabor de lo conocido, las chocolater\u00edas Valor a\u00fanan tradici\u00f3n y vanguardia en locales c\u00e1lidos y confortables en los que poder disfrutar de un buen chocolate a la taza.\r\n\r\nLas cafeter\u00edas-chocolater\u00edas Valor no s\u00f3lo ofrecen chocolate, sino tambi\u00e9n otros productos. \u00c9sta en concreto tiene una bomboner\u00eda donde puedes adquirir todo tipo de exquisiteces realizadas con este producto y art\u00edculos para su preparaci\u00f3n y consumo. Cuenta con un reservado y dispone de WiFi en todo el local.",
+        "imagen": "/images/gastro/valor.jpg",
+        "telefono": "(+34) 91 573 91 29",
+        "email": "chocolaterias@valor.es",
+        "web": "http://www.chocolateriasvalor.es",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:45:14Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Chocolater\u00eda Valor",
+    "fields": {
+        "direccion": "Calle Ibiza, 33 28009",
+        "descripcion": "Con todo el sabor de lo conocido, las chocolater\u00edas Valor a\u00fanan tradici\u00f3n y vanguardia en locales c\u00e1lidos y confortables en los que poder disfrutar de un buen chocolate a la taza.\r\n\r\nLas cafeter\u00edas-chocolater\u00edas Valor no s\u00f3lo ofrecen chocolate, sino tambi\u00e9n otros productos. \u00c9sta en concreto tiene una bomboner\u00eda donde puedes adquirir todo tipo de exquisiteces realizadas con este producto y art\u00edculos para su preparaci\u00f3n y consumo. Cuenta con un reservado y dispone de WiFi en todo el local.",
+        "imagen": "/images/gastro/valor.jpg",
+        "telefono": "(+34) 91 573 91 29",
+        "email": "chocolaterias@valor.es",
+        "web": "http://www.chocolateriasvalor.es",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:45:14Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Chocolater\u00eda de San Gin\u00e9s",
+    "fields": {
+        "direccion": "Pasadizo de San Gin\u00e9s, 5 28013",
+        "descripcion": "Situado en uno de los pasadizos m\u00e1s antiguos de Madrid, entre Arenal y Mayor cerca de la puerta del Sol, era un mes\u00f3n y hospeder\u00eda que en 1894 se convertido en churrer\u00eda. El pasadizo era el lugar ideal para \u201cchoques de espadas\u201d con las que lavar la honra y el escenario que utiliz\u00f3 Valle-Incl\u00e1n para provocar el encarcelamiento de Max Estrella, all\u00e1 por 1920 en sus \u201cLuces de Bohemia\u201d.\r\n\r\nSu ubicaci\u00f3n junto al Teatro Eslava y la Iglesia de San Gin\u00e9s ha proporcionado durante muchos a\u00f1os una numerosa clientela que, tras la funci\u00f3n o la misa, tomaba un chocolate con churros. Su apertura hasta altas horas de la noche atra\u00eda a vividores, noct\u00e1mbulos, intelectuales y juerguistas, as\u00ed como a numerosos artistas, actores de cine y teatro, poetas y escritores, que encontraban aqu\u00ed un punto de encuentro. Hoy en d\u00eda sigue siendo un local muy frecuentado.",
+        "imagen": "/images/gastro/sangines.jpg",
+        "telefono": "(+34) 91 365 65 46",
+        "email": "reservas@chocolateriasangines.com",
+        "web": "http://www.chocolateriasangines.com/",
+        "categoria": "varios",
+        "fechaAlta": "2017-04-13T15:44:13Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Corral de la Moreria",
+    "fields": {
+        "direccion": "Calle de la Moreria, 17, 28005 Madrid",
+        "descripcion": "C\u00e9lebre tablao fundado en 1956 con espect\u00e1culo diario y platos espa\u00f1oles en un concurrido sal\u00f3n cl\u00e1sico.",
+        "imagen": "/images/gastro/moreria.jpg",
+        "telefono": "913 65 11 37",
+        "email": "info@corraldelamoreria.com",
+        "web": "http://www.corraldelamoreria.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:28:24Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Cuenllas",
+    "fields": {
+        "direccion": "Calle Ferraz, 5, 28008 Madrid",
+        "descripcion": "Tapas, vinos, aceites y conservas en un bar con tienda gourmet, decorado con columnas de hierro forjado.",
+        "imagen": "/images/gastro/cuenllas.jpg",
+        "telefono": "915 59 17 05",
+        "email": "",
+        "web": "https://www.cuenllas.es/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:38:46Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "DRY Martini Bar",
+    "fields": {
+        "direccion": "Calle Hermosilla, 2 28001",
+        "descripcion": "Desde el interior de un hotel cl\u00e1sico de Madrid, el Melia F\u00e9nix, el barman Javier de las Muelas conquista la capital con una sucursal de su famosa cocteler\u00eda barcelonesa, toda una referencia mundial en el arte de los c\u00f3cteles. La estrella, aqu\u00ed como en Barcelona, es el Dry Martini: verm\u00fa seco y ginebra, bien agitados en una coctelera con hielo y servidos en una copa triangular (copa martini) con un toque c\u00edtrico y una aceituna como adorno.\r\n\r\nEl DRY Martini Bar by Javier de las Muelas est\u00e1 abierto los 365 d\u00edas del a\u00f1o y se puede beber en su terraza haga fr\u00edo o calor. En el interior, un sal\u00f3n de corte cl\u00e1sico, con mesas, sillones y sof\u00e1s en torno a una chimenea enmarcada por una librer\u00eda, ofrece una atm\u00f3sfera hogare\u00f1a y evoca la estancia de Los Beatles cuando actuaron en Madrid en 1965 y se hospedaron en este mismo hotel. Una larga barra de bar de diez metros de longitud, con espacios refrigerados para copas y botellas de destilados, licores y zumos conforman el espacio ideal para esta copa cl\u00e1sica.",
+        "imagen": "/images/gastro/drymartiny.jpg",
+        "telefono": "(+34) 91 431 67 00",
+        "email": "drymartini@drymartinimad.com",
+        "web": "http://www.drymartiniorg.com/",
+        "categoria": "noche",
+        "fechaAlta": "2017-04-13T15:59:51Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "DiverXo",
+    "fields": {
+        "direccion": "Calle de Padre Damian, 23 Madrid",
+        "descripcion": "Alta cocina internacional del reputado chef David Mu\u00f1oz en un espacio vanguardista con grandes ventanales.",
+        "imagen": "/images/gastro/diverxo.jpg",
+        "telefono": "+34 915 70 07 66",
+        "email": "",
+        "web": "http://diverxo.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:15:46Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Dstage",
+    "fields": {
+        "direccion": "C/ Regueros,8, Madrid",
+        "descripcion": "Restaurante de ambiente industrial-chic que ofrece men\u00fas degustaci\u00f3n creativos y talleres de cocina.",
+        "imagen": "/images/gastro/dstage.jpg",
+        "telefono": "917 02 15 86",
+        "email": "info@dstageconcept.com",
+        "web": "http://www.dstageconcept.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:20:58Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "El Anciano Rey de los Vinos",
+    "fields": {
+        "direccion": "Calle Bail\u00e9n, 19 28005",
+        "descripcion": "El joven matrimonio que regenta la taberna ha dado un toque de actualidad al men\u00fa de esta antigua taberna, pero conservando su ambiente castizo, de modo que ha sabido aunar con elegancia \u201clo viejo y lo nuevo\u201d de este lugar entra\u00f1able ubicado en una zona privilegiada frente a dos joyas madrile\u00f1as: el Palacio Real y la Catedral de la Almudena.\r\n\r\nEl local es aproximadamente de 1886 y en \u00e9l estaba instalada una taberna t\u00edpica, Casa Pedro Mart\u00ednez, donde se vend\u00eda caf\u00e9 de puchero, aguardiente y t\u00e9. En 1909, se cede a Lu\u00eds Mont\u00f3n, que patenta las marcas de vino \u201cel Viejo\u201d, \u201clos Viejos\u201d y \u201cel Anciano Rey\u201d, de donde procede el nombre de la actual taberna, que, por cierto, sigue vendiendo dichos caldos, secos y dulces. Durante la \u00e9poca republicana hubo que eliminar del r\u00f3tulo y las mesas la palabra REY.",
+        "imagen": "/images/gastro/reyVinos.jpg",
+        "telefono": "(+34) 91 559 53 32",
+        "email": "info@elancianoreydelosvinos.com",
+        "web": "http://www.elancianoreydelosvinos.es",
+        "categoria": "tapeo",
+        "fechaAlta": "2017-04-13T15:13:48Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "El Club Allard",
+    "fields": {
+        "direccion": "Calle Ferraz, 2, 28008 Madrid",
+        "descripcion": "Tres exclusivas propuestas gastron\u00f3micas, espejos barrocos y salones refinados en la modernista Casa Gallardo.",
+        "imagen": "/images/gastro/clubAllard.jpg",
+        "telefono": "915 59 09 39",
+        "email": "reservas@elcluballard.com",
+        "web": "http://www.elcluballard.com",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:24:14Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "El Tormo",
+    "fields": {
+        "direccion": "Traves\u00eda Vistillas, 13, 28005 Madrid",
+        "descripcion": "Morteruelo, gachas, pisto y platos de cocina manchega tradicional en un sal\u00f3n familiar con azulejos pintados.",
+        "imagen": "/images/gastro/tormo.jpg",
+        "telefono": "913 65 53 35",
+        "email": "",
+        "web": "http://www.mesoneltormo.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:30:57Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Josealfredo Bar",
+    "fields": {
+        "direccion": "Calle Silva, 22 28004",
+        "descripcion": "Esta cocteler\u00eda de estilo americano es una de las m\u00e1s populares de Madrid. Situada en las inmediaciones de la Gran V\u00eda, ofrece una amplia variedad de combinados, bebidas de marcas premium y numerosas variedades de gin-tonics, su especialidad.\r\n\r\nSe encuentran en su carta cl\u00e1sicos de la cocteler\u00eda como el Manhattan, el Cosmopolitan o el Bloody Mary, que se acompa\u00f1an de otros creados por el propio establecimiento, tales como el Marlango, el Josealfredo o Los Jim\u00e9nez. Entre los gin-tonics, encontramos una oferta de cerca de 30 referencias.\r\n\r\nLa atm\u00f3sfera de Josealfredo es acogedora, con una luz tenue que da ambiente a un local estrecho y largo, precedido por una larga barra que contin\u00faa en una sala de peque\u00f1as mesas y sof\u00e1s corridos de estilo retro. Completa este estilo relajado su fondo musical, en el que destaca el soul, el funky o el jazz reproducidos a un volumen suave que fomenta la conversaci\u00f3n.",
+        "imagen": "/images/gastro/josealfredobar.jpg",
+        "telefono": "(+34) 91 521 49 60",
+        "email": "info@josealfredobar.com",
+        "web": "http://www.josealfredobar.com",
+        "categoria": "noche",
+        "fechaAlta": "2017-04-13T16:03:03Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Kabuki Wellington",
+    "fields": {
+        "direccion": "Calle de Vel\u00e1zquez, 6, 28001 Madrid",
+        "descripcion": "Fusi\u00f3n de sabores japoneses y mediterr\u00e1neos en sal\u00f3n de un selecto hotel con mesas de m\u00e1rmol y barra de sushi.",
+        "imagen": "/images/gastro/kabuki.jpg",
+        "telefono": "915 77 78 77",
+        "email": "info@grupokabuki.com",
+        "web": "https://www.restaurantekabuki.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:40:45Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "La Candela Rest\u00f3",
+    "fields": {
+        "direccion": "Calle de la Amnistia, 10, 28013 Madrid",
+        "descripcion": "El men\u00fa cambia cada semana en este elegante local de platos de temporada creativos con inspiraci\u00f3n asi\u00e1tica.",
+        "imagen": "/images/gastro/candela.jpg",
+        "telefono": "911 73 98 88",
+        "email": "",
+        "web": "http://lacandelaresto.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:33:10Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "La Casa del Abuelo",
+    "fields": {
+        "direccion": "Calle Victoria, 12 28012",
+        "descripcion": "Como desde hace m\u00e1s de 100 a\u00f1os La Casa del Abuelo sigue sirviendo sus ya famosas gamas en pr\u00e1cticamente todas sus variedades, al ajillo: servidas en cazuelitas de barro, chisporroteantes de aceite ajo y perejil, a la plancha: en su  punto y con sal gorda, en gabardina y en banderillas, por supuesto siempre acompa\u00f1adas del vino dulce \u201cEl Abuelo\u201d o de nuestro vino de Toro.\r\n\r\nHoy La Casa del Abuelo tiene tres sucursales: la m\u00e1s antigua es esta, en la calle Victoria 12, la segunda de ellas en la calle N\u00fa\u00f1ez de Arce 5 (ambas en el distrito de sol) y la tercera de ellas en la calle Goya 57, esta \u00faltima cuenta con terraza. En las dos \u00faltimas adem\u00e1s de las gambas se sirven mas de 30 tapas tradicionales de Madrid.",
+        "imagen": "/images/gastro/casaAbuelo.jpg",
+        "telefono": "(+34) 91 000 01 33",
+        "email": "ewr@lacasadelabuelo.es",
+        "web": "http://www.lacasadelabuelo.es",
+        "categoria": "tapeo",
+        "fechaAlta": "2017-04-13T15:10:44Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "La Pajarita",
+    "fields": {
+        "direccion": "Calle Villanueva, 14 28001",
+        "descripcion": "La Pajarita fue fundada en 1852 en la Puerta del Sol, con el obrador bajo la tienda, por el bisabuelo del actual due\u00f1o. En 1969 se abri\u00f3 la sucursal de la calle Villanueva, frente al Museo Arqueol\u00f3gico y la Biblioteca Nacional, en el Barrio de Salamanca. Actualmente es el \u00fanico local que queda. Debe su nombre a la afici\u00f3n de los contertulios que frecuentaban los caf\u00e9s de la \u00e9poca, entre otros Miguel de Unamuno, a realizar pajaritas con servilletas de papel.\r\n\r\nSus productos, caramelos de diecis\u00e9is sabores y bombones, son artesanales. Tal era su fama que lleg\u00f3 incluso a dar nombre en 1913 a la protagonista de una zarzuela, publicada por Casa Dotesio, tan melosa y finolis que se pone de mote el nombre de la m\u00e1s famosa dulcer\u00eda de Madrid.",
+        "imagen": "/images/gastro/lapajarita.jpg",
+        "telefono": "(+34) 91 435 74 54",
+        "email": "",
+        "web": "http://bombonerialapajarita.es/",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:48:19Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "La Violeta",
+    "fields": {
+        "direccion": "Plaza Canalejas, 6 28014",
+        "descripcion": "Su fachada de madera recuerda a una antigua bomboner\u00eda y es como si por esta tienda de tradicionales dulces no hubiese pasado el tiempo. Dentro se venden paquetes y cajitas transparentes de violetas envueltos minuciosamente con un lazo.\r\n\r\nEstos caramelos, muy famosos hace a\u00f1os pues era el regalo habitual a los ni\u00f1os en cumplea\u00f1os y otros eventos sociales, no han perdido su esplendor en esta tienda, que garantiza su autenticidad y sabor especial. La violeta es un caramelo t\u00edpico de algunas zonas de Francia y su fabricaci\u00f3n es complicada, lo que la convierte en un codiciado y valioso dulce. Tambi\u00e9n cuentan con otras golosinas como violetas naturales escarchadas, frutas glaseadas, bombones, etc.",
+        "imagen": "/images/gastro/violeta.jpg",
+        "telefono": "(+34) 91 522 55 22",
+        "email": "",
+        "web": "https://www.lavioletaonline.es/",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:49:13Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Le Cabrera",
+    "fields": {
+        "direccion": "Calle B\u00e1rbara de Braganza, 2 28004",
+        "descripcion": "Este elegante local se define como cocteler\u00eda y gastrobar. Junto a una excelente oferta de c\u00f3cteles elaborada por los barmans del local,  su carta gastron\u00f3mica incluye tapas de dise\u00f1o como las ostras escabechadas, patatas bravas o tarrina de foie-gras de pato, y una selecci\u00f3n de platos elaborados seg\u00fan mercado por Benjamin Bensoussan. Por su parte, la selecci\u00f3n de c\u00f3cteles muestra desde cl\u00e1sicos como los famosos Cosmopolitan, Manhattan u Old Fashioned hasta creaciones propias como el Pompeya o el Fresh Ginger. \u00c9stos se toman en la barra de la planta baja del local, en un espacio m\u00e1s \u00edntimo.",
+        "imagen": "/images/gastro/cabrera.jpg",
+        "telefono": "(+34) 91 319 94 57",
+        "email": "",
+        "web": "",
+        "categoria": "noche",
+        "fechaAlta": "2017-04-13T16:01:18Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Lhardy",
+    "fields": {
+        "direccion": "Carrera San Jer\u00f3nimo, 8 28014",
+        "descripcion": "Creada en 1832 como pasteler\u00eda de productos t\u00edpicos suizos, por Eugenio Huguemei, es en 1839 cuando se ampl\u00eda su uso a restaurante. Situado en la Carrera de San Jer\u00f3nimo 8, es el primer comedor elegante de Madrid.\r\n\r\nEn sus salones se reun\u00edan pol\u00edticos e intelectuales, convirti\u00e9ndolo en el restaurante m\u00e1s veces citado en la literatura espa\u00f1ola. En sus elegantes salones se han decidido derrocamientos de reyes y pol\u00edticos, rep\u00fablicas, regencias y dictaduras.\r\n\r\nSu propietario tom\u00f3 el nombre del caf\u00e9 Hardy, de Par\u00eds. El secreto de sus platos era, y es, la combinaci\u00f3n perfecta entre europe\u00edsmo y tradici\u00f3n. Actualmente, ir a Lhardy es como hacer un viaje al pasado. Todo permanece inalterable al paso del tiempo, con su decoraci\u00f3n original, as\u00ed como la calidad de sus platos y servicio, incluido el samovar de plata en el que a\u00fan se mantiene el caldo caliente.",
+        "imagen": "/images/gastro/lhardy.jpg",
+        "telefono": "(+34) 91 522 22 07",
+        "email": "lhardy@lhardy.com",
+        "web": "http://www.lhardy.com",
+        "categoria": "tapeo",
+        "fechaAlta": "2017-04-13T15:14:30Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Madrid 1883",
+    "fields": {
+        "direccion": "Calle Esp\u00edritu Santo, 8 28004",
+        "descripcion": "Situada en el barrio de Malasa\u00f1a se encuentra la churrer\u00eda m\u00e1s antiguas de Madrid, donde se puede disfrutar de un tradicional chocolate con churros mientras se observa su proceso de elaboraci\u00f3n a trav\u00e9s de su cocina vista. \r\n\r\nChurreria 1883 es un local acogedor, con un ambiente que combina lo antiguo y lo moderno gracias a detalles como su falso lucernario, l\u00e1mparas de hierro y una gran ventana hacia la cocina y su m\u00e1quina de chocolate. En una zona de mesas altas con taburetes se sirven desayunos y meriendas que incluyen barritas con tomate y aceite o con jam\u00f3n, cruasanes, s\u00e1ndwiches, tostadas con mantequilla y mermelada o Nutella, napolitanas o gofres, entre otras deliciosas opciones.",
+        "imagen": "/images/gastro/1883.jpg",
+        "telefono": "(+34) 91 521 86 32",
+        "email": "mmm_496@hotmail.com",
+        "web": "",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:42:09Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Miyama",
+    "fields": {
+        "direccion": "Paseo de la Castellana, 45, 28046 Madrid",
+        "descripcion": "Madera de casta\u00f1o y dise\u00f1o minimalista en un elegante sal\u00f3n de cocina japonesa contempor\u00e1nea con sushi bar.",
+        "imagen": "/images/gastro/miyama.jpg",
+        "telefono": "91 391 00 26",
+        "email": "miyamaflorbaja@gmail.com",
+        "web": "http://www.restaurantemiyama.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:34:40Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Moulin Chocolat",
+    "fields": {
+        "direccion": "Calle Alcala, 77 28009",
+        "descripcion": "Ricardo V\u00e9lez, due\u00f1o y pastelero, se ha dejado seducir por la influencia francesa y de su obrador salen delicias que parecen directamente tra\u00eddas del pa\u00eds galo, como los croissants y brioches hechos con mantequilla o las tarrinas de helado con salsa de chocolate y trocitos.\r\n\r\nTambi\u00e9n ofrece bombones diversos, como el de Malvas\u00eda que ha creado en colaboraci\u00f3n con Freixenet, las tabletas, el cacao en polvo, las tartas o los postres. De otro vecino europeo, de Italia, ha tomado la idea para sus famosos panetones, una de sus se\u00f1as de identidad junto con los roscones de reyes que prepara cada fin de semana.",
+        "imagen": "/images/gastro/moulin.jpg",
+        "telefono": "(+34) 91 431 81 45",
+        "email": "marketing@moulinchocolat.com",
+        "web": "http://www.moulinchocolat.com",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:51:11Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Museo Chicote",
+    "fields": {
+        "direccion": "Calle Gran V\u00eda, 12 28013",
+        "descripcion": "Esta m\u00edtica cocteler\u00eda situada en la Gran V\u00eda ha sabido conservar lo mejor de su historia, llena de glamour y encanto, sin perder el tren de la modernidad que se deja ver ahora en un estimulante juego de luces que cambia seg\u00fan el momento del d\u00eda y una cabina donde el dj pincha sus temas musicales.\r\n\r\nEl Museo Chicote, templo del c\u00f3ctel madrile\u00f1o indiscutible, se mantiene igual desde 1931. Ah\u00ed siguen los mismos sof\u00e1s que en su \u00e9poca usaron Ava Gardner o Grace Kelly y las sillas de metal cromado de los a\u00f1os 50 donde seguramente se sentaron Bette Davis o Frank Sinatra.\r\n\r\nLa lista de personajes ilustres del cine, el teatro, la m\u00fasicay  la literatura que han atravesado sus puertas es casi infinita. Tal era la fama de los c\u00f3cteles de Chicote. Y hoy en d\u00eda as\u00ed contin\u00faa, sin Chicote, pero como en sus or\u00edgenes, con ese toque canalla y, a la vez, glamouroso. Unos c\u00f3cteles que quitan el hipo y muchas cosas m\u00e1s, un ambiente exquisito, tranquilo, moderno y con encanto y un p\u00fablico de lo mas variado que mantiene el gusto por la buena m\u00fasica y, claro est\u00e1, por sus combinados.",
+        "imagen": "/images/gastro/museochicote.jpg",
+        "telefono": "(+34) 91 532 67 37",
+        "email": "info@museo-chicote.com",
+        "web": "http://grupomercadodelareina.com/es/museo-chicote/",
+        "categoria": "noche",
+        "fechaAlta": "2017-04-13T16:02:03Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Ocumare",
+    "fields": {
+        "direccion": "Calle Ferrer del R\u00edo, 7 28028",
+        "descripcion": "Antonio S\u00e1nchez y Francisco L\u00f3pez son los due\u00f1os y mentores de Ocumare, una tienda de chocolate donde \u00e9ste se puede tomar y comprar.\r\n\r\nEl chocolate caliente se hace con un mimo especial y su tarta Sacher es antol\u00f3gica, una aut\u00e9ntica tentaci\u00f3n. En bombones, los de la roquita suiza y de naranja confitada han conquistado, con raz\u00f3n, a buena parte de la clientela.",
+        "imagen": "/images/gastro/ocumare.jpg",
+        "telefono": "(+34) 91 361 22 23",
+        "email": "info@ocumarechoc.com",
+        "web": "http://www.ocumarechoc.com",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:47:20Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Oriol Balaguer",
+    "fields": {
+        "direccion": "Calle Ortega y Gasset, 44 28006",
+        "descripcion": "Jugar con las formas, crear nuevos dise\u00f1os y texturas, ofrecer sorprendentes sabores al paladar... son algunas de las se\u00f1as de identidad que le caracterizan. Vista y gusto son los dos sentidos que Balaguer busca provocar con sus creaciones y, para ello, utiliza el mejor cacao que ofrece el mercado y lo combina con otras materias primas como aguardientes, especias, hierbas y frutas para lograr como resultado final una completa y variada colecci\u00f3n gastron\u00f3mica.\r\n\r\nSu bomboner\u00eda se define por una presentaci\u00f3n vanguardista que destaca por la originalidad de sus formas, texturas y aromas. La presentaci\u00f3n de sus creaciones se realiza en diversas colecci\u00f3n: Nip\u00f3n, Chocotube, bolas del Mundo Mundial, Huevos de Pascua, T\u2019Estimo, El Juego del Chocolate y las pastillas de diferentes cacaos y composiciones. Asimismo, su carta de postres y pasteles se renueva dos veces al a\u00f1o con las colecciones Primavera-Verano y Oto\u00f1o-Invierno.",
+        "imagen": "/images/gastro/oriol.jpg",
+        "telefono": "(+34) 91 401 64 63",
+        "email": "consultas@oriolbalaguer.com",
+        "web": "http://www.oriolbalaguer.com",
+        "categoria": "dulce",
+        "fechaAlta": "2017-04-13T15:52:16Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Ramon Freixa Madrid",
+    "fields": {
+        "direccion": "Calle de Claudio Coello, 67, 28001 Madrid",
+        "descripcion": "Recetas innovadoras en el sal\u00f3n con espejo cenital y jard\u00edn del palacio del s. XIX que alberga el hotel \u00danico.",
+        "imagen": "/images/gastro/ramonfreixa.jpg",
+        "telefono": "(+34) 91 781 82 62",
+        "email": "info@ramonfreixamadrid.com",
+        "web": "http://www.ramonfreixamadrid.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:27:08Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Sacha",
+    "fields": {
+        "direccion": "Calle de Juan Hurtado de Mendoza, 11, 28036 Madrid",
+        "descripcion": "Creaciones del chef, alta cocina fusi\u00f3n, ambiente gourmet y amplia botiller\u00eda en un sal\u00f3n \u00edntimo con terraza.",
+        "imagen": "/images/gastro/sacha.jpg",
+        "telefono": "913 45 59 52",
+        "email": "",
+        "web": "",
+        "categoria": "varios",
+        "fechaAlta": "2017-04-13T15:30:09Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Santceloni",
+    "fields": {
+        "direccion": "Paseo de la Castellana, 57, 28046 Madrid",
+        "descripcion": "Alta cocina espa\u00f1ola de autor con extensa carta de quesos y vinos en el elegante comedor de un hotel selecto.",
+        "imagen": "/images/gastro/santceloni.jpg",
+        "telefono": "912 10 88 40",
+        "email": "",
+        "web": "http://www.restaurantesantceloni.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:25:29Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Soho",
+    "fields": {
+        "direccion": "Calle Jorge Juan , 50 28001",
+        "descripcion": "Hay quien dice que aqu\u00ed se preparan los mejores c\u00f3cteles de Madrid, pero no podemos olvidar que adem\u00e1s ofrecen comida americana y tex-mex: hamburguesas, burritos, nachos y costillas. Comida popular elaborada cuidando al m\u00e1ximo la calidad de las materias primas.",
+        "imagen": "/images/gastro/soho.jpg",
+        "telefono": "(+34) 91 577 89 73",
+        "email": "deldiegococtelbar@gmail.com",
+        "web": "http://sohorestaurante.com/",
+        "categoria": "noche",
+        "fechaAlta": "2017-04-13T15:56:47Z"
+    }
+},
+{
+    "model": "web.local",
+    "pk": "Vinoteca Morat\u00edn",
+    "fields": {
+        "direccion": "Calle de Morat\u00edn, 36, 28014 Madrid",
+        "descripcion": "Bistr\u00f3 especializado en vino y platos de mercado, con una elegante y c\u00e1lida decoraci\u00f3n con toques rurales.",
+        "imagen": "/images/gastro/vinotecaMoratin.jpg",
+        "telefono": "911 27 60 85",
+        "email": "contacto@vinotecamoratin.com",
+        "web": "https://www.vinotecamoratin.com/",
+        "categoria": "comer",
+        "fechaAlta": "2017-04-13T15:22:45Z"
+    }
+}
+]
