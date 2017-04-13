@@ -7,4 +7,5 @@ urlpatterns = [
 	url(r'^turismo$',views.lista_turismo,name='turismo'),
 	url(r'^turismo/(?P<nombreSitio>[-\w\s]+)/$',views.lugar_turismo,name='detalleTurismo'),
 	url(r'^gastronomia$',views.lista_gastronomia,name='gastronomia'),
+	url(r'^gastronomia/(?P<nombreLocal>[-\w\s]+)/$',views.lugar_local,name='detalleLocal'),
 ]

@@ -41,15 +41,15 @@ class FiltroTurismoForm(forms.Form):
 	select = forms.ChoiceField(widget=forms.Select(attrs={'class': 'form-control', 'onChange':'form.submit();'}), choices=CATEGORIAS_TURISMO)
 		
 		
-class FiltroGastronomiaForm(forms.Form):
+class FiltroLocalForm(forms.Form):
 	class Meta:
 		model = Local
 	CATEGORIAS_LOCALES = (
-		('copas', 'Copas'),
+		('---', '---'),
 		('noche', 'Noche'),
 		('comer', 'Comer'),
 		('tapeo', 'Tapas'),
 		('dulce', 'Dulce'),
 		('varios', 'Varios'),
 	)
-	select = forms.ChoiceField(widget=forms.Select, choices=CATEGORIAS_LOCALES)
+	select = forms.ChoiceField(widget=forms.Select(attrs={'class': 'form-control', 'onChange':'form.submit();'}), choices=CATEGORIAS_LOCALES)

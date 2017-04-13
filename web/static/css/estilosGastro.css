@@ -1,0 +1,69 @@
+img{
+	width: 300px;
+	height: 300px;
+}
+
+.descripcion{ 
+	height:50px;
+	width:300px;
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+	overflow:hidden; 
+}
+
+.row:nth-child(even) img{ 
+	float:right;
+	vertical-align:middle;
+}
+.row:nth-child(even)  div[id*="info"]{
+	text-align:center;
+}
+.row:nth-child(odd) img{ 
+	float:left;
+	vertical-align:middle;
+}
+.row:nth-child(odd)  div[id*="info"]{
+	text-align:center;
+
+}
+
+.contenido {
+	background-color:white;
+
+}
+
+body {
+    background-image: url("../images/turismo/back_turismo.jpg");	 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top:51px;
+}
+
+.pagination{
+	margin-left:40%;
+	margin-right:auto;
+}
+
+.info{
+	width:300px;
+	height:400px;
+	display:inline-block;
+	text-align:center;
+	float:left;
+
+}
+
+.content{
+	
+}
+
+#id_select{
+	width:100px;
+	margin:auto;
+}
+
+.form-group{
+	
+}

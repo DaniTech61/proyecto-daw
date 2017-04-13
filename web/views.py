@@ -8,7 +8,7 @@ from django.contrib.auth import authenticate, login as auth_login
 from web.forms import AltaForm
 from web.forms import LoginForm
 from web.forms import FiltroTurismoForm
-from web.forms import FiltroGastronomiaForm
+from web.forms import FiltroLocalForm
 from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
@@ -109,4 +109,42 @@ def lugar_turismo(request,nombreSitio):
 	return render(request, 'web/turismo/turismo.html',data)
 	
 def lista_gastronomia(request):
-	return render(request, 'web/gastronomia.html', {})
+	page = request.GET.get('page')
+	lista_local = ""
+	filtro = ""
+	if request.method == 'POST':
+		if request.POST.get('Borrar'):
+			if 'filtroLocal' in request.session:
+				del request.session['filtroLocal']		
+		else:
+			filtro=request.POST.get('select') 
+			request.session['filtroLocal'] = filtro
+
+	if 'filtroLocal' not in request.session:
+		lista_local = Local.objects.order_by('nombreLocal')
+	else:
+		lista_local = Local.objects.filter(categoria=request.session['filtroLocal'])
+		
+	paginator = Paginator(lista_local, 6)
+	try:
+		locales=paginator.page(page)
+	except PageNotAnInteger:
+		locales=paginator.page(1)
+	except EmptyPage:
+		locales=paginator.page(paginator.num_pages)
+		
+	form = FiltroLocalForm()	
+	data = {
+		'form': form,
+		'locales': locales, 
+		'filtro': filtro,
+	}	
+	return render(request, 'web/gastronomia.html', data)
+	
+def lugar_local(request,nombreLocal):
+	local = Local.objects.get(nombreLocal=nombreLocal)
+	data = {
+		'sitio':local,
+	}
+	return render(request, 'web/local/gastronomia.html',data)
+	
