@@ -126,6 +126,9 @@ LOGIN_REDIRECT_URL = "/inicio"
 # Redirect when login is not correct.
 LOGIN_URL = '/'
 
+# Cierra la sesión al cerrar el navegador
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+
 FIXTURE_DIRS = (
    '/fixtures/',
 )
