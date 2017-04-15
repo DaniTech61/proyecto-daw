@@ -1,6 +1,6 @@
 from django import forms
 from django.contrib.auth.models import User
-from .models import Local,Turismo
+from .models import Local,Turismo,Comentarios
 from django.forms import ModelForm,CharField,Form,PasswordInput
 
 class AltaForm(ModelForm):
@@ -21,8 +21,7 @@ class LoginForm(ModelForm):
 		fields = ['username', 'password']
 		widgets = {
             'password': forms.PasswordInput(attrs={'class': 'form-control'}),
-			'username': forms.TextInput(attrs={'class': 'form-control'}),
-			
+			'username': forms.TextInput(attrs={'class': 'form-control'}),			
         }
 		
 class FiltroTurismoForm(forms.Form):
@@ -53,3 +52,12 @@ class FiltroLocalForm(forms.Form):
 		('varios', 'Varios'),
 	)
 	select = forms.ChoiceField(widget=forms.Select(attrs={'class': 'form-control', 'onChange':'form.submit();'}), choices=CATEGORIAS_LOCALES)
+
+class ComentarioForm(ModelForm):
+	class Meta:
+		model = Comentarios
+		fields = ('titulo', 'comentario')
+		widgets = {
+			'titulo': forms.TextInput(attrs={'class': 'form-control'}),
+			'comentario': forms.TextInput(attrs={'class': 'form-control'}),
+        }

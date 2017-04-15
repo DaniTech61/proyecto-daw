@@ -1,7 +1,7 @@
 {% extends 'web/base.html' %}
 {% load staticfiles %}
 {%block stylesheet %}
-	<link rel="stylesheet" href="{% static 'css/estilosGastro.css' %}">
+	<link rel="stylesheet" href="{% static 'css/estilosLocal.css' %}">
 {% endblock stylesheet%}
 
 {% block content %}
@@ -24,21 +24,12 @@
 	</div>
 	<div class="row">
 	{% for sitio in locales %}
-	<div class="col-md-4 content">
-		{% if forloop.counter|divisibleby:2 %}			
-			<div class="info">
-				<img class="thumbnail" src="{% static sitio.imagen %}"/>
-				<h3><a href="{% url 'detalleLocal' nombreLocal=sitio.nombreLocal %}">{{ sitio.nombreLocal }}</a></h3>
-				<div class="descripcion">{{ sitio.descripcion }}</div>
-			</div>
-
-		{% else %}
-			<div class="info">
-				<img class="thumbnail" src="{% static sitio.imagen %}"/>
-				<h3><a href="{% url 'detalleLocal' nombreLocal=sitio.nombreLocal %}">{{ sitio.nombreLocal }}</a></h3>		
-				<div class="descripcion">{{ sitio.descripcion }}</div>	
-			</div>
-		{% endif %}
+	<div class="col-md-4 content" style="text-align:center;">		
+		<div class="info">
+			<img class="thumbnail" src="{% static sitio.imagen %}"/>
+			<h3><a href="{% url 'detalleLocal' nombreLocal=sitio.nombreLocal %}">{{ sitio.nombreLocal }}</a></h3>
+			<div class="descripcion">{{ sitio.descripcion }}</div>
+		</div>
 	</div>	
 	{% endfor %}
 	</div>

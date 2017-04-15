@@ -1,0 +1,8 @@
+<div id="comentarios">
+	{% for comentario in comentarios %}
+		{{ comentario.autor }}
+		{{ comentario.titulo }}
+		{{ comentario.comentario }}
+		{{ comentario.fecha_publicacion }}
+	{% endfor %}
+</div>

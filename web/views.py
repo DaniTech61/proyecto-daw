@@ -4,16 +4,19 @@ from django.http.response import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.shortcuts import render
+from django.shortcuts import redirect
 from django.contrib.auth import authenticate, login as auth_login
 from web.forms import AltaForm
 from web.forms import LoginForm
 from web.forms import FiltroTurismoForm
 from web.forms import FiltroLocalForm
+from web.forms import ComentarioForm
 from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
 from .models import Comentarios
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+from datetime import datetime
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -73,6 +76,7 @@ def index(request):
 def lista_turismo(request):
 	page = request.GET.get('page')
 	lista_turismo = ""
+	filtro = ""
 	if request.method == 'POST':
 		if request.POST.get('Borrar'):
 			if 'filtroTurismo' in request.session:
@@ -98,6 +102,7 @@ def lista_turismo(request):
 	data = {
 		'form': form,
 		'turismo': turismo, 
+		'filtro': filtro,
 	}	
 	return render(request, 'web/turismo.html', data)
 
@@ -143,8 +148,37 @@ def lista_gastronomia(request):
 	
 def lugar_local(request,nombreLocal):
 	local = Local.objects.get(nombreLocal=nombreLocal)
+	formComentario = ComentarioForm()	
 	data = {
+		'formComentario':formComentario,
 		'sitio':local,
 	}
-	return render(request, 'web/local/gastronomia.html',data)
+	return render(request, 'web/local/local.html',data)
 	
+def anadir_comentario(request):
+	local = Local.objects.get(nombreLocal=request.POST.get('local'))
+	if request.method == 'POST':
+		form = ComentarioForm(request.POST)
+		if form.is_valid():
+			comentario = Comentarios(
+				titulo=form.cleaned_data["titulo"],
+				comentario=form.cleaned_data["comentario"],
+				autor = request.user,
+				fecha_publicacion = datetime.now(),
+				local=local
+			)
+			comentario.save()
+	comentarios = Comentarios.objects.filter(local=local)
+	data = {
+		'comentarios': comentarios,
+	}	
+	return render(request, 'web/comentarios.html', data)	
+	
+			
+def mostrar_comentarios(request,nombreLocal):
+	local = Local.objects.get(nombreLocal=nombreLocal)
+	comentarios = Comentarios.objects.filter(local=local)
+	data = {
+		'comentarios': comentarios,
+	}	
+	return render(request, 'web/comentarios.html', data)

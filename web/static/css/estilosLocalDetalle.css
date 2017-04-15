@@ -1,0 +1,23 @@
+img{
+	width:500px;
+	height:500px;
+}
+
+
+#imagen{
+	width:500px;
+	height:500px;
+	margin:auto;
+}
+
+body{
+	margin-top:51px;
+}
+
+#contacto{
+	width:400px;
+	border:0;
+	text-align:left;
+	margin:0 auto;
+}
+

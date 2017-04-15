@@ -52,11 +52,7 @@ body {
 	display:inline-block;
 	text-align:center;
 	float:left;
-
-}
-
-.content{
-	
+	margin-left: 7%;
 }
 
 #id_select{
