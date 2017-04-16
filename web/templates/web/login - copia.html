@@ -5,8 +5,8 @@
 {% endblock stylesheet%}
 
 {% block content %}
-<div id="background"></div>
 <div class="container">
+<div class="jumbotron">
 	<div class="row">
 		<div class="col-md-3 col-lg-2"></div>
 		<div class="col-md-6 col-lg-8">
@@ -34,7 +34,7 @@
 			<div id="cuadroRegistro">
 				<label for="anonimo">¿No tienes cuenta?</label><br>
 				<div id="registro">
-						<a href="{% url 'alta' %}"><button class="btn btn-primary">Regístrate</button></a>						
+						<a href="{% url 'alta' %}">Regístrate</a>						
 				</div>
 			</div>
 		</div>
@@ -60,5 +60,7 @@
 		</div>
 		<div class="col-md-3 col-lg-2"></div>
 	</div>	
+		
+</div>
 </div>
 {% endblock content %}

@@ -4,10 +4,10 @@ img{
 }
 
 
-#imagen{
+img{
 	width:500px;
 	height:500px;
-	margin:auto;
+	margin:0 auto;
 }
 
 body{
@@ -21,3 +21,18 @@ body{
 	margin:0 auto;
 }
 
+#id_titulo{
+	width:50%;
+	margin:0 auto;
+}
+
+#id_comentario{
+	width:70%;
+	height:150px;
+	margin:0 auto;
+}
+
+#listaComentarios{
+	max-height: 300px;
+    overflow-y:scroll;	
+}

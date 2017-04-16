@@ -1,0 +1,55 @@
+body {
+	left: 0;
+	top: 0;
+	bottom:0;
+	margin: 0;
+	background: url(../images/madrid-skyline.jpg) no-repeat center center fixed; 
+	background-size:100% 100%;
+	overflow-y: auto;
+	overflow: auto;
+	color:black;
+
+}
+
+a:link{
+	color:#FFBF00;
+}
+
+a:active{
+	color:#FFBF00;
+}
+
+a:visited{
+	color:#FFBF00;
+}
+
+#presentacion,#cuadroLogin,#cuadroRegistro{
+	text-align:center;
+}
+
+#presentacion{
+	background-color:;
+	text-align:center;
+}
+
+#cuadroRegistro{
+	background-color:;
+}
+
+#cuadroLogin{
+	background-color:;
+}
+
+.container{
+	background-color:black;
+	margin-top:auto;
+}
+
+.jumbotron {
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+  color:black;
+}

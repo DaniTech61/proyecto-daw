@@ -1,8 +1,9 @@
 <div id="comentarios">
 	{% for comentario in comentarios %}
-		{{ comentario.autor }}
-		{{ comentario.titulo }}
-		{{ comentario.comentario }}
-		{{ comentario.fecha_publicacion }}
+		<span style="float:left;">{{ comentario.autor }}</span>
+		<span style="float:right;">{{ comentario.fecha_publicacion }}</span><br>
+		<span style="float:left;">{{ comentario.titulo }}</span><br>
+		<span style="float:left;">{{ comentario.comentario }}</span>		
+		<hr>
 	{% endfor %}
 </div>

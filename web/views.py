@@ -16,7 +16,7 @@ from .models import Local
 from .models import Turismo
 from .models import Comentarios
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
-from datetime import datetime
+from django.utils import timezone
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -164,7 +164,7 @@ def anadir_comentario(request):
 				titulo=form.cleaned_data["titulo"],
 				comentario=form.cleaned_data["comentario"],
 				autor = request.user,
-				fecha_publicacion = datetime.now(),
+				fecha_publicacion = timezone.now(),
 				local=local
 			)
 			comentario.save()
@@ -172,12 +172,12 @@ def anadir_comentario(request):
 	data = {
 		'comentarios': comentarios,
 	}	
-	return render(request, 'web/comentarios.html', data)	
+	return mostrar_comentarios(request,local.nombreLocal)
 	
 			
 def mostrar_comentarios(request,nombreLocal):
 	local = Local.objects.get(nombreLocal=nombreLocal)
-	comentarios = Comentarios.objects.filter(local=local)
+	comentarios = Comentarios.objects.filter(local=local)	
 	data = {
 		'comentarios': comentarios,
 	}	
