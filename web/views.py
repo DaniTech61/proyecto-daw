@@ -172,9 +172,6 @@ def anadir_comentario(request):
 			)
 			comentario.save()
 	comentarios = Comentarios.objects.filter(local=local)
-	data = {
-		'comentarios': comentarios,
-	}	
 	return mostrar_comentarios(request,local.nombreLocal)
 	
 			
