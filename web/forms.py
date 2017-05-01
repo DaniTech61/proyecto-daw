@@ -61,3 +61,6 @@ class ComentarioForm(ModelForm):
 			'titulo': forms.TextInput(attrs={'class': 'form-control'}),
 			'comentario': forms.Textarea(attrs={'class': 'form-control'}),
         }
+
+class FormularioContacto(forms.Form):
+    mensaje = forms.CharField(widget=forms.Textarea, required=True)

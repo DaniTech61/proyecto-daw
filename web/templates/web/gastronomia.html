@@ -4,6 +4,10 @@
 	<link rel="stylesheet" href="{% static 'css/estilosLocal.css' %}">
 {% endblock stylesheet%}
 
+{% block script %}
+	<script type="text/javascript" src="{% static 'js/funcionesContenido.js' %}"></script>
+{% endblock script %}
+
 {% block content %}
 
 <div class="container contenido">
@@ -23,7 +27,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row  cajasContenido">
 	{% for sitio in locales %}
 	<div class="col-md-4 content" style="text-align:center;">		
 		<div class="info">
@@ -53,4 +57,5 @@
 </div>
 </footer>
 </div>
+{% include "web/includes/footer.html" %}	
 {% endblock content %}

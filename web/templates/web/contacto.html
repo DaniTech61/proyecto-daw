@@ -1,0 +1,39 @@
+{% extends 'web/base.html' %}
+{% load staticfiles %}
+{%block stylesheet %}
+	<link rel="stylesheet" href="{% static 'css/estilosContacto.css' %}">
+{% endblock stylesheet%}
+
+{% block script %}
+	
+{% endblock script %}
+
+{% block content %}
+<div class="container">
+{% include "web/includes/menu.html" %}	
+	{% if form %}
+		<div class="row" style="margin-top:51px;text-align:center;">
+			<p>¿Quieres ponerte en contacto?</p>
+			<p>Se nos ha olvidado algún sitio de interés?</p>
+			<p>¿No encuentras tu local favorito?</p>
+			<p>Escríbenos y pronto solucionaremos tus dudas</p>
+		</div>
+		
+		<div class="row" style="text-align:center;">
+			<h1>Contacta</h1>
+			<form method="post">
+				{% csrf_token %}
+				{{ form.mensaje }}
+				<div class="form-actions">
+				  <button type="submit" class="btn btn-success">Enviar</button>
+				</div>
+			</form>
+		</div>
+	{% else %}
+		<h3>Muchas gracias por escribirnos</h3>
+	{% endif %}
+</div>
+
+{% include "web/includes/footer.html" %}	
+
+{% endblock content %}

@@ -11,12 +11,15 @@ from web.forms import LoginForm
 from web.forms import FiltroTurismoForm
 from web.forms import FiltroLocalForm
 from web.forms import ComentarioForm
+from web.forms import FormularioContacto
 from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
 from .models import Comentarios
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.utils import timezone
+from django.core.mail import send_mail, BadHeaderError
+
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -182,3 +185,23 @@ def mostrar_comentarios(request,nombreLocal):
 		'comentarios': comentarios,
 	}	
 	return render(request, 'web/comentarios.html', data)
+	
+@ensure_csrf_cookie	
+def contacto(request):
+	if request.method == 'POST':	
+		form = FormularioContacto(request.POST)
+		if form.is_valid():
+			usuario = request.user.get_full_name()
+			from_email = request.user.email
+			mensaje = form.cleaned_data['mensaje']
+			try:
+				send_mail(usuario, mensaje, from_email, ['correopruebasdaw2017@gmail.com'])
+			except BadHeaderError:
+				return HttpResponse('Invalid header.')
+			return render(request,'web/contacto.html')
+	else:
+		form = FormularioContacto()
+	data = {
+		'form': form,
+	}
+	return render(request,'web/contacto.html',data)

@@ -83,18 +83,13 @@ p{
 
 
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .img1, .img2, .img3 {
-        background-attachment: scroll;
-    }
-}
 
-nav{
+
+p{
 	margin-top:3%;
 }
 
-nav a {
+p a {
 	position: relative;
 	display: inline-block;
 	margin: 15px 25px;
@@ -108,8 +103,8 @@ nav a {
 	font-size: 1.35em;
 }
 
-nav a:hover,
-nav a:focus {
+p a:hover,
+p a:focus {
 	outline: none;
 	text-decoration: none;
 }
@@ -169,3 +164,4 @@ nav a:focus {
 	-moz-transform: translateY(0px);
 	transform: translateY(0px);
 }
+

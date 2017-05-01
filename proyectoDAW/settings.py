@@ -132,3 +132,10 @@ SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 FIXTURE_DIRS = (
    '/fixtures/',
 )
+
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'correopruebasdaw2017@gmail.com'
+EMAIL_HOST_PASSWORD = 'correopruebas12'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

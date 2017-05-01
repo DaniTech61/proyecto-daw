@@ -4,6 +4,10 @@
 	<link rel="stylesheet" href="{% static 'css/estilosTurismo.css' %}">
 {% endblock stylesheet%}
 
+{% block script %}
+	<script type="text/javascript" src="{% static 'js/funcionesContenido.js' %}"></script>
+{% endblock script %}
+
 {% block content %}
 <div class="container contenido">
 {% include "web/includes/menu.html" %}	
@@ -22,7 +26,7 @@
 			</form>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row cajasContenido">
 	{% for sitio in turismo %}
 	<div class="col-md-4 content">		
 		<div class="info">
@@ -52,4 +56,7 @@
 </div>
 </footer>
 </div>
+
+{% include "web/includes/footer.html" %}	
+
 {% endblock content %}
