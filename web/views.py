@@ -19,8 +19,8 @@ from .models import Turismo
 from .models import Comentarios
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.utils import timezone
-from django.core.mail import send_mail, BadHeaderError
 from django.contrib.auth import logout
+from django.core.mail import EmailMessage
 
 
 # Create your views here.
@@ -207,12 +207,11 @@ def contacto(request):
 		if form.is_valid():
 			usuario = request.user.get_full_name()
 			user = User.objects.get(username=request.user.username)
-			from_email = request.user.email
-			mensaje = form.cleaned_data['mensaje']
-			try:
-				send_mail(usuario, mensaje, from_email, ['correopruebasdaw2017@gmail.com'])
-			except BadHeaderError:
-				return HttpResponse('Invalid header.')
+			from_email = user.email
+			mensaje = form.cleaned_data['mensaje'] + "<br>" + from_email
+			msg = EmailMessage(usuario,mensaje,from_email,['correopruebasdaw2017@gmail.com'])
+			msg.content_subtype = "html"
+			msg.send()
 			return render(request,'web/contacto.html')
 	else:
 		form = FormularioContacto()
