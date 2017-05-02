@@ -206,7 +206,8 @@ def contacto(request):
 		form = FormularioContacto(request.POST)
 		if form.is_valid():
 			usuario = request.user.get_full_name()
-			from_email = request.user.email
+			user = User.objects.get(username=request.user.username)
+			from_email = user.email
 			mensaje = form.cleaned_data['mensaje']
 			try:
 				send_mail(usuario, mensaje, from_email, ['correopruebasdaw2017@gmail.com'])
