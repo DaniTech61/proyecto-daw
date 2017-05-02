@@ -11,6 +11,11 @@
 {% block content %}
 <div class="container contenido">
 {% include "web/includes/menu.html" %}	
+<datalist id="filtro">
+	{% for nombre in nombres %}
+		<option value="{{ nombre.nombreSitio }}">
+	{% endfor %}
+</datalist>	
 	<div class="row">
 		<div class="col-md-12" style="text-align:center;">
 			<form id="filtrarTurismo" method="POST" action="{% url 'turismo' %}">

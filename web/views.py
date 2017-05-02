@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 from django.http.response import HttpResponseRedirect
+from django.http import HttpResponse
 from django.shortcuts import render_to_response
 from django.template.context import RequestContext
 from django.shortcuts import render
@@ -19,6 +20,7 @@ from .models import Comentarios
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.utils import timezone
 from django.core.mail import send_mail, BadHeaderError
+from django.contrib.auth import logout
 
 
 # Create your views here.
@@ -32,14 +34,23 @@ def login(request):
 		if user is not None:
 			if user.is_active:
 				auth_login(request, user)
-				return render(request,'web/index.html')
+				if user.groups.filter(name='Editores').exists():
+					return render(request,'web/administrador/index.html')
+				else:
+					return render(request,'web/index.html')
 	else:
 		form = LoginForm()
 
 	data = {
 		'form': form,
 	}
-	return render(request,'web/login.html',data)	
+	return render(request,'web/login.html',data)
+
+def peticion_logout(request):
+	logout(request)
+	return HttpResponseRedirect(reverse('login'))
+
+
 @ensure_csrf_cookie	
 def alta(request):
 	if request.method == 'POST':  # If the form has been submitted...
@@ -80,6 +91,8 @@ def lista_turismo(request):
 	page = request.GET.get('page')
 	lista_turismo = ""
 	filtro = ""
+	nombres = Turismo.objects.values("nombreSitio")
+	
 	if request.method == 'POST':
 		if request.POST.get('Borrar'):
 			if 'filtroTurismo' in request.session:
@@ -106,6 +119,7 @@ def lista_turismo(request):
 		'form': form,
 		'turismo': turismo, 
 		'filtro': filtro,
+		'nombres': nombres,
 	}	
 	return render(request, 'web/turismo.html', data)
 
@@ -120,6 +134,8 @@ def lista_gastronomia(request):
 	page = request.GET.get('page')
 	lista_local = ""
 	filtro = ""
+	nombres = Local.objects.values("nombreLocal")
+	
 	if request.method == 'POST':
 		if request.POST.get('Borrar'):
 			if 'filtroLocal' in request.session:
@@ -146,6 +162,7 @@ def lista_gastronomia(request):
 		'form': form,
 		'locales': locales, 
 		'filtro': filtro,
+		'nombres': nombres,
 	}	
 	return render(request, 'web/gastronomia.html', data)
 	
@@ -202,3 +219,16 @@ def contacto(request):
 		'form': form,
 	}
 	return render(request,'web/contacto.html',data)
+	
+def panel_administrador(request):
+	return render(request,'web/administrador/index.html')
+
+@ensure_csrf_cookie		
+def filtrar_nombre(request):
+	nombre=request.POST.get('busqueda')
+	if Local.objects.filter(nombreLocal=nombre).exists():
+		return lugar_local(request,nombre)
+	elif Turismo.objects.filter(nombreSitio=nombre).exists():
+		return lugar_turismo(request,nombre)
+	else:
+		return HttpResponseRedirect(request.META.get('HTTP_REFERER'))

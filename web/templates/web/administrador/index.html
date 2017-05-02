@@ -1,0 +1,15 @@
+{% extends 'web/base.html' %}
+{% load staticfiles %}
+
+{%block stylesheet %}
+	
+{% endblock stylesheet%}
+
+{% block script %}
+	<script type="text/javascript" src="{% static 'js/funcionesIndex.js' %}"></script>
+{% endblock script %}
+
+{% block content %}
+{% include "web/includes/menu.html" %}	
+	
+{% endblock content %}
