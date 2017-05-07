@@ -13,6 +13,7 @@ from web.forms import FiltroTurismoForm
 from web.forms import FiltroLocalForm
 from web.forms import ComentarioForm
 from web.forms import FormularioContacto
+from web.forms import NuevoTurismoForm
 from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
@@ -21,7 +22,11 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.utils import timezone
 from django.contrib.auth import logout
 from django.core.mail import EmailMessage
-
+from django.core.files.storage import FileSystemStorage
+from django.core.files.base import ContentFile
+from django.conf import settings
+import os
+import os.path
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -232,3 +237,37 @@ def filtrar_nombre(request):
 		return lugar_turismo(request,nombre)
 	else:
 		return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+@ensure_csrf_cookie			
+def nuevo_turismo(request):
+	if request.method == 'POST' and request.FILES['image']:	
+		form = NuevoTurismoForm(request.POST)
+		if form.is_valid():
+			folder = '/static/images/turismo/'
+			uploaded_filename = request.FILES['image'].name
+			BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+			full_filename = BASE_PATH+folder+uploaded_filename
+			fout = open(full_filename, 'wb+')
+			file_content = ContentFile( request.FILES['image'].read() )
+			try:
+				# Iterate through the chunks.
+				for chunk in file_content.chunks():
+					fout.write(chunk)
+				fout.close()				
+				turismo = Turismo(
+					nombreSitio=form.cleaned_data["nombreSitio"],
+					direccion=form.cleaned_data["direccion"],
+					descripcion=form.cleaned_data["descripcion"],
+					imagen="/images/turismo/"+uploaded_filename,
+					categoria=form.cleaned_data["categoria"],
+					fechaAlta = timezone.now(),
+				)
+				turismo.save()						
+				mensaje = "Nuevo sitio turístico creado correctamente"
+				return render(request,'web/administrador/index.html',{'mensaje':mensaje})
+			except:
+				mensaje = "No se ha podido crear"
+				return render(request,'web/administrador/index.html',{'mensaje':mensaje})				
+	form = NuevoTurismoForm()
+	return render(request,'web/administrador/forms/nuevo_turismo.html',{'form':form})
+

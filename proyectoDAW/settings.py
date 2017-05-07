@@ -139,3 +139,6 @@ EMAIL_PORT = 587
 EMAIL_HOST_USER = 'correopruebasdaw2017@gmail.com'
 EMAIL_HOST_PASSWORD = 'correopruebas12'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+MEDIA_URL = '/static/images/'
+MEDIA_ROOT = os.path.join(BASE_DIR, '/static/images')

@@ -19,7 +19,7 @@
 				<li><a href="{% url 'adminsite' %}">Panel de administración</a></li>
 			{% endif %}
 		</ul>
-
+		{% if request.path == "/gastronomia" or request.path == "/turismo" %}
 		<div class="col-sm-3 col-md-3">
 			<form class="navbar-form" action="{% url 'filtrar_nombre' %}" role="search" method="POST">
 			{% csrf_token %}
@@ -30,7 +30,8 @@
 					</div>
 				</div>
 			</form>
-		</div>			
+		</div>	
+		{% endif %}		
 		<ul class="nav navbar-nav navbar-right">
 		  <li><a href="#"><span class="glyphicon glyphicon-user"></span>Hola {{ user.username }}</a></li>
 		  <li><a href="{% url 'logout' %}"><span class="glyphicon glyphicon-log-out"></span>Salir</a></li>
