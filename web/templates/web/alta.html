@@ -5,7 +5,8 @@
 {% endblock stylesheet%}
 {% block content %}
 <div class="container">
-	<div id="alta">
+	<div class="row">
+	<div class="col-xs-12" style="text-align:center;">
 		{% if form.errors %}
 			<p>{{ form.errors }}</p>
 		{% endif %}
@@ -36,6 +37,7 @@
 			<button type="submit" class="btn btn-primary">Confirmar</button>
 			<a href="{% url 'login' %}"> Volver </a>
 		</form><br><br>
+	</div>
 	</div>
 </div>
 {% endblock content %}

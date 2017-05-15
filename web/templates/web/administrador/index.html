@@ -13,8 +13,8 @@
 {% include "web/includes/menu.html" %}	
 <div class="container-fluid">
 	<div class="row">
-        <div class="col-md-3">		
-            <div class="sidebar-nav-fixed affix">			
+        <div class="col-12 col-sm-3 col-md-2">		
+            <div class="sidebar-nav-fixed">			
                 <div class="well">				
                     <ul class="nav ">					
                         <li class="nav-header" style="text-align:center;"><h3>InvenitMadrid</h3></li>
@@ -36,13 +36,13 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-12 col-sm-9 col-md-9">
             <div class="jumbotron" style="text-align:center;">
                 <h2>InvenitMadrid</h2>
 				<h4>Panel de Administración</h4>
 				<div id="gestiones"></div>
 				{% if mensaje %}
-					<p>{{mensaje}}</p>
+					<p>{{ mensaje }}</p>
 				{% endif %}
             </div>          
         </div>

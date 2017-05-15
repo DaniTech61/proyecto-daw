@@ -69,7 +69,9 @@ class NuevoTurismoForm(ModelForm):
 	class Meta:
 		model = Turismo
 		fields = ['nombreSitio', 'direccion', 'descripcion','categoria']
-		nombreSitio = forms.TextInput(attrs={'class': 'form-control'}),
-		direccion = forms.TextInput(attrs={'class': 'form-control'}),
-		descripcion = forms.Textarea(attrs={'class': 'form-control'}),
+		widgets ={
+			'nombreSitio' : forms.TextInput(attrs={'class': 'form-control'}),
+			'direccion' : forms.TextInput(attrs={'class': 'form-control'}),
+			'descripcion' : forms.Textarea(attrs={'class': 'form-control'}),
+		}
 		categoria = forms.ChoiceField(choices=Turismo.CATEGORIAS_TURISMO),

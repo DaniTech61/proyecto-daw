@@ -1,16 +1,38 @@
 <h3>Nuevo Sitio Turístico</h3>
 <form action="{% url 'nuevo_turismo' %}" method="post" role="form" style="text-align:left;" enctype="multipart/form-data">
 	{% csrf_token %}
-	<label for="nombreSitio">Nombre</label>
-	{{ form.nombreSitio }}<br>
-	<label for="direccion">Dirección</label>
-	{{ form.direccion }}<br>
-	<label for="descipcion">Descripción</label>
-	{{ form.descripcion }}<br>
-	<label for="imagen">Imagen</label>
-	<input type="file" name="image"><br>
-	<label for="categoria">Categoría</label>
-	{{ form.categoria }}<br>	
+	
+	<div class="row">
+	<div class="form-group">
+		<label for="nombreSitio">Nombre</label><br>
+		<div class="col-3 col-md-4">{{ form.nombreSitio }}</div>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="form-group">
+		<label for="direccion">Dirección</label><br>
+		<div class="col-3 col-md-4">{{ form.direccion }}</div>
+	</div></div>
+	
+	<div class="row">
+	<div class="form-group">
+		<label for="descipcion">Descripción</label><br>
+		<div class="col-3 col-md-4">{{ form.descripcion }}</div>
+	</div></div>
+	
+	<div class="row">
+	<div class="form-group">
+		<label for="imagen">Imagen</label><br>
+		<input type="file" name="image">
+	</div></div>
+	
+	<div class="row">
+	<div class="form-group">
+		<label for="categoria">Categoría</label><br>
+		{{ form.categoria }}	
+	</div></div>
+	
 	<div class="form-actions">
 	  <button type="submit" class="btn btn-success">Enviar</button>
 	</div>
