@@ -14,6 +14,7 @@ from web.forms import FiltroLocalForm
 from web.forms import ComentarioForm
 from web.forms import FormularioContacto
 from web.forms import NuevoTurismoForm
+from web.forms import NuevoLocalForm
 from django.views.decorators.csrf import ensure_csrf_cookie
 from .models import Local
 from .models import Turismo
@@ -271,3 +272,38 @@ def nuevo_turismo(request):
 	form = NuevoTurismoForm()
 	return render(request,'web/administrador/forms/nuevo_turismo.html',{'form':form})
 
+@ensure_csrf_cookie			
+def nuevo_local(request):
+	if request.method == 'POST' and request.FILES['image']:	
+		form = NuevoLocalForm(request.POST)
+		if form.is_valid():
+			folder = '/static/images/gastro/'
+			uploaded_filename = request.FILES['image'].name
+			BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+			full_filename = BASE_PATH+folder+uploaded_filename
+			fout = open(full_filename, 'wb+')
+			file_content = ContentFile( request.FILES['image'].read() )
+			try:
+				# Iterate through the chunks.
+				for chunk in file_content.chunks():
+					fout.write(chunk)
+				fout.close()				
+				local = Local(
+					nombreLocal=form.cleaned_data["nombreLocal"],
+					direccion=form.cleaned_data["direccion"],
+					descripcion=form.cleaned_data["descripcion"],
+					imagen="/images/gastro/"+uploaded_filename,
+					categoria=form.cleaned_data["categoria"],
+					telefono=form.cleaned_data["telefono"],
+					email=form.cleaned_data["email"],
+					web=form.cleaned_data["web"],
+					fechaAlta = timezone.now(),
+				)
+				local.save()						
+				mensaje = "Nuevo local creado correctamente"
+				return render(request,'web/administrador/index.html',{'mensaje':mensaje})
+			except:
+				mensaje = "No se ha podido crear"
+				return render(request,'web/administrador/index.html',{'mensaje':mensaje})				
+	form = NuevoLocalForm()
+	return render(request,'web/administrador/forms/nuevo_local.html',{'form':form})

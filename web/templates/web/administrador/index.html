@@ -21,7 +21,7 @@
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin. Locales<span class="caret"></span></a>
 							<ul class="dropdown-menu">
-								<li><a href="#">Nuevo Local</a></li>
+								<li><a href="#" id="nuevoLocal">Nuevo Local</a></li>
 								<li><a href="#">Editar Local</a></li>
 							</ul>
 						</li>
@@ -56,6 +56,17 @@
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'nuevo_turismo'%}",
+				success: function (response){
+					$("#gestiones").html(response);
+				}
+			});
+		});
+		$("#nuevoLocal").click(function(e){
+			e.preventDefault();
+			e.stopImmediatePropagation();
+			$.ajax({
+				type: 'GET',
+				url: "{% url 'nuevo_local'%}",
 				success: function (response){
 					$("#gestiones").html(response);
 				}

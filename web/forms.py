@@ -75,3 +75,17 @@ class NuevoTurismoForm(ModelForm):
 			'descripcion' : forms.Textarea(attrs={'class': 'form-control'}),
 		}
 		categoria = forms.ChoiceField(choices=Turismo.CATEGORIAS_TURISMO),
+
+class NuevoLocalForm(ModelForm):
+	class Meta:
+		model = Local
+		fields = ['nombreLocal', 'direccion', 'descripcion','categoria','telefono','email','web']
+		widgets ={
+			'nombreLocal' : forms.TextInput(attrs={'class': 'form-control'}),
+			'direccion' : forms.TextInput(attrs={'class': 'form-control'}),
+			'descripcion' : forms.Textarea(attrs={'class': 'form-control'}),
+			'telefono' : forms.TextInput(attrs={'class': 'form-control'}),
+			'email' : forms.EmailInput(attrs={'class': 'form-control'}),
+			'web' : forms.URLInput(attrs={'class': 'form-control'}),
+		}
+		categoria = forms.ChoiceField(choices=Local.CATEGORIAS_LOCALES),
