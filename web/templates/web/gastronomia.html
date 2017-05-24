@@ -38,7 +38,7 @@
 		<div class="info">
 			<img class="thumbnail" src="{% static sitio.imagen %}"/>
 			<h3><a href="{% url 'detalleLocal' nombreLocal=sitio.nombreLocal %}">{{ sitio.nombreLocal }}</a></h3>
-			<div class="descripcion">{{ sitio.descripcion }}</div>
+			<div class="descripcion">{{ sitio.descripcion|escape|safe }}</div>
 		</div>
 	</div>	
 	{% endfor %}

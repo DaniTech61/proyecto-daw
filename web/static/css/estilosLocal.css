@@ -58,3 +58,17 @@ body {
 	width:100px;
 	margin:auto;
 }
+
+.container{  
+	background: rgba(0,0,0,0.4);    
+	color: #fff;
+}
+
+body{
+    background-image: url('../images/gastroFondo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	background-position:center;
+
+}

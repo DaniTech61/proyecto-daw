@@ -21,7 +21,7 @@
 		<div class="col-md-12" style="text-align:center;">
 			<div id="direccion">{{ sitio.direccion }}</div>
 			<hr>
-			<div>{{ sitio.descripcion }}</div>
+			<div>{{ sitio.descripcion|escape|safe }}</div>
 		</div>
 	</div>
 	<hr>
