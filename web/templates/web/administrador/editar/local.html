@@ -1,0 +1,84 @@
+{% extends 'web/base.html' %}
+{% load staticfiles %}
+
+{%block stylesheet %}
+{% endblock stylesheet%}
+
+{% block script %}
+{% endblock script %}
+
+{% block content %}
+{% include "web/includes/menu.html" %}	
+<div class="container"style="margin-top:51px;">
+	<div class="row">
+		{% if mensaje %}
+			<div class="alert alert-success alert-dismissable">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				{{ mensaje }}
+			</div>
+		{% endif %}
+	</div>
+	<div class="row">
+		<div class="col-xs-5">
+		<fieldset class="form-group"><legend>Información</legend>
+		<form action="{% url 'editar_local' nombreLocal=sitio.nombreLocal %}" method="post" role="form" style="text-align:left;" enctype="multipart/form-data" style="float:left;">
+		{% csrf_token %}
+			<div class="form-group">
+				<label for="nombreSitio" class="col-2">Nombre del local</label>
+				{{ form.nombreLocal }}
+			</div>
+			<div class="form-group">
+				<label for="direccion">Dirección</label>
+				{{ form.direccion }}
+			</div>
+
+			<div class="form-group">
+				<label for="telefono">Teléfono</label>
+				{{ form.telefono }}
+			</div>
+			
+			<div class="form-group">
+				<label for="email">Email</label>
+				{{ form.email }}
+			</div>
+			
+			<div class="form-group">
+				<label for="web">Web</label>
+				{{ form.web }}
+			</div>
+			
+			<div class="form-group">
+				<label for="descipcion">Descripción</label>
+				{{ form.descripcion }}
+			</div>		
+			<div class="form-group">
+				<label for="categoria">Categoría</label>
+				{{ form.categoria }}	
+			</div>			
+			<div class="form-actions">
+				<a href="{% url 'adminsite' %}" role="button" class="btn btn-danger">Volver</a>
+				<button type="submit" class="btn btn-success">Enviar</button>
+			</div>
+		</fieldset>
+		</form>
+		</div>
+		<div class="col-xs-4" style="float:left;height:300px;width:300px;">	
+			<form action="{% url 'editar_imagen_local' nombreLocal=sitio.nombreLocal %}" method="post" role="form" style="text-align:left;" enctype="multipart/form-data" style="float:left;">
+			{% csrf_token %}
+				<fieldset class="form-group"><legend>Imagen</legend>
+				<img src="{% static sitio.imagen %}" style="height:300px;width:300px;">
+				<div class="form-group">
+					<label for="imagen">Imagen</label>
+					<input type="file" name="image">
+				</div>
+				<div class="form-actions">
+					<button type="submit" class="btn btn-success">Enviar</button>
+				</div>
+			</form>
+			</fieldset>
+		</div>
+	</div>	
+</div>
+{% block scriptBody %}
+{% endblock scriptBody %}	
+{% endblock content %}

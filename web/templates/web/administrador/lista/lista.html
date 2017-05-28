@@ -1,0 +1,20 @@
+<table id="listaTabla" class="table table-bordered table-hover table-condensed">
+<thead><tr><th>Nombre</th><th>Fecha</th><th>Acciones</th></tr></thead>
+<tbody>
+{% for site in lista %}
+	<tr>
+		{% if site.nombreLocal %}
+			<td>{{ site.nombreLocal }}</td>
+		{% else %}
+			<td>{{ site.nombreSitio }}</td>
+		{% endif %}
+		<td>{{ site.fechaAlta|date:"d-M-Y" }}</td>
+		{% if site.nombreLocal %}
+			<td><a href="{% url 'editar_local' nombreLocal=site.nombreLocal %}">Editar</a></td>
+		{% else %}
+			<td><a href="{% url 'editar_turismo' nombreSitio=site.nombreSitio %}">Editar</a></td>
+		{% endif %}
+	</tr>
+{% endfor %}
+</tbody>
+</table>

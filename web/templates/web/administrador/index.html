@@ -3,10 +3,11 @@
 
 {%block stylesheet %}
 	<link rel="stylesheet" href="{% static 'css/estilosAdmin.css' %}">
+	<link rel="stylesheet" href="{% static 'css/jquery.dynatable.css' %}">
 {% endblock stylesheet%}
 
 {% block script %}
-
+	<script src="{% static 'js/jquery.dynatable.js' %}"></script>
 {% endblock script %}
 
 {% block content %}
@@ -22,14 +23,14 @@
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin. Locales<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#" id="nuevoLocal">Nuevo Local</a></li>
-								<li><a href="#">Editar Local</a></li>
+								<li><a href="#" id="listaLocales">Editar Local</a></li>
 							</ul>
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin. Turismo<span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#" id="nuevoTurismo">Nuevo Sitio Turístico</a></li>
-								<li><a href="#">Editar Sitio Turístico</a></li>
+								<li><a href="#" id="listaTurismo">Editar Sitio Turístico</a></li>
 							</ul>
 						</li>                    
                     </ul>
@@ -71,6 +72,19 @@
 					$("#gestiones").html(response);
 				}
 			});
+		});
+		$("#listaLocales").click(function(e){
+			e.preventDefault();
+			e.stopImmediatePropagation();
+			$.ajax({
+				type: 'GET',
+				url: "{% url 'lista_locales'%}",
+				success: function (response){
+					$("#gestiones").html(response);
+					$('#listaTabla').dynatable();
+				}
+			});
+
 		});
 	</script>
 {% endblock scriptBody %}	

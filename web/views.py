@@ -307,3 +307,53 @@ def nuevo_local(request):
 				return render(request,'web/administrador/index.html',{'mensaje':mensaje})				
 	form = NuevoLocalForm()
 	return render(request,'web/administrador/forms/nuevo_local.html',{'form':form})
+	
+def lista_locales(request):
+	lista = Local.objects.order_by('nombreLocal')
+	return render(request,'web/administrador/lista/lista.html',{'lista':lista})
+	
+def editar_local(request,nombreLocal):
+	mensaje=""	
+	local = Local.objects.get(nombreLocal=nombreLocal)	
+	if request.method == 'POST':	
+		form = NuevoLocalForm(request.POST)
+		if form.is_valid():
+			Local.objects.filter(nombreLocal=nombreLocal).update(nombreLocal=form.cleaned_data["nombreLocal"], 
+				direccion=form.cleaned_data["direccion"],
+				descripcion=form.cleaned_data["descripcion"],
+				categoria=form.cleaned_data["categoria"],
+				telefono=form.cleaned_data["telefono"],
+				email=form.cleaned_data["email"],
+				web=form.cleaned_data["web"],				
+				)
+			mensaje="Local actualizado"
+			local = Local.objects.get(nombreLocal=form.cleaned_data["nombreLocal"])	
+	form = NuevoLocalForm(instance=local)	
+	data = {
+		'form':form,
+		'sitio':local,
+		'mensaje':mensaje,
+	}
+	return render(request, 'web/administrador/editar/local.html',data)
+
+def editar_imagen_local(request,nombreLocal):
+	local = Local.objects.get(nombreLocal=nombreLocal)
+	os.remove(os.path.abspath(os.path.dirname(__file__))+'/static/'+local.imagen)
+	if request.method == 'POST' and request.FILES['image']:	
+		folder = '/static/images/gastro/'
+		uploaded_filename = request.FILES['image'].name
+		BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+		full_filename = BASE_PATH+folder+uploaded_filename
+		fout = open(full_filename, 'wb+')
+		file_content = ContentFile( request.FILES['image'].read() )
+		try:
+			# Iterate through the chunks.
+			for chunk in file_content.chunks():
+				fout.write(chunk)
+			fout.close()				
+			image="images/gastro/"+uploaded_filename
+			Local.objects.filter(nombreLocal=nombreLocal).update(imagen=image)									
+			return redirect(editar_local,{'nombreLocal':nombreLocal})
+		except:
+			mensaje = "No se ha podido crear"
+			return redirect(editar_local,nombreLocal=nombreLocal)
