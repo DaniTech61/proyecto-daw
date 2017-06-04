@@ -29,20 +29,26 @@
 {% include "web/includes/menu.html" %}	
 	<div class="row">
 		<div class="col-xs-12 col-md-4">
-			<img src="{% static sitio.imagen %}" align="middle" class="img-responsive"/>
+			<img src="{% static sitio.imagen %}" align="middle" class="img-responsive img-rounded"/>
 		</div>
 		<div class="col-xs-12 col-md-8"  style="text-align:center;">
 			<h3>{{ sitio.nombreLocal }}</h3>
 			<div id="contacto">
 				<ul>
+					{% if sitio.telefono %}
 					<li>Teléfono: {{ sitio.telefono }}</li>
+					{% endif %}
+					{% if sitio.email %}
 					<li>Email: {{ sitio.email }}</li>
-					<li>Página web: {{ sitio.web }}</li>
+					{% endif %}
+					{% if sitio.web %}
+					<li>Página web:<a href="sitio.web">{{ sitio.web }}</a></li>
+					{% endif %}
 				</ul>
 			</div>
 			<div id="direccion">Direccion: <span id="dir">{{ sitio.direccion }}</span>  <button type="button" class="btn btn-secondary" data-toggle="modal" data-target="#myModal" onclick="initialize();">Ver mapa</button></div>
 			<hr>
-			<div>{{ sitio.descripcion }}</div>
+			<div class="col-xs-12 col-md-8 col-md-offset-2" style="text-align:center;">{{ sitio.descripcion|escape|safe }}</div>
 		</div>
 	</div>	
 	<div class="row">

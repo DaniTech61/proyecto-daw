@@ -86,6 +86,19 @@
 			});
 
 		});
+		$("#listaTurismo").click(function(e){
+			e.preventDefault();
+			e.stopImmediatePropagation();
+			$.ajax({
+				type: 'GET',
+				url: "{% url 'lista_turismo'%}",
+				success: function (response){
+					$("#gestiones").html(response);
+					$('#listaTabla').dynatable();
+				}
+			});
+
+		});
 	</script>
 {% endblock scriptBody %}	
 {% endblock content %}

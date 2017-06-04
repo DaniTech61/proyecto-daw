@@ -11,36 +11,38 @@
 {% block content %}
 <div class="container contenido">
 {% include "web/includes/menu.html" %}	
-<datalist id="filtro">
-	{% for nombre in nombres %}
-		<option value="{{ nombre.nombreSitio }}">
-	{% endfor %}
-</datalist>	
+	<datalist id="filtro">
+		{% for nombre in nombres %}
+			<option value="{{ nombre.nombreSitio }}">
+		{% endfor %}
+	</datalist>	
 	<div class="row">
 		<div class="col-md-12" style="text-align:center;">
-			<form id="filtrarTurismo" method="POST" action="{% url 'turismo' %}">
+			<form id="filtrarTurismo" method="POST" action="{% url 'turismo' %}" class="form-inline">
 			{% csrf_token %}
 				<div class="form-group">
 					<label for="opciones">Filtrar por :</label>
-						{{ form.select }}
-				</div>
-				{% if filtro %}
-					<h3>Filtrando por : {{filtro}}</h3>
-				{% endif %}
-				<input type="submit" name="Borrar" value="Eliminar Filtro" class="btn btn-primary">
+					{{ form.select }}
+					<input type="submit" name="Borrar" value="Eliminar Filtro" class="btn btn-primary">
+					{% if filtro %}
+						<h3>Filtrando por : {{filtro}}</h3>
+					{% endif %}				
+				</div>				
 			</form>
 		</div>
 	</div>
-	<div class="row cajasContenido">
-	{% for sitio in turismo %}
-	<div class="col-md-4 content">		
-		<div class="info">
-			<img class="thumbnail" src="{% static sitio.imagen %}"/>
-			<h3><a href="{% url 'detalleTurismo' nombreSitio=sitio.nombreSitio %}">{{ sitio.nombreSitio }}</a></h3>
-			<div class="descripcion">{{ sitio.descripcion }}</div>
+	<div class="row">
+		<div class="grid">
+			{% for sitio in turismo %}				
+				<figure class="effect-honey">
+					<img src="{% static sitio.imagen %}" alt="img02"/>
+					<figcaption>
+						<h2>{{ sitio.nombreSitio }}</h2>
+						<a href="{% url 'detalleTurismo' nombreSitio=sitio.nombreSitio %}"></a>
+					</figcaption>			
+				</figure>
+			{% endfor %}
 		</div>
-	</div>	
-	{% endfor %}
 	</div>
 <footer>	
 <div class="row">

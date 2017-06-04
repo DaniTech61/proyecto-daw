@@ -19,7 +19,7 @@
 </datalist>	
 	<div class="row">
 		<div class="col-md-12" style="text-align:center;">
-			<form id="filtrarLocal" method="POST" action="{% url 'gastronomia' %}">
+			<form id="filtrarLocal" method="POST" action="{% url 'gastronomia' %}"  class="form-inline">
 			{% csrf_token %}
 				<div class="form-group">
 					<label for="opciones">Filtrar por :</label>
@@ -36,9 +36,8 @@
 	{% for sitio in locales %}
 	<div class="col-md-4 content" style="text-align:center;">		
 		<div class="info">
-			<img class="thumbnail" src="{% static sitio.imagen %}"/>
-			<h3><a href="{% url 'detalleLocal' nombreLocal=sitio.nombreLocal %}">{{ sitio.nombreLocal }}</a></h3>
-			<div class="descripcion">{{ sitio.descripcion|escape|safe }}</div>
+			<a href="{% url 'detalleLocal' nombreLocal=sitio.nombreLocal %}"><img class="thumbnail" src="{% static sitio.imagen %}"/>
+			<h3>{{ sitio.nombreLocal }}</a></h3>
 		</div>
 	</div>	
 	{% endfor %}

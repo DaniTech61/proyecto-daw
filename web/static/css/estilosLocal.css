@@ -30,12 +30,11 @@ img{
 .contenido {
 	background-color:white;
 	-webkit-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.82);
--moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.82);
-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.82);
+	-moz-box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.82);
+	box-shadow: 0px 0px 14px -1px rgba(0,0,0,0.82);
 }
 
 body {
-
 	margin-top:51px;
 }
 
@@ -71,4 +70,8 @@ body{
     background-size: cover;
 	background-position:center;
 
+}
+
+a{
+	color:#DBA901;
 }

@@ -10,9 +10,11 @@
 		{% endif %}
 		<td>{{ site.fechaAlta|date:"d-M-Y" }}</td>
 		{% if site.nombreLocal %}
-			<td><a href="{% url 'editar_local' nombreLocal=site.nombreLocal %}">Editar</a></td>
+			<td><a href="{% url 'editar_local' nombreLocal=site.nombreLocal %}">Editar</a>
+			<a href="{% url 'eliminar_local' nombreLocal=site.nombreLocal %}">Eliminar</a></td>
 		{% else %}
-			<td><a href="{% url 'editar_turismo' nombreSitio=site.nombreSitio %}">Editar</a></td>
+			<td><a href="{% url 'editar_turismo' nombreSitio=site.nombreSitio %}">Editar</a>
+			<a href="{% url 'eliminar_turismo' nombreSitio=site.nombreSitio %}">Eliminar</a></td>
 		{% endif %}
 	</tr>
 {% endfor %}

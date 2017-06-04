@@ -313,22 +313,22 @@ def lista_locales(request):
 	return render(request,'web/administrador/lista/lista.html',{'lista':lista})
 	
 def editar_local(request,nombreLocal):
-	mensaje=""	
-	local = Local.objects.get(nombreLocal=nombreLocal)	
-	if request.method == 'POST':	
-		form = NuevoLocalForm(request.POST)
-		if form.is_valid():
-			Local.objects.filter(nombreLocal=nombreLocal).update(nombreLocal=form.cleaned_data["nombreLocal"], 
-				direccion=form.cleaned_data["direccion"],
-				descripcion=form.cleaned_data["descripcion"],
-				categoria=form.cleaned_data["categoria"],
-				telefono=form.cleaned_data["telefono"],
-				email=form.cleaned_data["email"],
-				web=form.cleaned_data["web"],				
-				)
-			mensaje="Local actualizado"
-			local = Local.objects.get(nombreLocal=form.cleaned_data["nombreLocal"])	
+	mensaje=""
+	local = Local.objects.get(nombreLocal=nombreLocal)
 	form = NuevoLocalForm(instance=local)	
+	if request.method == 'POST':
+		form = NuevoLocalForm(request.POST,instance=local)
+		if form.is_valid():
+			local.nombreLocal=form.cleaned_data["nombreLocal"]
+			local.direccion=form.cleaned_data["direccion"]
+			local.descripcion=form.cleaned_data["descripcion"]
+			local.categoria=form.cleaned_data["categoria"]
+			local.telefono=form.cleaned_data["telefono"]
+			local.email=form.cleaned_data["email"]
+			local.web=form.cleaned_data["web"]
+			local.save();
+			mensaje="Local actualizado"
+			local = Local.objects.get(nombreLocal=form.cleaned_data["nombreLocal"])		
 	data = {
 		'form':form,
 		'sitio':local,
@@ -357,3 +357,60 @@ def editar_imagen_local(request,nombreLocal):
 		except:
 			mensaje = "No se ha podido crear"
 			return redirect(editar_local,nombreLocal=nombreLocal)
+
+def lista_turism(request):
+	lista = Turismo.objects.order_by('nombreSitio')
+	return render(request,'web/administrador/lista/lista.html',{'lista':lista})
+	
+def editar_turismo(request,nombreSitio):
+	mensaje=""	
+	turismo = Turismo.objects.get(nombreSitio=nombreSitio)	
+	form = NuevoTurismoForm(instance=turismo)
+	if request.method == 'POST':	
+		form = NuevoTurismoForm(request.POST, instance=turismo)
+		if form.is_valid():
+			turismo = Turismo.objects.get(nombreSitio=nombreSitio)	
+			turismo.nombreSitio=form.cleaned_data["nombreSitio"]
+			turismo.direccion=form.cleaned_data["direccion"]
+			turismo.descripcion=form.cleaned_data["descripcion"]
+			turismo.categoria=form.cleaned_data["categoria"]
+			turismo.save()				
+			mensaje="Turismo actualizado"
+	data = {
+		'form':form,
+		'sitio':turismo,
+		'mensaje':mensaje,
+	}
+	return render(request, 'web/administrador/editar/turismo.html',data)
+
+def editar_imagen_turismo(request,nombreSitio):
+	turismo = Turismo.objects.get(nombreSitio=nombreSitio)
+	os.remove(os.path.abspath(os.path.dirname(__file__))+'/static/'+turismo.imagen)
+	if request.method == 'POST' and request.FILES['image']:	
+		folder = '/static/images/turismo/'
+		uploaded_filename = request.FILES['image'].name
+		BASE_PATH = os.path.abspath(os.path.dirname(__file__))
+		full_filename = BASE_PATH+folder+uploaded_filename
+		fout = open(full_filename, 'wb+')
+		file_content = ContentFile( request.FILES['image'].read() )
+		try:
+			# Iterate through the chunks.
+			for chunk in file_content.chunks():
+				fout.write(chunk)
+			fout.close()				
+			image="images/turismo/"+uploaded_filename
+			Turismo.objects.filter(nombreSitio=nombreSitio).update(imagen=image)									
+			return redirect(editar_local,{'nombreSitio':nombreSitio})
+		except:
+			mensaje = "No se ha podido crear"
+			return redirect(editar_turismo,nombreSitio=nombreSitio)
+
+def eliminar_local(request,nombreLocal):
+	Local.objects.filter(nombreLocal=nombreLocal).delete()
+	mensaje = "Sitio turístico "+nombreLocal+" eliminado"
+	return render(request,'web/administrador/index.html',{'mensaje':mensaje})
+
+def eliminar_turismo(request,nombreSitio):
+	Turismo.objects.filter(nombreSitio=nombreSitio).delete()
+	mensaje = "Sitio turístico "+nombreSitio+" eliminado"
+	return render(request,'web/administrador/index.html',{'mensaje':mensaje})

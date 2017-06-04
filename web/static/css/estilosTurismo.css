@@ -1,15 +1,8 @@
 img{
-	width: 300px;
-	height: 300px;
+	width: 500px;
+	height: 500px;
 }
 
-.descripcion{ 
-	height:50px;
-	width:300px;
-	text-overflow:ellipsis;
-	white-space:nowrap; 
-	overflow:hidden; 
-}
 
 .row:nth-child(even) img{ 
 	float:right;
@@ -27,13 +20,13 @@ img{
 
 }
 
-.contenido {
-	background-color:white;
-
+.container{  
+	background: rgba(0,0,0,0);    
+	color: #fff;
 }
 
 body {
-    background-image: url("../images/turismo/palacio-real-Madrid.jpg");	 
+    background-image: url("../images/turismo/El_Templo_de_Debod.JPG");	 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -59,4 +52,8 @@ body {
 #id_select{
 	width:100px;
 	margin:auto;
+}
+
+a{
+	color:#DBA901;
 }
