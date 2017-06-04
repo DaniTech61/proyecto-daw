@@ -264,7 +264,7 @@ def nuevo_turismo(request):
 					fechaAlta = timezone.now(),
 				)
 				turismo.save()						
-				mensaje = "Nuevo sitio turístico creado correctamente"
+				mensaje = "Nuevo sitio de turismo creado correctamente"
 				return render(request,'web/administrador/index.html',{'mensaje':mensaje})
 			except:
 				mensaje = "No se ha podido crear"
@@ -407,7 +407,7 @@ def editar_imagen_turismo(request,nombreSitio):
 
 def eliminar_local(request,nombreLocal):
 	Local.objects.filter(nombreLocal=nombreLocal).delete()
-	mensaje = "Sitio turístico "+nombreLocal+" eliminado"
+	mensaje = "Local "+nombreLocal+" eliminado"
 	return render(request,'web/administrador/index.html',{'mensaje':mensaje})
 
 def eliminar_turismo(request,nombreSitio):
