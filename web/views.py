@@ -412,5 +412,5 @@ def eliminar_local(request,nombreLocal):
 
 def eliminar_turismo(request,nombreSitio):
 	Turismo.objects.filter(nombreSitio=nombreSitio).delete()
-	mensaje = "Sitio turístico "+nombreSitio+" eliminado"
+	mensaje = "Sitio "+nombreSitio+" eliminado"
 	return render(request,'web/administrador/index.html',{'mensaje':mensaje})
