@@ -54,6 +54,7 @@
 		$("#nuevoTurismo").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
+			$("#gestiones").html("");
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'nuevo_turismo'%}",
@@ -65,6 +66,7 @@
 		$("#nuevoLocal").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
+			$("#gestiones").html("");
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'nuevo_local'%}",
@@ -76,6 +78,7 @@
 		$("#listaLocales").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
+			$("#gestiones").html("");
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'lista_locales'%}",
@@ -89,6 +92,7 @@
 		$("#listaTurismo").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
+			$("#gestiones").html("");
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'lista_turismo'%}",

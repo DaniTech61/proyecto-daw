@@ -2,19 +2,23 @@ img{
 	width:500px;
 	height:500px;
 }
-
 body {
-    background-image: url("../images/turismo/back_turismo.jpg");	 
+    background-image: url("../images/turismo/Plaza-Mayor.jpg");	 
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top:51px;
-	padding-top:1em;
 }
 
 #imagen{
 	width:500px;
 	height:500px;
 	margin: auto;	
+}
+
+.container{  
+	background: rgba(0,0,0,0.6);    
+	color: #fff;
+	padding-bottom:1em;
 }
