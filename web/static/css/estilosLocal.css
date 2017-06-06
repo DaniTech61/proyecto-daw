@@ -72,6 +72,21 @@ body{
 
 }
 
-a{
+a:link{
 	color:#DBA901;
+}
+
+/* visited link */
+a:visited {
+    color: #DF7401;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FACC2E;
+}
+
+/* selected link */
+a:active {
+    color: #FACC2E;
 }
