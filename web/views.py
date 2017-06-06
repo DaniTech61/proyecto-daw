@@ -28,6 +28,7 @@ from django.core.files.base import ContentFile
 from django.conf import settings
 import os
 import os.path
+from django.core.urlresolvers import resolve
 
 # Create your views here.
 @ensure_csrf_cookie
@@ -235,12 +236,19 @@ def panel_administrador(request):
 @ensure_csrf_cookie		
 def filtrar_nombre(request):
 	nombre=request.POST.get('busqueda')
-	if Local.objects.filter(nombreLocal=nombre).exists():
-		return lugar_local(request,nombre)
-	elif Turismo.objects.filter(nombreSitio=nombre).exists():
-		return lugar_turismo(request,nombre)
-	else:
-		return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+	referer = request.META.get('HTTP_REFERER')
+	if referer.find("gastronomia") != -1:
+		local=Local.objects.filter(nombreLocal__icontains=nombre).order_by('nombreLocal').first()
+		if local:
+			return lugar_local(request,local.nombreLocal)
+		else:
+			return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+	elif referer.find("turismo") != -1:
+		turism=Turismo.objects.filter(nombreSitio__icontains=nombre).order_by('nombreSitio').first()
+		if turism:
+			return lugar_turismo(request,turism.nombreSitio)
+		else:
+			return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
 @ensure_csrf_cookie			
 def nuevo_turismo(request):
