@@ -2,6 +2,7 @@ from django import forms
 from django.contrib.auth.models import User
 from .models import Local,Turismo,Comentarios
 from django.forms import ModelForm,CharField,Form,PasswordInput
+from django.core.validators import RegexValidator
 
 class AltaForm(ModelForm):
 	class Meta:
@@ -84,7 +85,7 @@ class NuevoLocalForm(ModelForm):
 			'nombreLocal' : forms.TextInput(attrs={'class': 'form-control'}),
 			'direccion' : forms.TextInput(attrs={'class': 'form-control'}),
 			'descripcion' : forms.Textarea(attrs={'class': 'form-control'}),
-			'telefono' : forms.TextInput(attrs={'class': 'form-control'}),
+			'telefono' : forms.TextInput(attrs={'class': 'form-control', 'pattern': "^(([(][+][3][4][)])|([+][3][4])){0,1}[\s]{0,1}([9][1]){1}[\s]{0,1}([0-9]{7}|[0-9]{3}[\s]{0,1}[0-9]{2}[\s]{0,1}[0-9]{2})$", 'title':"El número de teléfono debe comenzar por +34 o 91 y contener 7 dígitos"}),
 			'email' : forms.EmailInput(attrs={'class': 'form-control'}),
 			'web' : forms.URLInput(attrs={'class': 'form-control'}),
 		}
