@@ -218,7 +218,10 @@ def contacto(request):
 			msg = EmailMessage(usuario,mensaje,from_email,['correopruebasdaw2017@gmail.com'])
 			msg.content_subtype = "html"
 			msg.send()
-			return render(request,'web/contacto.html')
+			data = {
+				'mensaje': "Mensaje enviado correctamente, gracias por ponerte en contacto",
+			}
+			return render(request,'web/contacto.html',data)
 	else:
 		form = FormularioContacto()
 	data = {

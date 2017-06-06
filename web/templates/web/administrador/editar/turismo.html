@@ -19,7 +19,7 @@
 		{% endif %}
 	</div>
 	<div class="row">
-		<div class="col-xs-5">
+		<div class="col-xs-12 col-md-5">
 		<fieldset class="form-group"><legend>Información</legend>
 		<form action="{% url 'editar_turismo' nombreSitio=sitio.nombreSitio %}" method="post" role="form" style="text-align:left;" enctype="multipart/form-data" style="float:left;">
 		{% csrf_token %}
@@ -67,7 +67,7 @@
 			<form action="{% url 'editar_imagen_turismo' nombreSitio=sitio.nombreSitio %}" method="post" role="form" style="text-align:left;" enctype="multipart/form-data" style="float:left;">
 			{% csrf_token %}
 				<fieldset class="form-group"><legend>Imagen</legend>
-				<img src="{% static sitio.imagen %}" style="height:300px;width:300px;">
+				<img src="{% static sitio.imagen %}" style="height:300px;width:300px;" class="img-responsive">
 				<div class="form-group">
 					<label for="imagen">Imagen</label>
 					<input type="file" name="image">

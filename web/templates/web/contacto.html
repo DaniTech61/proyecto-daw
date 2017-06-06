@@ -11,7 +11,9 @@
 {% block content %}
 <div class="container">
 {% include "web/includes/menu.html" %}	
-	{% if form %}
+	{% if mensaje %}
+		<h3>{{mensaje}}</h3>
+	{% else %}
 		<div class="row" style="margin-top:51px;text-align:center;">
 			<p>¿Quieres ponerte en contacto?</p>
 			<p>Se nos ha olvidado algún sitio de interés?</p>
@@ -29,8 +31,6 @@
 				</div>
 			</form>
 		</div>
-	{% else %}
-		<h3>Muchas gracias por escribirnos</h3>
 	{% endif %}
 </div>
 
