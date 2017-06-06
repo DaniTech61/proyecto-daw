@@ -44,7 +44,7 @@
 				</div>
 				<div id="gestiones"></div>
 				{% if mensaje %}
-					<p>{{ mensaje }}</p>
+					<p id="mensaje">{{ mensaje }}</p>
 				{% endif %}
             </div>          
         </div>
@@ -55,7 +55,8 @@
 		$("#nuevoTurismo").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
-			$("#gestiones").html("");
+			$("#gestiones").empty();
+			$("#mensaje").empty();
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'nuevo_turismo'%}",
@@ -67,7 +68,8 @@
 		$("#nuevoLocal").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
-			$("#gestiones").html("");
+			$("#gestiones").empty();
+			$("#mensaje").empty();
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'nuevo_local'%}",
@@ -79,7 +81,8 @@
 		$("#listaLocales").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
-			$("#gestiones").html("");
+			$("#gestiones").empty();
+			$("#mensaje").empty();
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'lista_locales'%}",
@@ -93,7 +96,8 @@
 		$("#listaTurismo").click(function(e){
 			e.preventDefault();
 			e.stopImmediatePropagation();
-			$("#gestiones").html("");
+			$("#gestiones").empty();
+			$("#mensaje").empty();
 			$.ajax({
 				type: 'GET',
 				url: "{% url 'lista_turismo'%}",
