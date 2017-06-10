@@ -77,10 +77,8 @@
 		var map;
 		function initialize() {
 			var address = $("#dir").text();
-			var latlng = new google.maps.LatLng(40.4165000, -3.7025600);
 			var mapOptions = {
 			  zoom: 15,
-			  center: latlng
 			}
 			map = new google.maps.Map(document.getElementById('googleMap'), mapOptions);
 			geocoder = new google.maps.Geocoder();
