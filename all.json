@@ -1,0 +1,3829 @@
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "web",
+    "model": "local"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "web",
+    "model": "comentarios"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "web",
+    "model": "turismo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "web",
+    "model": "valoracion"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0qk7az44bw6e5aw08yxgdu4f6tljwgzk",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-04-26T15:48:28.999Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6y434hkvv4ais4e0o0i5adpjykle9d3m",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-05-21T18:46:07.500Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8egisakzpurb1xqd2pp72wn3mskdxrh1",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-20T12:50:43.750Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dia9mz82ux3q2wce7w77sbd8ngjgx6qt",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-07T17:17:23.207Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ea6bzsg25ohln17n2fj7ktttxvxoeb1u",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-05-15T13:32:45.067Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fkb66miafw3v5rij6ze11hktiixe4b7g",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-11T12:21:47.860Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gozy58mt2gz1tbaj55wu03nefrihyaf1",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-04-27T16:50:01.876Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gx54nli3eh5c1y65lpr7km26spo8zsxw",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-04-29T16:58:25.358Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "k0hfdxhnttyh5gu0u4cccu3xh8v6siqy",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-24T13:56:11.469Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ns0h473142fp6mssspcq5pkl5z5eosaw",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-20T11:43:31.514Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rxhf6f24kvv5p03mmqrfn0ubcbj199wf",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-18T13:20:08.812Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "sz7kcqx6w81kokr8mg6ygt87noppp6ek",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-05-16T16:50:02.531Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vqntpf3c7ximnmhru8t7w6nn5uagm62y",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-04-30T14:52:35.469Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "x0widme8dn1tf4h3z51fvj4adb4k56ab",
+  "fields": {
+    "session_data": "ZDgwNmFiMGExNWY1YmRhMTZjM2YxOGFjYjY5OWMxODRmZjU4ZGNjYjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIn0=",
+    "expire_date": "2017-06-04T16:20:58.992Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xvjf1h3l5bxn4ljw1w7y8dvxgq26bktn",
+  "fields": {
+    "session_data": "OGExYTQ0ZTY2ODdhZDA1OGIzMjRkZmE2ZDQ0MDQ5ODY2NWVmOTViZTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIiwiZmlsdHJvVHVyaXNtbyI6Im11c2VvIn0=",
+    "expire_date": "2017-04-27T16:46:17.183Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zdhglzix5ltafg4a9lnx2li18atlf00m",
+  "fields": {
+    "session_data": "OGExYTQ0ZTY2ODdhZDA1OGIzMjRkZmE2ZDQ0MDQ5ODY2NWVmOTViZTp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIzMmVmMGM5N2NmOTUwOGU4ZTU4ZTEwZDc4OWI3M2E1YWU4OTQwMDRhIiwiZmlsdHJvVHVyaXNtbyI6Im11c2VvIn0=",
+    "expire_date": "2017-04-27T16:49:47.130Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "99 Sushi Bar Hermosilla",
+  "fields": {
+    "direccion": "Calle de Hermosilla, 4, 28001 Madrid",
+    "descripcion": "<p>Cocina japonesa en \u00edntimo sal\u00f3n con bonsais y tonos rojos cuyas especialidades son:</p>\r\n<ul><li>Tempura de langostinos</li><li>Pez mantequilla con trufa</li><ul>",
+    "imagen": "/images/gastro/99.jpg",
+    "telefono": "914312715",
+    "email": "",
+    "web": "http://www.99sushibar.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:36:05Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Bar Cock",
+  "fields": {
+    "direccion": "Calle Reina, 16 28004",
+    "descripcion": "<p>Bar de referencia en cuanto a <strong>c\u00f3cteles</strong> se refiere, tanto en cl\u00e1sicos como en las \u00faltimas creaciones, con una amplia selecci\u00f3n de <span class=\"text-info\">vodkas, whiskys, licores, ginebras, rones, brandies, etc.</span></p>\r\n\r\n<p>Este palacete franc\u00e9s que conserva su decoraci\u00f3n original, de aire antiguo y bohemio, goza de una amplia y fiel clientela, en especial en fines de semana. Sin embargo, para mantener un ambiente tranquilo y agradable, el local mantiene el aforo limitado, lo que hace que puedan formarse colas para entrar.<p>\r\n\r\n<p>Situado en la parte de atr\u00e1s del famoso Chicote, en los aleda\u00f1os a la Gran V\u00eda, en otros tiempos fue una especie de reservado de \u00e9ste para los clientes m\u00e1s selectos, ya que, seg\u00fan dicen, ambos locales est\u00e1n conectados a trav\u00e9s de una chimenea. Leyendas aparte, si quieres tomarte un exquisito c\u00f3ctel, en agradable y selecto ambiente, conversaci\u00f3n tranquila y buena m\u00fasica: \u00e9ste es tu local.<p>",
+    "imagen": "/images/gastro/cock.jpg",
+    "telefono": "(+34) 91 532 28 26",
+    "email": "joseastiarraga@barcock.com",
+    "web": "http://www.barcock.com/",
+    "categoria": "noche",
+    "fechaAlta": "2017-04-13T15:53:20Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Bodega La Ardosa",
+  "fields": {
+    "direccion": "Calle Col\u00f3n, 13 28004",
+    "descripcion": "<p>En 1892,<mark> Rafael Fern\u00e1ndez</mark> abri\u00f3 varias tabernas con el nombre de La Ardosa, en recuerdo del pueblo del mismo nombre de la provincia de Toledo. La de Malasa\u00f1a conserva todav\u00eda elementos de su decoraci\u00f3n original, como el r\u00f3tulo de cristal grabado, el z\u00f3calo de azulejos y el ventilador.</p>\r\n\r\n<p>La Ardosa se ha convertido en un lugar \u00fanico donde, durante estos a\u00f1os, han ido ense\u00f1ando a muchos aficionados a <ins>degustar cerveza de forma diferente</ins> y a muchos camareros a darle importancia a la forma de servirla.</p>\r\n\r\n<p>Ofrecen una <span class=\"text-success\">gran variedad de cervezas irlandesas a precios muy asequibles</span>, <em>vermouth de grifo, cervezas rubias, buenos vinos de la Ribera y de Rioja. Para picar ofrecen canap\u00e9s variados, salmorejo, salazones, cecina de Le\u00f3n o jam\u00f3n de pato</em>, pero, sobre todo, destaca su <strong>tortilla de patatas, la especialidad de la casa y una de las mejores de toda la capital.</strong></p>",
+    "imagen": "/images/gastro/laArdosa.jpg",
+    "telefono": "(+34) 91 521 49 79",
+    "email": "",
+    "web": "http://www.laardosa.es/",
+    "categoria": "tapeo",
+    "fechaAlta": "2017-04-13T15:10:05Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Cacao Sampaka",
+  "fields": {
+    "direccion": "Calle Orellana, 4 28004",
+    "descripcion": "<p>Cacao Sampaka naci\u00f3 para recuperar la cultura del cacao y el chocolate. Su materia prima es el mejor cacao de Venezuela y Ecuador, que se elabora de manera artesanal sin a\u00f1adir ning\u00fan aditivo.</p>\r\n\r\n<p>Adem\u00e1s de la tienda, donde se pueden encontrar diferentes y <em>sorprendentes mezclas y tipos de chocolates</em>, el local tiene una cafeter\u00eda donde degustar sus especialidades y sus deliciosos surtidos. Esta chocolater\u00eda gourmet tambi\u00e9n tiene tiendas en Barcelona, Valencia, Lisboa, Riyadh, Tokyo y Osaka.</p>",
+    "imagen": "/images/gastro/sampaka.jpg",
+    "telefono": "(+34) 91 319 58 40",
+    "email": "madrid-centro@cacaosampaka.com",
+    "web": "http://www.cacaosampaka.com",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:46:25Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Casa Labra",
+  "fields": {
+    "direccion": "Calle Tetu\u00e1n, 12 28013",
+    "descripcion": "<p>Esta antigua casa de comidas fue <strong>fundada en 1860</strong> en el n\u00famero 12 de la calle Tetu\u00e1n, en las inmediaciones de la Puerta del Sol. <ins>Su mayor reclamo lo constituyen las tapas, fundamentalmente de bacalao</ins>, en tajadas reci\u00e9n fritas y en croquetas. El local conserva su decoraci\u00f3n original, con una fachada curva adaptada a la estructura del edificio y un curioso cartel de cristal con el r\u00f3tulo del establecimiento.</p>\r\n\r\n<p>En su interior, adem\u00e1s de su mostrador de cinc y las tradicionales mesas de m\u00e1rmol, el visitante puede recrear la vista en las pintadas y numerosos refranes que hacen alusi\u00f3n a la historia del local. Y es que este restaurante ha pasado a la historia de Madrid porque en \u00e9l fund\u00f3 Pablo Iglesias, en la clandestinidad, el Partido Socialista Obrero Espa\u00f1ol, concretamente el 2 de mayo de 1879. Su evoluci\u00f3n ha llevado a sus actuales regentes, la familia Molina, a abrir un peque\u00f1o restaurante.</p>",
+    "imagen": "/images/gastro/casaLabra.jpg",
+    "telefono": "(+34) 91 531 00 81",
+    "email": "",
+    "web": "http://www.casalabra.es",
+    "categoria": "tapeo",
+    "fechaAlta": "2017-04-13T14:52:21Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Chocolat Factory",
+  "fields": {
+    "direccion": "Calle General Per\u00f3n, 40, local 36 28020",
+    "descripcion": "<p>La idea de esta cadena de tiendas con presencia en Madrid surgi\u00f3 de un arquitecto belga que creci\u00f3 rodeado de habas de cacao y que ha aportado a la cultura del chocolate imaginaci\u00f3n y creatividad para hacerlo objeto de deseo no s\u00f3lo para el paladar, sino tambi\u00e9n para la vista. Un para\u00edso junto al Santiago Bernabeu en la zona de Castellana.</p>\r\n\r\n<p><em>A partir de la mezcla de diferentes ingredientes, texturas y sabores</em>, Chocolat Factory ha conseguido crear <strong>56 variedades de bombones</strong>. Para ello utiliza cacao de Java, Venezuela o Sao Tom\u00e9, que tambi\u00e9n adopta formas tan diversas como una invitaci\u00f3n de boda, una cabeza, un animal, o puede ser bebido o transformado en deliciosa mousse para meter en el microondas, entre otras posibilidades.</p>\r\n\r\n<p>Algunos de los dise\u00f1os de sus productos, como <ins>The Tubes</ins>, han sido premiados en varios cert\u00e1menes y se presentan como el regalo perfecto para cualquier celebraci\u00f3n. Adem\u00e1s, ofrecen mezclas tan atrevidas como l\u00e1minas de chocolate con un toque de sal acompa\u00f1ado de vino, o la combinaci\u00f3n de cacao con mermelada de naranja, pera o casta\u00f1a.</p>",
+    "imagen": "/images/gastro/factory.jpg",
+    "telefono": "(+34) 91 417 99 98",
+    "email": "chocolatfactory@chocolatfactory.com",
+    "web": "http://www.chocolatfactory.com",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:50:12Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Chocolater\u00eda Valor",
+  "fields": {
+    "direccion": "Calle Ibiza, 33 28009",
+    "descripcion": "<p>Con todo el sabor de lo conocido, las chocolater\u00edas Valor <strong><ins>a\u00fanan tradici\u00f3n y vanguardia</ins></strong> en locales c\u00e1lidos y confortables en los que poder disfrutar de un buen <em>chocolate a la taza.</em></p>\r\n\r\n<p>Las cafeter\u00edas-chocolater\u00edas Valor no s\u00f3lo ofrecen chocolate, sino tambi\u00e9n otros productos. \u00c9sta en concreto tiene una bomboner\u00eda donde puedes adquirir todo tipo de exquisiteces realizadas con este producto y art\u00edculos para su preparaci\u00f3n y consumo. Cuenta con un reservado y dispone de WiFi en todo el local.</p>",
+    "imagen": "/images/gastro/valor.jpg",
+    "telefono": "(+34) 91 573 91 29",
+    "email": "chocolaterias@valor.es",
+    "web": "http://www.chocolateriasvalor.es",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:45:14Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Chocolater\u00eda de San Gin\u00e9s",
+  "fields": {
+    "direccion": "Pasadizo de San Gin\u00e9s, 5 28013",
+    "descripcion": "<p>Situado en uno de los pasadizos m\u00e1s antiguos de Madrid, entre Arenal y Mayor cerca de la puerta del Sol, era un mes\u00f3n y hospeder\u00eda que en 1894 se convertido en churrer\u00eda. El pasadizo era el lugar ideal para \u201cchoques de espadas\u201d con las que lavar la honra y el escenario que utiliz\u00f3 Valle-Incl\u00e1n para provocar el encarcelamiento de Max Estrella, all\u00e1 por 1920 en sus \u201cLuces de Bohemia\u201d.</p>\r\n\r\n<p>Su ubicaci\u00f3n junto al Teatro Eslava y la Iglesia de San Gin\u00e9s ha proporcionado durante muchos a\u00f1os una numerosa clientela que, tras la funci\u00f3n o la misa, tomaba un chocolate con churros. Su apertura hasta altas horas de la noche atra\u00eda a vividores, noct\u00e1mbulos, intelectuales y juerguistas, as\u00ed como a numerosos artistas, actores de cine y teatro, poetas y escritores, que encontraban aqu\u00ed un punto de encuentro. Hoy en d\u00eda sigue siendo un local muy frecuentado.</p>",
+    "imagen": "/images/gastro/sangines.jpg",
+    "telefono": "(+34) 91 365 65 46",
+    "email": "reservas@chocolateriasangines.com",
+    "web": "http://www.chocolateriasangines.com/",
+    "categoria": "varios",
+    "fechaAlta": "2017-04-13T15:44:13Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Corral de la Moreria",
+  "fields": {
+    "direccion": "Calle de la Moreria, 17, 28005 Madrid",
+    "descripcion": "<p>C\u00e9lebre tablao fundado en 1956 con espect\u00e1culo diario y platos espa\u00f1oles en un concurrido sal\u00f3n cl\u00e1sico.</p>",
+    "imagen": "/images/gastro/moreria.jpg",
+    "telefono": "91 365 11 37",
+    "email": "info@corraldelamoreria.com",
+    "web": "http://www.corraldelamoreria.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:28:24Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Cuenllas",
+  "fields": {
+    "direccion": "Calle Ferraz, 5, 28008 Madrid",
+    "descripcion": "<p>Tapas, vinos, aceites y conservas en un bar con tienda gourmet, decorado con columnas de hierro forjado.</p>",
+    "imagen": "/images/gastro/cuenllas.jpg",
+    "telefono": "91 559 17 05",
+    "email": "",
+    "web": "https://www.cuenllas.es/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:38:46Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "DRY Martini Bar",
+  "fields": {
+    "direccion": "Calle Hermosilla, 2 28001",
+    "descripcion": "<p>Desde el interior de un hotel cl\u00e1sico de Madrid, el Melia F\u00e9nix, el barman Javier de las Muelas conquista la capital con una sucursal de su famosa cocteler\u00eda barcelonesa, toda una <ins>referencia mundial en el arte de los c\u00f3cteles</ins>. La estrella, aqu\u00ed como en Barcelona, es el <em>Dry Martini</em>: <i>verm\u00fa seco y ginebra, bien agitados en una coctelera con hielo y servidos en una copa triangular (copa martini) con un toque c\u00edtrico y una aceituna como adorno</i>.</p>\r\n\r\n<p>El DRY Martini Bar by Javier de las Muelas est\u00e1 abierto los 365 d\u00edas del a\u00f1o y se puede beber en su terraza haga fr\u00edo o calor. En el interior, un sal\u00f3n de corte cl\u00e1sico, con mesas, sillones y sof\u00e1s en torno a una chimenea enmarcada por una librer\u00eda, ofrece una atm\u00f3sfera hogare\u00f1a y evoca la estancia de Los Beatles cuando actuaron en Madrid en 1965 y se hospedaron en este mismo hotel. Una larga barra de bar de diez metros de longitud, con espacios refrigerados para copas y botellas de destilados, licores y zumos conforman el espacio ideal para esta copa cl\u00e1sica.</p>",
+    "imagen": "/images/gastro/drymartiny.jpg",
+    "telefono": "(+34) 91 431 67 00",
+    "email": "drymartini@drymartinimad.com",
+    "web": "http://www.drymartiniorg.com/",
+    "categoria": "noche",
+    "fechaAlta": "2017-04-13T15:59:51Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "DiverXo",
+  "fields": {
+    "direccion": "Calle de Padre Damian, 23 Madrid",
+    "descripcion": "<p>Alta cocina internacional del reputado chef David Mu\u00f1oz en un espacio vanguardista con grandes ventanales.</p>",
+    "imagen": "/images/gastro/diverxo.jpg",
+    "telefono": "+34 915 70 07 66",
+    "email": "",
+    "web": "http://diverxo.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:15:46Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Dstage",
+  "fields": {
+    "direccion": "C/ Regueros,8, Madrid",
+    "descripcion": "<p>Restaurante de ambiente industrial-chic que ofrece men\u00fas degustaci\u00f3n creativos y talleres de cocina.</p>",
+    "imagen": "/images/gastro/dstage.jpg",
+    "telefono": "917 02 15 86",
+    "email": "info@dstageconcept.com",
+    "web": "http://www.dstageconcept.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:20:58Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "El Anciano Rey de los Vinos",
+  "fields": {
+    "direccion": "Calle Bail\u00e9n, 19 28005",
+    "descripcion": "<p>El joven matrimonio que regenta la taberna ha dado un toque de actualidad al men\u00fa de esta antigua taberna, pero conservando su ambiente castizo, de modo que ha sabido aunar con elegancia \u201clo viejo y lo nuevo\u201d de este lugar entra\u00f1able ubicado en una zona privilegiada frente a dos joyas madrile\u00f1as: el Palacio Real y la Catedral de la Almudena.</p>\r\n\r\n<p>El local es aproximadamente de 1886 y en \u00e9l estaba instalada una taberna t\u00edpica, Casa Pedro Mart\u00ednez, donde se vend\u00eda caf\u00e9 de puchero, aguardiente y t\u00e9. En 1909, se cede a Lu\u00eds Mont\u00f3n, que patenta las marcas de vino \u201cel Viejo\u201d, \u201clos Viejos\u201d y \u201cel Anciano Rey\u201d, de donde procede el nombre de la actual taberna, que, por cierto, sigue vendiendo dichos caldos, secos y dulces. Durante la \u00e9poca republicana hubo que eliminar del r\u00f3tulo y las mesas la palabra REY.</p>",
+    "imagen": "/images/gastro/reyVinos.jpg",
+    "telefono": "(+34) 91 559 53 32",
+    "email": "info@elancianoreydelosvinos.com",
+    "web": "http://www.elancianoreydelosvinos.es",
+    "categoria": "tapeo",
+    "fechaAlta": "2017-04-13T15:13:48Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "El Club Allard",
+  "fields": {
+    "direccion": "Calle Ferraz, 2, 28008 Madrid",
+    "descripcion": "</p>Tres exclusivas propuestas gastron\u00f3micas, espejos barrocos y salones refinados en la modernista Casa Gallardo.</p>",
+    "imagen": "/images/gastro/clubAllard.jpg",
+    "telefono": "915 59 09 39",
+    "email": "reservas@elcluballard.com",
+    "web": "http://www.elcluballard.com",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:24:14Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "El Tormo",
+  "fields": {
+    "direccion": "Traves\u00eda Vistillas, 13, 28005 Madrid",
+    "descripcion": "</p>Morteruelo, gachas, pisto y platos de cocina manchega tradicional en un sal\u00f3n familiar con azulejos pintados.</p>",
+    "imagen": "/images/gastro/tormo.jpg",
+    "telefono": "913 65 53 35",
+    "email": "",
+    "web": "http://www.mesoneltormo.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:30:57Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Josealfredo Bar",
+  "fields": {
+    "direccion": "Calle Silva, 22 28004",
+    "descripcion": "<p>Esta cocteler\u00eda de estilo americano es una de las m\u00e1s populares de Madrid. Situada en las inmediaciones de la Gran V\u00eda, ofrece una amplia variedad de combinados, bebidas de marcas premium y numerosas variedades de gin-tonics, su especialidad.</p>\r\n\r\n<p>Se encuentran en su carta cl\u00e1sicos de la cocteler\u00eda como el Manhattan, el Cosmopolitan o el Bloody Mary, que se acompa\u00f1an de otros creados por el propio establecimiento, tales como el Marlango, el Josealfredo o Los Jim\u00e9nez. Entre los gin-tonics, encontramos una oferta de cerca de 30 referencias.</p>\r\n\r\n<p>La atm\u00f3sfera de Josealfredo es acogedora, con una luz tenue que da ambiente a un local estrecho y largo, precedido por una larga barra que contin\u00faa en una sala de peque\u00f1as mesas y sof\u00e1s corridos de estilo retro. Completa este estilo relajado su fondo musical, en el que destaca el soul, el funky o el jazz reproducidos a un volumen suave que fomenta la conversaci\u00f3n.</p>",
+    "imagen": "/images/gastro/josealfredobar.jpg",
+    "telefono": "(+34) 91 521 49 60",
+    "email": "info@josealfredobar.com",
+    "web": "http://www.josealfredobar.com",
+    "categoria": "noche",
+    "fechaAlta": "2017-04-13T16:03:03Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Kabuki Wellington",
+  "fields": {
+    "direccion": "Calle de Vel\u00e1zquez, 6, 28001 Madrid",
+    "descripcion": "<p>Fusi\u00f3n de sabores japoneses y mediterr\u00e1neos en sal\u00f3n de un selecto hotel con mesas de m\u00e1rmol y barra de sushi.</p>",
+    "imagen": "/images/gastro/kabuki.jpg",
+    "telefono": "915 77 78 77",
+    "email": "info@grupokabuki.com",
+    "web": "https://www.restaurantekabuki.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:40:45Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "La Candela Rest\u00f3",
+  "fields": {
+    "direccion": "Calle de la Amnistia, 10, 28013 Madrid",
+    "descripcion": "<p>El men\u00fa cambia cada semana en este elegante local de platos de temporada creativos con inspiraci\u00f3n asi\u00e1tica.</p>",
+    "imagen": "/images/gastro/candela.jpg",
+    "telefono": "911 73 98 88",
+    "email": "",
+    "web": "http://lacandelaresto.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:33:10Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "La Casa del Abuelo",
+  "fields": {
+    "direccion": "Calle Victoria, 12 28012",
+    "descripcion": "<p>Como desde hace m\u00e1s de 100 a\u00f1os La Casa del Abuelo sigue sirviendo sus ya famosas gamas en pr\u00e1cticamente todas sus variedades, al ajillo: servidas en cazuelitas de barro, chisporroteantes de aceite ajo y perejil, a la plancha: en su  punto y con sal gorda, en gabardina y en banderillas, por supuesto siempre acompa\u00f1adas del vino dulce \u201cEl Abuelo\u201d o de nuestro vino de Toro.</p>\r\n\r\n<p>Hoy La Casa del Abuelo tiene tres sucursales: la m\u00e1s antigua es esta, en la calle Victoria 12, la segunda de ellas en la calle N\u00fa\u00f1ez de Arce 5 (ambas en el distrito de sol) y la tercera de ellas en la calle Goya 57, esta \u00faltima cuenta con terraza. En las dos \u00faltimas adem\u00e1s de las gambas se sirven mas de 30 tapas tradicionales de Madrid.</p>",
+    "imagen": "/images/gastro/casaAbuelo.jpg",
+    "telefono": "(+34) 91 000 01 33",
+    "email": "ewr@lacasadelabuelo.es",
+    "web": "http://www.lacasadelabuelo.es",
+    "categoria": "tapeo",
+    "fechaAlta": "2017-04-13T15:10:44Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "La Pajarita",
+  "fields": {
+    "direccion": "Calle Villanueva, 14 28001",
+    "descripcion": "La Pajarita fue fundada en 1852 en la Puerta del Sol, con el obrador bajo la tienda, por el bisabuelo del actual due\u00f1o. En 1969 se abri\u00f3 la sucursal de la calle Villanueva, frente al Museo Arqueol\u00f3gico y la Biblioteca Nacional, en el Barrio de Salamanca. Actualmente es el \u00fanico local que queda. Debe su nombre a la afici\u00f3n de los contertulios que frecuentaban los caf\u00e9s de la \u00e9poca, entre otros Miguel de Unamuno, a realizar pajaritas con servilletas de papel.\r\n\r\nSus productos, caramelos de diecis\u00e9is sabores y bombones, son artesanales. Tal era su fama que lleg\u00f3 incluso a dar nombre en 1913 a la protagonista de una zarzuela, publicada por Casa Dotesio, tan melosa y finolis que se pone de mote el nombre de la m\u00e1s famosa dulcer\u00eda de Madrid.",
+    "imagen": "/images/gastro/lapajarita.jpg",
+    "telefono": "(+34) 91 435 74 54",
+    "email": "",
+    "web": "http://bombonerialapajarita.es/",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:48:19Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "La Violeta",
+  "fields": {
+    "direccion": "Plaza Canalejas, 6 28014",
+    "descripcion": "Su fachada de madera recuerda a una antigua bomboner\u00eda y es como si por esta tienda de tradicionales dulces no hubiese pasado el tiempo. Dentro se venden paquetes y cajitas transparentes de violetas envueltos minuciosamente con un lazo.\r\n\r\nEstos caramelos, muy famosos hace a\u00f1os pues era el regalo habitual a los ni\u00f1os en cumplea\u00f1os y otros eventos sociales, no han perdido su esplendor en esta tienda, que garantiza su autenticidad y sabor especial. La violeta es un caramelo t\u00edpico de algunas zonas de Francia y su fabricaci\u00f3n es complicada, lo que la convierte en un codiciado y valioso dulce. Tambi\u00e9n cuentan con otras golosinas como violetas naturales escarchadas, frutas glaseadas, bombones, etc.",
+    "imagen": "/images/gastro/violeta.jpg",
+    "telefono": "(+34) 91 522 55 22",
+    "email": "",
+    "web": "https://www.lavioletaonline.es/",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:49:13Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Le Cabrera",
+  "fields": {
+    "direccion": "Calle B\u00e1rbara de Braganza, 2 28004",
+    "descripcion": "Este elegante local se define como cocteler\u00eda y gastrobar. Junto a una excelente oferta de c\u00f3cteles elaborada por los barmans del local,  su carta gastron\u00f3mica incluye tapas de dise\u00f1o como las ostras escabechadas, patatas bravas o tarrina de foie-gras de pato, y una selecci\u00f3n de platos elaborados seg\u00fan mercado por Benjamin Bensoussan. Por su parte, la selecci\u00f3n de c\u00f3cteles muestra desde cl\u00e1sicos como los famosos Cosmopolitan, Manhattan u Old Fashioned hasta creaciones propias como el Pompeya o el Fresh Ginger. \u00c9stos se toman en la barra de la planta baja del local, en un espacio m\u00e1s \u00edntimo.",
+    "imagen": "/images/gastro/cabrera.jpg",
+    "telefono": "(+34) 91 319 94 57",
+    "email": "",
+    "web": "",
+    "categoria": "noche",
+    "fechaAlta": "2017-04-13T16:01:18Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Lhardy",
+  "fields": {
+    "direccion": "Carrera San Jer\u00f3nimo, 8 28014",
+    "descripcion": "Creada en 1832 como pasteler\u00eda de productos t\u00edpicos suizos, por Eugenio Huguemei, es en 1839 cuando se ampl\u00eda su uso a restaurante. Situado en la Carrera de San Jer\u00f3nimo 8, es el primer comedor elegante de Madrid.\r\n\r\nEn sus salones se reun\u00edan pol\u00edticos e intelectuales, convirti\u00e9ndolo en el restaurante m\u00e1s veces citado en la literatura espa\u00f1ola. En sus elegantes salones se han decidido derrocamientos de reyes y pol\u00edticos, rep\u00fablicas, regencias y dictaduras.\r\n\r\nSu propietario tom\u00f3 el nombre del caf\u00e9 Hardy, de Par\u00eds. El secreto de sus platos era, y es, la combinaci\u00f3n perfecta entre europe\u00edsmo y tradici\u00f3n. Actualmente, ir a Lhardy es como hacer un viaje al pasado. Todo permanece inalterable al paso del tiempo, con su decoraci\u00f3n original, as\u00ed como la calidad de sus platos y servicio, incluido el samovar de plata en el que a\u00fan se mantiene el caldo caliente.",
+    "imagen": "/images/gastro/lhardy.jpg",
+    "telefono": "(+34) 91 522 22 07",
+    "email": "lhardy@lhardy.com",
+    "web": "http://www.lhardy.com",
+    "categoria": "tapeo",
+    "fechaAlta": "2017-04-13T15:14:30Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Madrid 1883",
+  "fields": {
+    "direccion": "Calle Esp\u00edritu Santo, 8 28004",
+    "descripcion": "Situada en el barrio de Malasa\u00f1a se encuentra la churrer\u00eda m\u00e1s antiguas de Madrid, donde se puede disfrutar de un tradicional chocolate con churros mientras se observa su proceso de elaboraci\u00f3n a trav\u00e9s de su cocina vista. \r\n\r\nChurreria 1883 es un local acogedor, con un ambiente que combina lo antiguo y lo moderno gracias a detalles como su falso lucernario, l\u00e1mparas de hierro y una gran ventana hacia la cocina y su m\u00e1quina de chocolate. En una zona de mesas altas con taburetes se sirven desayunos y meriendas que incluyen barritas con tomate y aceite o con jam\u00f3n, cruasanes, s\u00e1ndwiches, tostadas con mantequilla y mermelada o Nutella, napolitanas o gofres, entre otras deliciosas opciones.",
+    "imagen": "/images/gastro/1883.jpg",
+    "telefono": "(+34) 91 521 86 32",
+    "email": "mmm_496@hotmail.com",
+    "web": "",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:42:09Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Miyama",
+  "fields": {
+    "direccion": "Paseo de la Castellana, 45, 28046 Madrid",
+    "descripcion": "Madera de casta\u00f1o y dise\u00f1o minimalista en un elegante sal\u00f3n de cocina japonesa contempor\u00e1nea con sushi bar.",
+    "imagen": "/images/gastro/miyama.jpg",
+    "telefono": "91 391 00 26",
+    "email": "miyamaflorbaja@gmail.com",
+    "web": "http://www.restaurantemiyama.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:34:40Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Moulin Chocolat",
+  "fields": {
+    "direccion": "Calle Alcala, 77 28009",
+    "descripcion": "Ricardo V\u00e9lez, due\u00f1o y pastelero, se ha dejado seducir por la influencia francesa y de su obrador salen delicias que parecen directamente tra\u00eddas del pa\u00eds galo, como los croissants y brioches hechos con mantequilla o las tarrinas de helado con salsa de chocolate y trocitos.\r\n\r\nTambi\u00e9n ofrece bombones diversos, como el de Malvas\u00eda que ha creado en colaboraci\u00f3n con Freixenet, las tabletas, el cacao en polvo, las tartas o los postres. De otro vecino europeo, de Italia, ha tomado la idea para sus famosos panetones, una de sus se\u00f1as de identidad junto con los roscones de reyes que prepara cada fin de semana.",
+    "imagen": "/images/gastro/moulin.jpg",
+    "telefono": "(+34) 91 431 81 45",
+    "email": "marketing@moulinchocolat.com",
+    "web": "http://www.moulinchocolat.com",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:51:11Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Museo Chicote",
+  "fields": {
+    "direccion": "Calle Gran V\u00eda, 12 28013",
+    "descripcion": "Esta m\u00edtica cocteler\u00eda situada en la Gran V\u00eda ha sabido conservar lo mejor de su historia, llena de glamour y encanto, sin perder el tren de la modernidad que se deja ver ahora en un estimulante juego de luces que cambia seg\u00fan el momento del d\u00eda y una cabina donde el dj pincha sus temas musicales.\r\n\r\nEl Museo Chicote, templo del c\u00f3ctel madrile\u00f1o indiscutible, se mantiene igual desde 1931. Ah\u00ed siguen los mismos sof\u00e1s que en su \u00e9poca usaron Ava Gardner o Grace Kelly y las sillas de metal cromado de los a\u00f1os 50 donde seguramente se sentaron Bette Davis o Frank Sinatra.\r\n\r\nLa lista de personajes ilustres del cine, el teatro, la m\u00fasicay  la literatura que han atravesado sus puertas es casi infinita. Tal era la fama de los c\u00f3cteles de Chicote. Y hoy en d\u00eda as\u00ed contin\u00faa, sin Chicote, pero como en sus or\u00edgenes, con ese toque canalla y, a la vez, glamouroso. Unos c\u00f3cteles que quitan el hipo y muchas cosas m\u00e1s, un ambiente exquisito, tranquilo, moderno y con encanto y un p\u00fablico de lo mas variado que mantiene el gusto por la buena m\u00fasica y, claro est\u00e1, por sus combinados.",
+    "imagen": "/images/gastro/museochicote.jpg",
+    "telefono": "(+34) 91 532 67 37",
+    "email": "info@museo-chicote.com",
+    "web": "http://grupomercadodelareina.com/es/museo-chicote/",
+    "categoria": "noche",
+    "fechaAlta": "2017-04-13T16:02:03Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Ocumare",
+  "fields": {
+    "direccion": "Calle Ferrer del R\u00edo, 7 28028",
+    "descripcion": "Antonio S\u00e1nchez y Francisco L\u00f3pez son los due\u00f1os y mentores de Ocumare, una tienda de chocolate donde \u00e9ste se puede tomar y comprar.\r\n\r\nEl chocolate caliente se hace con un mimo especial y su tarta Sacher es antol\u00f3gica, una aut\u00e9ntica tentaci\u00f3n. En bombones, los de la roquita suiza y de naranja confitada han conquistado, con raz\u00f3n, a buena parte de la clientela.",
+    "imagen": "/images/gastro/ocumare.jpg",
+    "telefono": "(+34) 91 361 22 23",
+    "email": "info@ocumarechoc.com",
+    "web": "http://www.ocumarechoc.com",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:47:20Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Oriol Balaguer",
+  "fields": {
+    "direccion": "Calle Ortega y Gasset, 44 28006",
+    "descripcion": "Jugar con las formas, crear nuevos dise\u00f1os y texturas, ofrecer sorprendentes sabores al paladar... son algunas de las se\u00f1as de identidad que le caracterizan. Vista y gusto son los dos sentidos que Balaguer busca provocar con sus creaciones y, para ello, utiliza el mejor cacao que ofrece el mercado y lo combina con otras materias primas como aguardientes, especias, hierbas y frutas para lograr como resultado final una completa y variada colecci\u00f3n gastron\u00f3mica.\r\n\r\nSu bomboner\u00eda se define por una presentaci\u00f3n vanguardista que destaca por la originalidad de sus formas, texturas y aromas. La presentaci\u00f3n de sus creaciones se realiza en diversas colecci\u00f3n: Nip\u00f3n, Chocotube, bolas del Mundo Mundial, Huevos de Pascua, T\u2019Estimo, El Juego del Chocolate y las pastillas de diferentes cacaos y composiciones. Asimismo, su carta de postres y pasteles se renueva dos veces al a\u00f1o con las colecciones Primavera-Verano y Oto\u00f1o-Invierno.",
+    "imagen": "/images/gastro/oriol.jpg",
+    "telefono": "(+34) 91 401 64 63",
+    "email": "consultas@oriolbalaguer.com",
+    "web": "http://www.oriolbalaguer.com",
+    "categoria": "dulce",
+    "fechaAlta": "2017-04-13T15:52:16Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Ramon Freixa Madrid",
+  "fields": {
+    "direccion": "Calle de Claudio Coello, 67, 28001 Madrid",
+    "descripcion": "<p>Recetas innovadoras en el sal\u00f3n con espejo cenital y jard\u00edn del palacio del s. XIX que alberga el hotel \u00danico.</p>",
+    "imagen": "/images/gastro/ramonfreixa.jpg",
+    "telefono": "(+34) 91 781 82 62",
+    "email": "info@ramonfreixamadrid.com",
+    "web": "http://www.ramonfreixamadrid.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:27:08Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Sacha",
+  "fields": {
+    "direccion": "Calle de Juan Hurtado de Mendoza, 11, 28036 Madrid",
+    "descripcion": "<p>Creaciones del chef, alta cocina fusi\u00f3n, ambiente gourmet y amplia botiller\u00eda en un sal\u00f3n \u00edntimo con terraza.</p>",
+    "imagen": "/images/gastro/sacha.jpg",
+    "telefono": "913 45 59 52",
+    "email": "",
+    "web": "",
+    "categoria": "varios",
+    "fechaAlta": "2017-04-13T15:30:09Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Santceloni",
+  "fields": {
+    "direccion": "Paseo de la Castellana, 57, 28046 Madrid",
+    "descripcion": "<p>Alta cocina espa\u00f1ola de autor con extensa carta de quesos y vinos en el elegante comedor de un hotel selecto.</p>",
+    "imagen": "/images/gastro/santceloni.jpg",
+    "telefono": "912 10 88 40",
+    "email": "",
+    "web": "http://www.restaurantesantceloni.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:25:29Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Soho",
+  "fields": {
+    "direccion": "Calle Jorge Juan , 50 28001",
+    "descripcion": "<p>Hay quien dice que aqu\u00ed se preparan los mejores c\u00f3cteles de Madrid, pero no podemos olvidar que adem\u00e1s ofrecen comida americana y tex-mex: hamburguesas, burritos, nachos y costillas. Comida popular elaborada cuidando al m\u00e1ximo la calidad de las materias primas.</p>",
+    "imagen": "/images/gastro/soho.jpg",
+    "telefono": "(+34) 91 577 89 73",
+    "email": "deldiegococtelbar@gmail.com",
+    "web": "http://sohorestaurante.com/",
+    "categoria": "noche",
+    "fechaAlta": "2017-04-13T15:56:47Z"
+  }
+},
+{
+  "model": "web.local",
+  "pk": "Vinoteca Morat\u00edn",
+  "fields": {
+    "direccion": "Calle de Morat\u00edn, 36, 28014 Madrid",
+    "descripcion": "<p>Bistr\u00f3 especializado en vino y platos de mercado, con una elegante y c\u00e1lida decoraci\u00f3n con toques rurales.</p>",
+    "imagen": "/images/gastro/vinotecaMoratin.jpg",
+    "telefono": "911 27 60 85",
+    "email": "contacto@vinotecamoratin.com",
+    "web": "https://www.vinotecamoratin.com/",
+    "categoria": "comer",
+    "fechaAlta": "2017-04-13T15:22:45Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Auditorio Nacional de M\u00fasica",
+  "fields": {
+    "direccion": "Calle Pr\u00edncipe de Vergara, 146 28002",
+    "descripcion": "El Auditorio Nacional de M\u00fasica es un organismo dependiente del Instituto Nacional de las Artes Esc\u00e9nicas y de la M\u00fasica (Ministerio de Educaci\u00f3n, Cultura y Deporte) y est\u00e1 situado en las proximidades del barrio de Salamanca.\r\n\r\nObra del arquitecto Jos\u00e9 M\u00aa Garc\u00eda de Paredes, fue inaugurado el 21 de octubre de 1988 y su construcci\u00f3n fue programada dentro del Plan Nacional de Auditorios, destinado a dotar al pa\u00eds de una adecuada infraestructura musical.\r\n\r\nEl ANM desarrolla una importante actividad en el mundo de la m\u00fasica, poniendo sus instalaciones a disposici\u00f3n de personas y entidades, p\u00fablicas o privadas, para la realizaci\u00f3n de actividades musicales. Sus dos salas de conciertos, Sinf\u00f3nica y de C\u00e1mara, con una capacidad de 2.324 y 692 localidades, respectivamente, permiten celebrar hasta cuatro conciertos diarios, en sesiones de tarde y noche. Aqu\u00ed tienen su sede la Orquesta y Coro Nacionales de Espa\u00f1a y la Joven Orquesta Nacional de Espa\u00f1a.",
+    "imagen": "/images/turismo/auditorioNacional.jpg",
+    "categoria": "auditorio",
+    "fechaAlta": "2017-04-11T11:01:32Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Campo del Moro",
+  "fields": {
+    "direccion": "Paseo Virgen del Puerto, s/n 28005",
+    "descripcion": "Impulsado en el siglo XIX por la Reina Mar\u00eda Cristina, nos encontramos con un fabuloso jard\u00edn de estilo ingl\u00e9s decimon\u00f3nico siguiendo el concepto rom\u00e1ntico de la naturaleza.\r\n\r\nLos terrenos del Campo del Moro no fueron ajardinados antes ante la imposibilidad de conectarlos con el Palacio Real, situado a mucha mayor altura. Esta posici\u00f3n elevada se aprovech\u00f3 para crear una de las mejores perspectivas madrile\u00f1as, la del Palacio Real detr\u00e1s de un gran tapiz verde jalonado por fuentes monumentales dentro de un amplio y sombr\u00edo jard\u00edn rom\u00e1ntico. Los jardines cuentan con dos fuentes neocl\u00e1sicas: la de los Tritones y la del Palacio de las Conchas.",
+    "imagen": "/images/turismo/campoMoro.jpg",
+    "categoria": "parque",
+    "fechaAlta": "2017-04-11T10:55:08Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Casa de Bamb\u00fa",
+  "fields": {
+    "direccion": "Calle de los Clarinetes, 9-21 28044",
+    "descripcion": "Obra de Alejandro Zaera y Farshid Moussavi; el nombre de este edificio se debe a que un revestimiento de bamb\u00fa - a modo de celos\u00eda m\u00f3vil o biombo que puede desplazarse a lo largo de la fachada - protege a los habitantes de esta casa del duro sol de la meseta castellana. Adem\u00e1s, una instalaci\u00f3n de energ\u00eda solar t\u00e9rmica provee al edificio de agua caliente. Se trata de un edificio respetuoso con el entorno, que otorga personalidad al nuevo Carabanchel.",
+    "imagen": "/images/turismo/bambu.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T10:58:20Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Casa de Campo",
+  "fields": {
+    "direccion": "Paseo Puerta del \u00c1ngel, 1 28011",
+    "descripcion": "Sus 1722,60 hect\u00e1reas convierten este espacio natural en el mayor parque p\u00fablico de Madrid. La historia de la Casa de Campo comenz\u00f3 con la decisi\u00f3n de Felipe II de trasladar la Corte a Madrid y residir en ella. El rey comienza a formar una finca que un\u00eda el Palacio con el cazadero de El Pardo. Alrededor de este n\u00facleo se ir\u00e1n agregando fincas de labor y campos comprados a los colindantes.\r\n\r\nCon Fernando VI este sitio se declar\u00f3 Bosque Real. Dada la finalidad cineg\u00e9tica y campestre de la finca y la proximidad de Palacio, la primitiva casa de campo de los Vargas se ampl\u00eda para acoger los aposentos reales para estos menesteres. Carlos III le dar\u00e1 un nuevo rumbo introduciendo ganader\u00eda y agricultura entre sus fines, que ser\u00edan continuados por la Reina Mar\u00eda Cristina.\r\n\r\nTras la proclamaci\u00f3n de la Segunda Rep\u00fablica, fue cedida por el Estado al pueblo de Madrid (1 de mayo de 1931), estando desde entonces abierta al p\u00fablico. Durante la guerra civil fue frente de batallas y bombardeos que afectaron a sus construcciones antiguas e hicieron aparecer nuevas construcciones militares, que a\u00fan se pueden ver.\r\n\r\nEn su interior se encuentran situadas diversas instalaciones, como el Parque de Atracciones, el Zool\u00f3gico, el Telef\u00e9rico (que conecta la Casa de Campo con el Parque del Oeste, al otro lado del r\u00edo Manzanares), recintos feriales, el pabell\u00f3n multiusos Madrid Arena, la Venta del Bat\u00e1n (lugar tradicional de encierro de los toros en los d\u00edas previos a su lidia en la Plaza de Toros de Las Ventas) y diferentes instalaciones deportivas populares.",
+    "imagen": "/images/turismo/casaCampo.jpg",
+    "categoria": "parque",
+    "fechaAlta": "2017-04-11T10:55:46Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "El Rastro",
+  "fields": {
+    "direccion": "Plaza de Cascorro, 28012",
+    "descripcion": "Siempre repleto de madrile\u00f1os y turistas, es una de las citas imprescindibles si se visita la ciudad en domingo o festivo. Ubicado en el barrio de La Latina, en el entorno de la Ribera de Curtidores, con la plaza de Cascorro como centro neur\u00e1lgico, el mercado engloba una gran manzana casi triangular delimitada por las calles de Toledo, Embajadores y Ronda de Toledo y se extiende por otras como San Cayetano, Fray Ceferino Gonz\u00e1lez, Carlos Arniches, Mira el R\u00edo o las plazas de General Vara del Rey y de Campillo del Mundo Nuevo.\r\n\r\nSeg\u00fan por qu\u00e9 zona paseemos, encontraremos diferentes art\u00edculos, desde artesan\u00eda, ropa y complementos, hasta art\u00edculos de cocina, discos y revistas de segunda mano, mascotas y objetos de todo tipo de distinta antig\u00fcedad. Antig\u00fcedades y almoneda es lo que abunda en los locales de alrededor, que hoy en d\u00eda se completan con los nuevos establecimientos de objetos y mobiliario vintage.\r\n\r\nSe cree que el rastro que dejaban los cuerpos de los animales procedentes del matadero y las tener\u00edas de la zona dio nombre a este mercado. Hoy acoge la oferta de m\u00e1s de 1.000 vendedores que domingos y festivos comienzan en torno a las nueve de la ma\u00f1ana una jornada que durar\u00e1 aproximadamente hasta las 3 de la tarde.\r\n\r\nLa visita t\u00edpica suele terminar con el aperitivo en los bares y tascas de la zona, donde se toma un vino, cerveza o verm\u00fa de grifo con, por ejemplo, una tapa de paella o un bocadillo de calamares en calles como Ribera de Curtidores y aleda\u00f1os.",
+    "imagen": "/images/turismo/rastro.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T11:00:33Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "El \u00c1ngel Ca\u00eddo",
+  "fields": {
+    "direccion": "Glorieta del \u00c1ngel Ca\u00eddo (Parque del Buen Retiro), 28014",
+    "descripcion": "Se dice a menudo que Madrid es la \u00fanica ciudad del mundo con un monumento al Diablo. Se trata, en realidad, de una fuente que representa al \u00c1ngel Ca\u00eddo en el momento de ser expulsado del Para\u00edso.\r\n\r\nLa escultura, ubicada en el Parque de El Retiro, es obra de Ricardo Bellver, que la esculpi\u00f3 en 1878 para la Exposici\u00f3n Universal de Par\u00eds de ese mismo a\u00f1o. Posteriormente, fue adquirida por el Ayuntamiento de Madrid, que encarg\u00f3 al arquitecto Francisco Jare\u00f1o el dise\u00f1o de un pedestal. \u00c9ste se ejecut\u00f3 en granito, bronce y piedra, adoptando la estructura de una fuente con un amplio pil\u00f3n. El conjunto fue inaugurado oficialmente en 1885.",
+    "imagen": "/images/turismo/angelCaido.jpg",
+    "categoria": "varios",
+    "fechaAlta": "2017-04-11T10:53:53Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Fuente de Cibeles",
+  "fields": {
+    "direccion": "Plaza de Cibeles, s/n 28014",
+    "descripcion": "La Fuente de Cibeles, construida en 1782 y desde 1895 en su actual emplazamiento, ha terminado prestando su nombre a una de las plazas m\u00e1s emblem\u00e1ticas de Madrid y se ha convertido en un s\u00edmbolo de la capital. La fuente representa a la diosa romana del mismo nombre, s\u00edmbolo de la tierra, la agricultura y la fecundidad, sobre un carro tirado por leones.\r\n\r\nEst\u00e1 situada en el centro de la plaza a la que da nombre y rodeada por los edificios del Palacio de Buenavista (Cuartel General del Ej\u00e9rcito), Palacio de Linares (Casa de Am\u00e9rica), Palacio de Comunicaciones (antes sede de Correos y actualmente del Ayuntamiento de Madrid) y Banco de Espa\u00f1a. La diosa y los leones fueron esculpidos en m\u00e1rmol c\u00e1rdeno del pueblo de Montesclaros (Toledo) y el resto en piedra de Redue\u00f1a, localidad enclavada a 53 kil\u00f3metros al norte de Madrid, cerca de la sierra de la Cabrera.\r\n\r\nLa figura principal de la diosa Cibeles es obra del escultor Francisco Guti\u00e9rrez. Dos leones, esculpidos por el franc\u00e9s Roberto Michel, tiran del carro. Los leones representan a los personajes mitol\u00f3gicos Hip\u00f3menes y Atalanta. La fuente no s\u00f3lo era un monumento art\u00edstico, sino que tuvo desde el principio una utilidad para los madrile\u00f1os. Ten\u00eda dos ca\u00f1os de agua que se mantuvieron abiertos hasta 1862. De uno se surt\u00edan los aguadores oficiales, que sol\u00edan ser asturianos y gallegos, y llevaban el agua hasta las casas y, del otro, se abastec\u00eda el p\u00fablico general. Del pil\u00f3n beb\u00edan las caballer\u00edas.\r\n\r\nLa diosa tambi\u00e9n es un icono de los seguidores del equipo de f\u00fatbol Real Madrid, ya que con ella se celebran los t\u00edtulos del equipo madrile\u00f1o, al igual que los \u00e9xitos de la Selecci\u00f3n Espa\u00f1ola de F\u00fatbo",
+    "imagen": "/images/turismo/cibeles.jpg",
+    "categoria": "fuente",
+    "fechaAlta": "2017-04-11T10:53:07Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Fuente de Neptuno",
+  "fields": {
+    "direccion": "Plaza C\u00e1novas del Castillo, s/n 28014",
+    "descripcion": "Junto a Cibeles, Neptuno es una de las fuentes m\u00e1s bellas y majestuosas de Madrid. Ambos dioses ocupan puestos prominentes dentro de la jerarqu\u00eda mitol\u00f3gica griega y rivalizan en el terreno deportivo, ya que la afici\u00f3n del Atl\u00e9tico de Madrid celebra sus victorias en la plaza del dios del mar, mientras que la del Real Madrid lo hace en la de Cibeles.\r\n\r\nComo parte del proyecto original de Ventura Rodr\u00edguez, ambas fuentes fueron, en un principio, enfrentadas, mir\u00e1ndose la una a la otra en un lateral del Paseo del Prado. Tanto Cibeles como Neptuno experimentaron a finales del siglo XIX procesos de reestructuraci\u00f3n y traslado, pasando finalmente a ocupar el centro de las plazas de la Cibeles y de C\u00e1novas del Castillo, respectivamente.\r\n\r\nLa paternidad de la escultura no est\u00e1 muy clara, ya que fue encargada a Juan Pascual de Mena, escultor que muri\u00f3 antes de completarla; sin embargo, existen documentos que acreditan que la obra fue continuada por su disc\u00edpulo Jos\u00e9 Arias. En cuanto al conjunto monumental, sobre una base rocosa emerge la carroza con forma de concha, tirada por los dos hipocampos, s\u00edmbolos de las tormentas y del mar agitado. La obra representa al dios del mar, con su tridente, sobre un carro en forma de concha tirado por dos caballos marinos.\r\n\r\nCon la fuente de Apolo, o de las Cuatro Estaciones, y la de Cibeles, formaba parte de la decoraci\u00f3n para el Sal\u00f3n del Prado, proyectado por Carlos III. La Plaza de Neptuno ocupa un lugar central en el Paseo del Prado y en ella se sit\u00faan el Hotel Palace y el Hotel Ritz, dos de los hoteles con m\u00e1s historia de Madrid.",
+    "imagen": "/images/turismo/neptuno.jpg",
+    "categoria": "fuente",
+    "fechaAlta": "2017-04-11T10:53:30Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Jardines de Sabatini",
+  "fields": {
+    "direccion": "Calle Bail\u00e9n, 2 28013",
+    "descripcion": "Jardines de tipo clasicista creados en los a\u00f1os treinta en el lugar que ocupaban las caballerizas construidas por Sabatini para el Palacio Real, de ah\u00ed el nombre. Situados frente a la fachada norte del Palacio Real y promovidos durante la Segunda Rep\u00fablica, los jardines se terminaron de construir tras la Guerra Civil.\r\n\r\nSu car\u00e1cter arquitect\u00f3nico y ornamental como extensi\u00f3n del Palacio Real aument\u00f3 al disponerse en ellos varias de las esculturas que estaban destinadas a decorar la cornisa del Palacio. De dise\u00f1o geom\u00e9trico, su privilegiada situaci\u00f3n los convierten en uno de los jardines m\u00e1s bellos del Madrid de los Austrias.\r\n\r\nSi bien son espectaculares a cualquier hora del d\u00eda, es al caer la noche cuando alcanzan su grado m\u00e1ximo de espectacularidad, pues nos encontramos en uno de los mejores lugares de Madrid para presenciar el crep\u00fasculo. Desde el gran estanque rectangular del centro del Jard\u00edn, rodeado por fuentes, \u00e1rboles y esculturas de m\u00e1rmol blanco, el visitante podr\u00e1 contemplar c\u00f3mo los tonos amarillos y rojizos cambian las tonalidades de las piedras gris\u00e1ceas del Palacio y ver\u00e1 finalmente el sol esconderse tras la perspectiva de la Casa de Campo.",
+    "imagen": "/images/turismo/sabatini.jpg",
+    "categoria": "parque",
+    "fechaAlta": "2017-04-11T10:54:21Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Madrid R\u00edo",
+  "fields": {
+    "direccion": "Puente de Segovia, s/n 28005",
+    "descripcion": "Madrid R\u00edo es un enorme enclave l\u00fadico y cultural tanto por los monumentos hist\u00f3ricos e instalaciones de ocio y cultura que alberga, como por ser punto de referencia desde el que poder contemplar y entrar en contacto con  el Madrid monumental.\r\n\r\nDesde el punto de vista l\u00fadico el nuevo ordenamiento de la ribera del Manzanares ofrece un marco extraordinario para pasar un buen rato en familia. Los ni\u00f1os se lo pasan en grande en las 17 \u00e1reas de juegos infantiles que podemos encontrar a lo largo del Sal\u00f3n de Pinos, todas ellas con columpios fabricados con materiales sostenibles y naturales como la madera y la cuerda de c\u00e1\u00f1amo, que forman telas de ara\u00f1a, hamacas, puentes colgantes o lianas para trepar. Cada zona tiene caracter\u00edsticas diferentes seg\u00fan edades, por ello hay zonas habilitadas para ni\u00f1os de corta edad y otras para m\u00e1s mayores que se basan en la habilidad, el equilibrio y la fuerza.\r\n\r\nPero tambi\u00e9n se trata de un espacio donde los adultos podr\u00e1n disfrutar de una gran oferta cultural con circuitos biosaludables, pistas de petanca, mesas de juegos y un  Centro de Interpretaci\u00f3n del R\u00edo Manzanares. Desde todas las actividades culturales (exposiciones, festivales musicales, obras de teatro...) que se llevan a cabo en Matadero Madrid, pasando por los puentes de nueva \u2013y bella- construcci\u00f3n. En Madrid R\u00edo est\u00e1 tambi\u00e9n la Explanada del Puente del Rey, donde la selecci\u00f3n espa\u00f1ola de f\u00fatbol celebr\u00f3 su victoria en el Mundial de F\u00fatbol de Sud\u00e1frica en 2010.",
+    "imagen": "/images/turismo/madridRio.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T10:56:17Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Museo Reina Sof\u00eda",
+  "fields": {
+    "direccion": "Calle Santa Isabel, 52 28012",
+    "descripcion": "En uno de los v\u00e9rtices del Paseo del Arte, el Museo Nacional Centro de Arte Reina Sof\u00eda re\u00fane obras de Dal\u00ed, Mir\u00f3 y Juan Gris en torno a El Guernica de Picasso. \r\n\r\nEste apasionante recorrido por la historia del arte contempor\u00e1neo espa\u00f1ol est\u00e1 dividido en tres itinerarios distintos: \"La irrupci\u00f3n del siglo XX: utop\u00edas y conflictos (1900-1945)\", \"\u00bfLa guerra ha terminado? Arte para un mundo dividido (1945-1968)\" y \"De la revuelta a la posmodernidad (1962-1982)\". La estrella del museo, El Guernica, es uno de los cuadros m\u00e1s importantes de Pablo Picasso. Expuesto por el gobierno de la Rep\u00fablica en la Exposici\u00f3n Internacional de Par\u00eds de 1937, este mural expresa el dolor de las v\u00edctimas del bombardeo de Guernica el 27 de abril de 1937.",
+    "imagen": "/images/turismo/ReinaSofia.jpg",
+    "categoria": "museo",
+    "fechaAlta": "2017-04-11T10:57:51Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Museo del Prado",
+  "fields": {
+    "direccion": "Paseo del Prado, s/n 28014",
+    "descripcion": "El Museo Nacional del Prado preside uno de los itinerarios tur\u00edsticos m\u00e1s visitados de la capital: el Paseo del Arte. Adem\u00e1s de Las meninas de Vel\u00e1zquez y de Los fusilamientos del 3 de mayo de Goya, en sus salas pueden verse obras maestras de las escuelas espa\u00f1ola, italiana y flamenca. El Prado cuenta con una valiosa colecci\u00f3n de 8.600 cuadros y m\u00e1s de 700 esculturas. Es recomendable consultar una gu\u00eda y preparar la visita antes de entrar en el museo.\r\n\r\nEl Museo del Prado tiene la colecci\u00f3n de pintura espa\u00f1ola m\u00e1s completa del mundo. El viaje puede comenzar en el siglo XI, delante de los murales moz\u00e1rabes de la iglesia de San Baudelio de Berlanga. A continuaci\u00f3n, las obras de Bartolom\u00e9 Bermejo, Pedro Berruguete, Juan de Juanes o Luis de Morales trazan el arco que va de la pintura g\u00f3tica hispano-flamenca al Renacimiento. Las salas dedicadas a El Greco conservan algunas de las pinturas m\u00e1s singulares del autor, como El caballero de la mano en el pecho o la Sant\u00edsima Trinidad.\r\n\r\nEl Siglo de Oro est\u00e1 ampliamente representado con obras de Ribera, Zurbar\u00e1n y Murillo, que nos ayudan a comprender el contexto en el que surge la pintura de Vel\u00e1zquez, cuyas obras m\u00e1s importantes, como Las meninas o Las hilanderas, pueden verse en el museo. A caballo entre el siglo XVIII y el siglo XIX, las salas de Goya muestran desde los cartones que hizo para la Real F\u00e1brica de Tapices a Las pinturas negras con las que el artista cubri\u00f3 los muros de su casa, La Quinta del Sordo. Tambi\u00e9n hay salas dedicadas a la pintura del siglo XIX, con obras de Fortuny, los Madrazo y Sorolla.",
+    "imagen": "/images/turismo/Prado.jpg",
+    "categoria": "museo",
+    "fechaAlta": "2017-04-11T10:56:39Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Palacio Real",
+  "fields": {
+    "direccion": "Calle Bail\u00e9n , s/n 28013",
+    "descripcion": "Morada regia desde Carlos III hasta Alfonso XIII, el Palacio Real de Madrid nos propone un viaje por la Historia de Espa\u00f1a. Aunque no est\u00e1 habitado por los actuales monarcas, el recinto es la residencia oficial de los reyes.\r\n\r\nMucho antes de que Madrid fuera capital de Espa\u00f1a, el emir Mohamed I construy\u00f3 en Magerit (nombre \u00e1rabe de la ciudad) una alcazaba para defender Toledo del avance de los cristianos. Dicha edificaci\u00f3n fue utilizada de forma eventual por los reyes de Castilla hasta que en el siglo XIV se transform\u00f3 en lo que se conocer\u00e1 como Antiguo Alc\u00e1zar. Carlos I y su hijo Felipe II convirtieron la fortaleza en residencia permanente de los monarcas. Pero en el a\u00f1o 1734 un incendio arras\u00f3 el edificio y sobre sus restos Felipe V mand\u00f3 construir el palacio actual.\r\n\r\nAunque en primer lugar se lo encarga a Filippo Juvara, ser\u00e1 su disc\u00edpulo, Juan Bautista Sachetti, quien se ocupe de realizar los planos definitivos tras la muerte del primero. Transcurren diecisiete a\u00f1os desde que se pone la primera piedra, en 1738, hasta que se terminan las obras encargadas por Felipe V. Ser\u00e1 Carlos III -conocido con el sobrenombre de \"el rey alcalde\" por la gran cantidad de reformas e iniciativas que desarroll\u00f3 en la ciudad-, el primer monarca que viva en el palacio y quien se ocupe de completar la decoraci\u00f3n. Sus sucesores, Carlos IV  - a quien se debe la creaci\u00f3n del Sal\u00f3n de Espejos- y Fernando VII, a\u00f1adieron al conjunto objetos de car\u00e1cter decorativo, como relojes, muebles, ara\u00f1as o candelabros.\r\n\r\nEl edificio se inspira en los bocetos realizados por Bernini para la construcci\u00f3n del Louvre de Par\u00eds. Se articula en torno a un patio cuadrado y cuenta con una galer\u00eda y una Plaza de Armas, donde se sit\u00faa la fachada principal del palacio. Tanto la decoraci\u00f3n de cada sala, como su distribuci\u00f3n han ido cambiando a lo largo de los a\u00f1os, adapt\u00e1ndose a las necesidades de sus reales inquilinos.\r\n\r\nEntre las m\u00e1s de 3.000 estancias del Palacio Real de Madrid destacan la Escalera Principal, dise\u00f1ada por Sabatini y con m\u00e1s de 70 pelda\u00f1os, El Sal\u00f3n del Trono, con un techo pintado por Ti\u00e9polo, El Sal\u00f3n de Alabarderos, el sal\u00f3n de baile que Carlos III reconvirti\u00f3 en Sala de Guardias, la Salita Gasparini, con una profusa decoraci\u00f3n a base de elementos vegetales, la Real Farmacia -que conserva armarios para las plantas medicinales, recipientes de cer\u00e1mica, frascos de la f\u00e1brica de La Granja e incluso las recetas que se dispensaban a la Familia Real-, y la Capilla Real, a la que pertenece una colecci\u00f3n de instrumentos de cuerda fabricada por el m\u00edtico Antonio Stradivari.",
+    "imagen": "/images/turismo/palacioReal.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T10:58:42Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Parque de El Retiro",
+  "fields": {
+    "direccion": "Plaza de la Independencia, 7 28014",
+    "descripcion": "Con 125 hect\u00e1reas y m\u00e1s de 15.000 \u00e1rboles, el parque de El Retiro es un remanso verde en el centro de Madrid. Especial atenci\u00f3n merecen algunos de sus jardines: el jard\u00edn de Vivaces, los jardines de Cecilio Rodr\u00edguez (jardines clasicistas con aires andaluces), los jardines del Arquitecto Herrero Palacios, la Rosaleda (colecci\u00f3n de rosas) y el Parterre Franc\u00e9s con el Cipr\u00e9s Calvo, el \u00e1rbol m\u00e1s antiguo de Madrid, del que se dice que podr\u00eda tener alrededor de 400 a\u00f1os.\r\n\r\nNo es solo uno de los pulmones de Madrid, sino que ofrece tambi\u00e9n cultura, ocio y deporte a madrile\u00f1os y visitantes. Entre sus elementos arquitect\u00f3nicos e hist\u00f3ricos m\u00e1s importantes se encuentran: el Estanque Grande donde se puede practicar el remo, el Palacio de Vel\u00e1zquez y el Palacio de Cristal, ambos utilizados actualmente como salas de exposici\u00f3n. El Palacio de Cristal, pabell\u00f3n rom\u00e1ntico creado para dar cabida a una muestra de plantas ex\u00f3ticas en la Exposici\u00f3n de Filipinas de 1887, es uno de los principales ejemplos de la arquitectura del hierro en Espa\u00f1a.\r\n\r\nAdem\u00e1s, El Retiro alberga esculturas y fuentes notables como son: el monumento a Alfonso XII, proyecto del arquitecto Jos\u00e9 Gras\u00e9s Riera o el reservado de Fernando VII, situado en la esquina de las calles O'Donnell y Men\u00e9ndez Pelayo. Este \u00faltimo incluye la Casa del Pescador, la Monta\u00f1a Artificial y la Casa del Contrabandista (la antigua sala de fiestas Florida Park), que le confieren un aire rom\u00e1ntico. Destacan adem\u00e1s, la estatua de El \u00c1ngel ca\u00eddo; \u00fanica escultura en el mundo que representa al diablo y la fuente de los Gal\u00e1pagos, que conmemora el nacimiento de Isabel II.",
+    "imagen": "/images/turismo/retiro.jpg",
+    "categoria": "parque",
+    "fechaAlta": "2017-04-11T10:54:43Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Plaza Mayor",
+  "fields": {
+    "direccion": "Plaza Mayor, 28012",
+    "descripcion": "Esta plaza porticada es el coraz\u00f3n del Madrid de los Austrias, el casco viejo de la ciudad y uno de los barrios con m\u00e1s encanto.\r\n\r\nAntes de que Madrid fuese una capital de grandes avenidas y bulevares, su mapa lo conformaban peque\u00f1as calles y pasadizos, que hoy nos trasladan a tiempos de espadachines y p\u00edcaros.\r\n\r\nLa Plaza Mayor empez\u00f3 a cimentarse sobre el solar de la antigua Plaza del Arrabal, donde se encontraba el mercado m\u00e1s popular de la villa a finales del siglo XV, cuando se traslad\u00f3 la corte de Felipe II a Madrid. En 1617 se encarga al arquitecto Juan G\u00f3mez de Mora establecer uniformidad a los edificios de este lugar, que durante siglos ha acogido festejos populares, corridas de toros, beatificaciones, coronaciones y tambi\u00e9n alg\u00fan auto de fe.\r\n\r\nLa Casa de la Panader\u00eda\r\n\r\nLa Casa de la Panader\u00eda fue construida por Diego Sillero alrededor de 1590, pero de este edificio s\u00f3lo se conserva el s\u00f3tano y la planta baja. No obstante es el modelo que copian el resto de edificios de la plaza. Entre las numerosas funciones que ha tenido destacan el de Tahona Principal de la Villa, que fijaba el precio del pan para que los m\u00e1s necesitados pudieran adquirirlo, aposentos reales, Real Academia de Bellas Artes de San Fernando y Academia de la Historia. En la actualidad es la sede del Centro de Turismo de Madrid. La decoraci\u00f3n que podemos contemplar en la fachada no ha sido igual a lo largo de los a\u00f1os, debido a las reformas y rehabilitaciones. Las pinturas murales que cubren hoy el edificio son obra de Carlos Franco, en la que se distinguen figuras mitol\u00f3gicas relacionadas con la historia de Madrid como la diosa Cibeles.\r\n\r\nEl Arco de Cuchilleros\r\n\r\nLos incendios, sin embargo, han cambiado la fisionom\u00eda de la plaza en varias ocasiones. El m\u00e1s devastador fue el de 1790, que permiti\u00f3 la reconstrucci\u00f3n llevada a cabo por el arquitecto Juan de Villanueva, quien redujo en dos alturas las fachadas, cerr\u00f3 la plaza en sus esquinas y levant\u00f3 nueve arcos de acceso. Dada su monumentalidad, el m\u00e1s conocido de todos es el de Cuchilleros, cuya escalinata salva un acusado desnivel. Los pintorescos edificios de esta calle llaman la atenci\u00f3n por su elevada altura e inclinaci\u00f3n de las fachadas, a modo de contrafuertes. Su nombre se debe a que aqu\u00ed se ubicaban los talleres de cuchilleros que prove\u00edan de instrumental a los carniceros de la Plaza Mayor, donde se encuentra la Casa de la Carnicer\u00eda, que fue el dep\u00f3sito general de carnes.\r\n\r\nLa estatua de Felipe III\r\n\r\nEsta escultura ecuestre es una de las obras de arte de mayor valor ubicada en las calles de Madrid. Dise\u00f1ada por Giambologna y terminada por Pietro Tacca en 1616, durante siglos custodi\u00f3 el acceso a la Casa de Campo, pero la reina Isabel II se la prest\u00f3 en 1848 a la ciudad, que decidi\u00f3 colocarla en la Plaza Mayor. S\u00f3lo durante las dos rep\u00fablicas la escultura ha vuelto a emigrar de esta plaza, tal vez la m\u00e1s emblem\u00e1tica de Madrid.",
+    "imagen": "/images/turismo/plazaMayor.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T10:59:49Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Puerta de Alcal\u00e1",
+  "fields": {
+    "direccion": "Plaza de la Independencia, s/n 28001",
+    "descripcion": "Construida por Sabatini en 1778 como parte de las reformas de embellecimiento de la ciudad promovidas por Carlos III. Es de granito, de estilo neocl\u00e1sico y constituye un ejemplo de proporci\u00f3n, armon\u00eda y elegancia. El Rey la encarg\u00f3 a Sabatini para conmemorar su llegada a la capital en 1778. La puerta se situ\u00f3 a la entrada de la ciudad cerca de El Retiro, junto al camino que conduc\u00eda a Alcal\u00e1 de Henares, de ah\u00ed que reciba ese nombre.\r\n\r\nSabatini dise\u00f1\u00f3 una estructura que consta de cinco arcos, tres de ellos de medio punto y otros dos, emplazados en los extremos, arquitrabados. Los vanos est\u00e1n flanqueados por un total de diez columnas con capiteles j\u00f3nicos modernos, que acaban en una cornisa coronada por el \u00e1tico y se encuentran asentados sobre un z\u00f3calo a ambos lados del monumento. En el lateral que mira a Cibeles se detecta que las columnas son sustituidas por pilastras, excepto las que engalanan el arco central.\r\n\r\nLos ornamentos que decoran la Puerta son creaciones de Robert de Michel. Entre ellos destacan los relieves de cornucopias situados en los frisos de los vanos de los extremos y las cabezas de leones de los tres vanos centrales. Finalmente, el Real escudo de armas aparece sostenido por una Fama y un Genio, que son obra de Francisco Guti\u00e9rrez. A ambos lados del monumento y sobre el \u00e1tico una inscripci\u00f3n reza \u201cRege Carlo III / Anno / MDCCLXXVIII\u201d",
+    "imagen": "/images/turismo/alcala.jpg",
+    "categoria": "puerta",
+    "fechaAlta": "2017-04-11T10:52:04Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Puerta de Hierro",
+  "fields": {
+    "direccion": "Avenida del Padre Huidobro Km 6, s/n 28040",
+    "descripcion": "Cerrando el Cintur\u00f3n del Pardo, la Puerta de Hierro se construy\u00f3 durante el reinado de Fernando VI, en 1751. Es una obra del arquitecto Francisco Nagle e intervinieron en su elaboraci\u00f3n Francisco Moradillo y el escultor Olivieri, que se encargaron de materializar los elementos decorativos.\r\n\r\nRealizada en estilo barroco cl\u00e1sico, siguiendo el gusto italiano y franc\u00e9s, consta de un arco de medio punto escoltado por dos pilares a los que est\u00e1 unido a trav\u00e9s de una original verja de hierro forjado. El conjunto aparece rematado con un front\u00f3n presidido por un escudo real.\r\n\r\nUbicada en la zona del Monte del Pardo, cerca de Ciudad Universitaria, la Puerta de Hierro constitu\u00eda el acceso a una zona restringida donde acud\u00eda a cazar el rey Fernando VI. Este espacio estaba delimitado por una valla de piedra, ladrillo y alambrada, de la que todav\u00eda hoy se conservan algunos restos. En este per\u00edmetro, en el que se cuentan diversas propiedades reales, crecieron varias poblaciones, como son El Pardo y Mingorrubio.\r\n\r\nEsta puerta, a diferencia de las dem\u00e1s, est\u00e1 separada de la metr\u00f3poli, pero cerca del palacete conocido como Quinta de Goya, donde el famoso pintor ten\u00eda instalado su taller. De hecho, se encuentra emplazada en una encrucijada de carreteras, lo que provoc\u00f3, durante una de las \u00faltimas ampliaciones llevadas a cabo en la Carretera de A Coru\u00f1a, que hubiera que desmontarla pieza a pieza para alejarla unos metros de su ubicaci\u00f3n tradicional.",
+    "imagen": "/images/turismo/hierro.jpg",
+    "categoria": "puerta",
+    "fechaAlta": "2017-04-11T10:52:36Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Puerta del Sol",
+  "fields": {
+    "direccion": "Plaza Puerta del Sol, 28013",
+    "descripcion": "C\u00e9ntrica y bulliciosa, la plaza de la Puerta del Sol es uno de los emblemas de Madrid. En su planta semicircular confluyen varias de las calles hist\u00f3ricas y m\u00e1s transitadas de la ciudad, como Mayor, Arenal, Alcal\u00e1 o Preciados, y concentra varios de los elementos m\u00e1s representativos de esta urbe.\r\n\r\nUno de ellos, es el famoso reloj de la Casa de Correos, sede de la Comunidad de Madrid, que cada 31 de diciembre marca las doce campanadas del nuevo a\u00f1o ante una multitud que se congrega a sus pies, para tomarse las doce uvas tradicionales en una ceremonia que se retransmite por televisi\u00f3n a millones de espa\u00f1oles.\r\n\r\nEn el mismo lugar, frente a la puerta de la Casa de Correos, se encuentra la placa del Kil\u00f3metro Cero, que se\u00f1ala el origen del kilometraje de las diferentes carreteras radiales nacionales que parten de Madrid y junto a la cual tantos turistas nacionales se fotograf\u00edan cada d\u00eda. La Puerta del Sol alberga tambi\u00e9n la estatua del Oso y el Madro\u00f1o, muy querida por los madrile\u00f1os y popular punto de encuentro que representa los elementos del escudo de la ciudad.\r\n\r\nEn el lado opuesto, a la entrada de la calle Arenal, se encuentra la estatua de la Mariblanca, r\u00e9plica del original del siglo XVII que en su origen coron\u00f3 una fuente ubicada en el mismo emplazamiento y que hoy es custodiada en la Casa de la Villa. Y muy pr\u00f3xima a ella, en el centro de la plaza, se sit\u00faa la estatua ecuestre de Carlos III, rey que en el siglo XVIII moderniz\u00f3 Madrid con una serie de mejoras en las infraestructuras de la ciudad.",
+    "imagen": "/images/turismo/puertaSol.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T11:00:10Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Teatro Real",
+  "fields": {
+    "direccion": "Plaza de Isabel II, s/n 28013",
+    "descripcion": "El Teatro Real de Madrid, proyecto del arquitecto municipal Antonio L\u00f3pez Aguado bajo el reinado de Isabel I, se inaugur\u00f3 en 1850 (aunque la primera piedra se coloc\u00f3 el 23 de abril de 1818). Situado muy cerca de Sol, el edificio fue durante 75 a\u00f1os uno de los principales teatros europeos, pero un hundimiento en 1925 provoc\u00f3 que estuviera cerrado 41 a\u00f1os. En 1966 reabri\u00f3 como auditorio y sede del Real Conservatorio Superior de M\u00fasica y Escuela de Arte Dram\u00e1tico. Declarado Monumento Nacional en 1977, no fue hasta 1997, y tras casi siete a\u00f1os de reformas, cuando volvi\u00f3 a ser la sede madrile\u00f1a del bel canto.\r\n\r\nEl edificio es una mezcla arquitect\u00f3nica que cuenta con una caja esc\u00e9nica que es la joya del teatro con sus 1472 m\u00b2. Esta caja permite complejos cambios de decorado gracias a sus 18 plataformas articuladas que admiten m\u00faltiples combinaciones en el escenario y en el foso de la orquesta. Con un aforo que oscila entre 1748 y 1854 localidades, en funci\u00f3n de las necesidades del montaje, el teatro dispone de 28 palcos en las diferentes plantas, adem\u00e1s de ocho proscenios y del Palco Real de doble altura.\r\n\r\nLa \u00fanica planta dedicada exclusivamente al p\u00fablico es \u2018La Rotonda\u2019, que rodea por completo el edificio. En ella se ubican cuatro grandes salones decorados en diferentes tonalidades y con elementos de Patrimonio Nacional y del Museo del Prado. Asimismo, las l\u00e1mparas se fabricaron en la Real F\u00e1brica de la Granja.\r\n\r\nEl teatro organiza visitas guiadas, en diferentes idiomas, en las que se hace un recorrido por los espacios p\u00fablicos y art\u00edsticos del Real y con el que el visitante conoce con mayor detalle c\u00f3mo se desarrollan los ensayos de los espect\u00e1culos, d\u00f3nde ensayan los m\u00fasicos antes de las funciones o qu\u00e9 se hace en los diferentes departamentos del Teatro.",
+    "imagen": "/images/turismo/teatroReal.jpg",
+    "categoria": "teatro",
+    "fechaAlta": "2017-04-11T11:01:08Z"
+  }
+},
+{
+  "model": "web.turismo",
+  "pk": "Templo de Debod",
+  "fields": {
+    "direccion": "Calle Ferraz, 1, 28008 Madrid",
+    "descripcion": "El Templo de Debod es un edificio del antiguo Egipto localizado actualmente en Madrid (Espa\u00f1a). Est\u00e1 situado al oeste de la Plaza de Espa\u00f1a, junto al Paseo del Pintor Rosales (Parque del Oeste), en un alto donde se encontraba el Cuartel de la Monta\u00f1a (en el que se produjo un sangriento episodio de la Guerra Civil Espa\u00f1ola). Al ser trasladado a Espa\u00f1a, se situ\u00f3 de manera que conservase aproximadamente la misma orientaci\u00f3n que en su lugar de origen, de este a oeste.\r\n\r\nEl Templo de Debod fue un regalo de Egipto a Espa\u00f1a en 1968 en compensaci\u00f3n por la ayuda espa\u00f1ola tras el llamamiento internacional realizado por la Unesco para salvar los templos de Nubia, principalmente el de Abu Simbel, en peligro de desaparici\u00f3n debido a la construcci\u00f3n de la presa de Asu\u00e1n. Egipto don\u00f3 cuatro de los templos salvados a distintas naciones colaboradoras: Dendur a los Estados Unidos (se encuentra actualmente en el Metropolitan Museum de Nueva York), Ellesiya a Italia (Museo Egipcio de Tur\u00edn),1 Taffa a los Pa\u00edses Bajos (Rijksmuseum van Oudheden de Leiden)2 y Debod a Espa\u00f1a.\r\n\r\nTiene una antig\u00fcedad de unos 2200 a\u00f1os. Su n\u00facleo m\u00e1s antiguo fue quiz\u00e1s erigido bajo el fara\u00f3n Ptolomeo IV Fil\u00f3pator, y decorado posteriormente por el rey nubio Adikhalamani de Meroe hacia 200-180 a. C., siendo dedicado a Am\u00f3n de Debod (\"Amani\", en idioma kushita) e Isis, aunque a decir verdad la mayor\u00eda de los investigadores piensa que su erecci\u00f3n fue obra de Adikhalamani, interviniendo posteriormente Ptolomeo IV en \u00e9l. Posee importantes a\u00f1adidos de \u00e9poca ptolemaica y romano-imperial (del siglo I a. C. al II d. C.).",
+    "imagen": "/images/turismo/debod.jpg",
+    "categoria": "otros",
+    "fechaAlta": "2017-04-11T10:41:45Z"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 2,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 2,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 2,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 4,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 4,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 4,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can add local",
+    "content_type": 7,
+    "codename": "add_local"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can change local",
+    "content_type": 7,
+    "codename": "change_local"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can delete local",
+    "content_type": 7,
+    "codename": "delete_local"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can add comentarios",
+    "content_type": 8,
+    "codename": "add_comentarios"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can change comentarios",
+    "content_type": 8,
+    "codename": "change_comentarios"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can delete comentarios",
+    "content_type": 8,
+    "codename": "delete_comentarios"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add turismo",
+    "content_type": 9,
+    "codename": "add_turismo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change turismo",
+    "content_type": 9,
+    "codename": "change_turismo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete turismo",
+    "content_type": 9,
+    "codename": "delete_turismo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can add valoracion",
+    "content_type": 10,
+    "codename": "add_valoracion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can change valoracion",
+    "content_type": 10,
+    "codename": "change_valoracion"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can delete valoracion",
+    "content_type": 10,
+    "codename": "delete_valoracion"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Editores",
+    "permissions": [
+      22,
+      23,
+      24,
+      19,
+      20,
+      21,
+      25,
+      26,
+      27,
+      28,
+      30
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$C51AJkvh2e0l$Ppd+onQzY7NwS3iMGtagt56/JunhClIJJqbAERv1J00=",
+    "last_login": "2017-04-11T10:28:58.142Z",
+    "is_superuser": true,
+    "username": "superadmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "dnlsoriano91@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-03-16T12:58:16.431Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$bdthRFLqbhxV$/u8FQH8CM6wq5BE2FOc76OTEs4kph3Zfx7seSVl3qnE=",
+    "last_login": "2017-06-10T13:56:11.305Z",
+    "is_superuser": true,
+    "username": "Daniel",
+    "first_name": "Daniel",
+    "last_name": "Soriano",
+    "email": "dani_s61@hotmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2017-03-20T16:41:33Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": [
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      4,
+      5,
+      6,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      24,
+      19,
+      20,
+      21,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$30000$ahx1YRnoQgac$rzD1s1RMlzi9S7dt/xFbzQdAs9I3MI/I61LCx4XXvwk=",
+    "last_login": "2017-05-07T17:03:33.070Z",
+    "is_superuser": false,
+    "username": "Editor",
+    "first_name": "Editor",
+    "last_name": "InvenitMadrid",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2017-05-02T14:43:48Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 67,
+  "fields": {
+    "autor": 2,
+    "local": "Bar Cock",
+    "titulo": "Parece que funciona",
+    "comentario": "Ser\u00e1 verdad?",
+    "fecha_publicacion": "2017-04-16T14:04:49.924Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 68,
+  "fields": {
+    "autor": 2,
+    "local": "Bar Cock",
+    "titulo": "Sigue funcionando?",
+    "comentario": "Prueba prueba",
+    "fecha_publicacion": "2017-04-16T14:06:52.113Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 69,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "Funciona?",
+    "fecha_publicacion": null
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 70,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "Funciona?",
+    "fecha_publicacion": "2017-04-16T14:14:26.672Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 71,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "Funciona?",
+    "fecha_publicacion": "2017-04-16T14:17:28.182Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 72,
+  "fields": {
+    "autor": 2,
+    "local": "Bar Cock",
+    "titulo": "Parece que funciona",
+    "comentario": "sdfs",
+    "fecha_publicacion": "2017-04-16T14:17:54.026Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 73,
+  "fields": {
+    "autor": 2,
+    "local": "99 Sushi Bar Hermosilla",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasd",
+    "fecha_publicacion": "2017-04-16T14:28:18.152Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 74,
+  "fields": {
+    "autor": 2,
+    "local": "99 Sushi Bar Hermosilla",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasd",
+    "fecha_publicacion": "2017-04-16T14:28:21.701Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 75,
+  "fields": {
+    "autor": 2,
+    "local": "99 Sushi Bar Hermosilla",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasd",
+    "fecha_publicacion": "2017-04-16T14:28:22.612Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 76,
+  "fields": {
+    "autor": 2,
+    "local": "99 Sushi Bar Hermosilla",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasd",
+    "fecha_publicacion": "2017-04-16T14:28:23.161Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 77,
+  "fields": {
+    "autor": 2,
+    "local": "99 Sushi Bar Hermosilla",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasd",
+    "fecha_publicacion": "2017-04-16T14:28:23.593Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 78,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "asd",
+    "comentario": "asd",
+    "fecha_publicacion": "2017-04-16T14:34:41.248Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 79,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "asd",
+    "comentario": "asd",
+    "fecha_publicacion": "2017-04-16T14:34:42.054Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 80,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "asd",
+    "comentario": "asd",
+    "fecha_publicacion": "2017-04-16T14:34:42.711Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 81,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "asd",
+    "comentario": "asd",
+    "fecha_publicacion": "2017-04-16T14:34:43.843Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 82,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:53.067Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 83,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:53.758Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 84,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:54.041Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 85,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:54.168Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 86,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:54.519Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 87,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:54.521Z"
+  }
+},
+{
+  "model": "web.comentarios",
+  "pk": 88,
+  "fields": {
+    "autor": 2,
+    "local": "Bodega La Ardosa",
+    "titulo": "Parece que funciona",
+    "comentario": "asdasda",
+    "fecha_publicacion": "2017-04-16T14:37:54.738Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2017-03-20T16:57:42.938Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "Daniel",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2017-04-11T10:29:14.983Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "3",
+    "object_repr": "Cristina",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2017-04-11T10:29:30.151Z",
+    "user": 1,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "Daniel",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"is_staff\", \"is_superuser\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2017-04-11T10:48:18.979Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Templo de Debod",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2017-04-11T10:50:10.697Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Templo de Debod",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2017-04-11T10:50:16.717Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Templo de Debod",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2017-04-11T10:52:04.737Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Templo de Debod",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2017-04-11T10:52:35.750Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Puerta de Alcal\u00e1",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2017-04-11T10:53:07.331Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Puerta de Hierro",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2017-04-11T10:53:30.100Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Fuente de Cibeles",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2017-04-11T10:53:53.678Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Fuente de Neptuno",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2017-04-11T10:54:20.853Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "El \u00c1ngel Ca\u00eddo",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2017-04-11T10:54:42.977Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Jardines de Sabatini",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2017-04-11T10:55:07.977Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Parque de El Retiro",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2017-04-11T10:55:45.879Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Campo del Moro",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2017-04-11T10:56:17.759Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Casa de Campo",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2017-04-11T10:56:39.657Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Madrid R\u00edo",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2017-04-11T10:57:51.720Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Museo del Prado",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2017-04-11T10:58:20.273Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Museo Reina Sof\u00eda",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2017-04-11T10:58:41.947Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Casa de Bamb\u00fa",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2017-04-11T10:59:48.957Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Palacio Real",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2017-04-11T11:00:10.117Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Plaza Mayor",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2017-04-11T11:00:33.199Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Puerta del Sol",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2017-04-11T11:01:08.349Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "El Rastro",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2017-04-11T11:01:31.832Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Teatro Real",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2017-04-11T11:01:59.537Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "Auditorio Nacional de M\u00fasica",
+    "object_repr": "Turismo object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2017-04-12T13:17:52.585Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Templo de Debod",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2017-04-12T13:17:57.151Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Templo de Debod",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2017-04-12T13:18:08.500Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Teatro Real",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2017-04-12T13:18:18.723Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Puerta del Sol",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2017-04-12T13:18:24.956Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Puerta de Hierro",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2017-04-12T13:18:30.004Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Puerta de Alcal\u00e1",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2017-04-12T13:18:39.623Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Parque de El Retiro",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2017-04-12T13:18:47.773Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Museo del Prado",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2017-04-12T13:18:53.447Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Palacio Real",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2017-04-12T13:19:04.194Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Madrid R\u00edo",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2017-04-12T13:19:12.243Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Fuente de Neptuno",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2017-04-12T13:19:23.567Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "El Rastro",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2017-04-12T13:19:35.558Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Casa de Bamb\u00fa",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2017-04-12T13:19:43.801Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Campo del Moro",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2017-04-12T13:19:52.096Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Auditorio Nacional de M\u00fasica",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2017-04-12T13:19:58.670Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Casa de Campo",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2017-04-12T13:36:01.005Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Teatro Real",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2017-04-12T13:36:55.673Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Museo Reina Sof\u00eda",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2017-04-12T13:37:08.782Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Jardines de Sabatini",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2017-04-12T13:37:34.715Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Auditorio Nacional de M\u00fasica",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2017-04-12T13:37:41.307Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Auditorio Nacional de M\u00fasica",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2017-04-12T14:33:23.629Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Plaza Mayor",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2017-04-12T14:33:52.404Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "Fuente de Cibeles",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2017-04-13T14:57:17.734Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Casa Labra",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2017-04-13T15:08:40.844Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Casa Labra",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"telefono\", \"web\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2017-04-13T15:10:44.138Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Bodega La Ardosa",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2017-04-13T15:11:53.813Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "La Casa del Abuelo",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2017-04-13T15:11:57.751Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "La Casa del Abuelo",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2017-04-13T15:12:02.815Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Casa Labra",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2017-04-13T15:12:10.334Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Bodega La Ardosa",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2017-04-13T15:14:30.303Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "El Anciano Rey de los Vinos",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2017-04-13T15:15:46.183Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Lhardy",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2017-04-13T15:20:58.438Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "DiverXo",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2017-04-13T15:22:45.426Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Dstage",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2017-04-13T15:24:13.780Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Vinoteca Morat\u00edn",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2017-04-13T15:25:26.497Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "El Club Allard",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2017-04-13T15:25:29.320Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "El Club Allard",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2017-04-13T15:27:08.488Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Santceloni",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2017-04-13T15:28:23.804Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Ramon Freixa Madrid",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2017-04-13T15:30:09.188Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Corral de la Moreria",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2017-04-13T15:30:57.191Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Sacha",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2017-04-13T15:33:09.885Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "El Tormo",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2017-04-13T15:34:40.211Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "La Candela Rest\u00f3",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2017-04-13T15:36:04.989Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Miyama",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2017-04-13T15:38:46.584Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "99 Sushi Bar Hermosilla",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2017-04-13T15:39:54.985Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Cuenllas",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2017-04-13T15:40:04.835Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "99 Sushi Bar Hermosilla",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"categoria\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2017-04-13T15:41:50.803Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Kabuki Wellington",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2017-04-13T15:44:13.586Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Madrid 1883",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2017-04-13T15:45:14.473Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda de San Gin\u00e9s",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2017-04-13T15:46:25.666Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor (Ibiza)",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2017-04-13T15:47:20.318Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Cacao Sampaka",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2017-04-13T15:48:19.172Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Ocumare",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2017-04-13T15:49:13.170Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "La Pajarita",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2017-04-13T15:50:11.934Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "La Violeta",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2017-04-13T15:51:11.349Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolat Factory",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2017-04-13T15:52:16.500Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Moulin Chocolat",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2017-04-13T15:53:20.171Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Oriol Balaguer",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2017-04-13T15:56:47.104Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Bar Cock",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2017-04-13T15:59:50.856Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Soho",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2017-04-13T16:01:18.304Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "DRY Martini Bar",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2017-04-13T16:02:03.367Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Le Cabrera",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2017-04-13T16:03:03.453Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Museo Chicote",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2017-04-13T16:04:31.898Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Josealfredo Bar",
+    "object_repr": "Local object",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2017-04-13T16:21:41.565Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"nombreLocal\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2017-04-13T16:22:40.969Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"nombreLocal\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2017-04-13T16:22:51.358Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"nombreLocal\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2017-04-13T16:23:09.588Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"nombreLocal\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2017-04-13T16:23:30.872Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"nombreLocal\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2017-04-13T16:24:20.675Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor (Ibiza)",
+    "object_repr": "Local object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2017-04-15T19:09:51.543Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2017-04-15T19:09:51.652Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2017-04-15T19:09:51.810Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2017-04-15T19:09:51.943Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.060Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.185Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.302Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.401Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.519Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.626Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.726Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2017-04-15T19:09:52.864Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2017-04-15T19:11:23.555Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "14",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2017-04-15T19:11:23.658Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2017-04-15T19:36:39.381Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "19",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2017-04-15T19:36:39.479Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "18",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2017-04-15T19:36:39.583Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "17",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2017-04-15T19:36:39.695Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "16",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2017-04-15T19:36:39.828Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2017-04-15T19:36:53.282Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "21",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2017-04-15T19:36:53.395Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "20",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2017-04-15T19:38:38.056Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "25",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2017-04-15T19:38:38.160Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "24",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2017-04-15T19:38:38.260Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "23",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2017-04-15T19:38:38.368Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "22",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2017-04-15T19:43:33.093Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "27",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2017-04-15T19:43:33.222Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "26",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2017-04-15T19:56:58.954Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "33",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2017-04-15T19:56:59.072Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "32",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2017-04-15T19:56:59.188Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "31",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2017-04-15T19:56:59.330Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "30",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2017-04-15T19:56:59.463Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "29",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2017-04-15T19:56:59.588Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "28",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2017-04-15T20:02:49.982Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "35",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2017-04-15T20:02:50.082Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "34",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2017-04-15T20:03:05.237Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "37",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2017-04-15T20:13:25.380Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "43",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2017-04-15T20:13:25.496Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "42",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2017-04-15T20:13:25.628Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "41",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2017-04-15T20:13:25.746Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "40",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2017-04-15T20:13:25.895Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "39",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2017-04-15T20:13:26.025Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "38",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2017-04-15T20:13:26.129Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "36",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2017-04-15T20:16:32.294Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "45",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2017-04-15T20:16:32.417Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "44",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2017-04-15T20:17:09.571Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "47",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2017-04-15T20:17:09.681Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "46",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2017-04-15T20:18:38.853Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "49",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2017-04-15T20:18:38.965Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "48",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.078Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "57",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.188Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "56",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 148,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.306Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "55",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 149,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.413Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "54",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 150,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.555Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "53",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 151,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.672Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "52",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 152,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.796Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "51",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 153,
+  "fields": {
+    "action_time": "2017-04-15T20:26:07.888Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "50",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 154,
+  "fields": {
+    "action_time": "2017-04-15T20:29:21.767Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "59",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 155,
+  "fields": {
+    "action_time": "2017-04-15T20:29:21.863Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "58",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 156,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.064Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "66",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 157,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.154Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "65",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 158,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.261Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "64",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 159,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.353Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "63",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 160,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.445Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "62",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 161,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.545Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "61",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 162,
+  "fields": {
+    "action_time": "2017-04-15T20:34:42.645Z",
+    "user": 2,
+    "content_type": 8,
+    "object_id": "60",
+    "object_repr": "Comentarios object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 163,
+  "fields": {
+    "action_time": "2017-05-02T14:43:04.060Z",
+    "user": 2,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "Editores",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 164,
+  "fields": {
+    "action_time": "2017-05-02T14:43:48.537Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "Editor",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 165,
+  "fields": {
+    "action_time": "2017-05-02T14:44:19.688Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "4",
+    "object_repr": "Editor",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"first_name\", \"last_name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 166,
+  "fields": {
+    "action_time": "2017-05-02T15:12:30.001Z",
+    "user": 2,
+    "content_type": 2,
+    "object_id": "2",
+    "object_repr": "Daniel",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 167,
+  "fields": {
+    "action_time": "2017-05-07T18:51:10.442Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "asdasdasd",
+    "object_repr": "Turismo object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 168,
+  "fields": {
+    "action_time": "2017-05-15T15:29:35.817Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "asd",
+    "object_repr": "Turismo object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 169,
+  "fields": {
+    "action_time": "2017-05-21T16:20:44.127Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Parranda",
+    "object_repr": "Local object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 170,
+  "fields": {
+    "action_time": "2017-05-28T14:56:53.145Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "prueba 2",
+    "object_repr": "Local object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 171,
+  "fields": {
+    "action_time": "2017-05-28T15:01:10.551Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "prueba 3",
+    "object_repr": "Local object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 172,
+  "fields": {
+    "action_time": "2017-06-04T11:12:37.986Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "asd",
+    "object_repr": "Turismo object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"direccion\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 173,
+  "fields": {
+    "action_time": "2017-06-04T11:12:49.571Z",
+    "user": 2,
+    "content_type": 9,
+    "object_id": "asd 4",
+    "object_repr": "Turismo object",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 174,
+  "fields": {
+    "action_time": "2017-06-04T13:03:21.738Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Vinoteca Morat\u00edn",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 175,
+  "fields": {
+    "action_time": "2017-06-04T13:19:24.435Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Bodega La Ardosa",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 176,
+  "fields": {
+    "action_time": "2017-06-04T13:25:12.390Z",
+    "user": 2,
+    "content_type": 7,
+    "object_id": "Chocolater\u00eda Valor",
+    "object_repr": "Local object",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"nombreLocal\"]}}]"
+  }
+}
+]
