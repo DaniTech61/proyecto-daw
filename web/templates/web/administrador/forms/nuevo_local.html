@@ -1,56 +1,56 @@
-<h3>Nuevo Sitio Turístico</h3>
+<h3>Nuevo Local</h3>
 <form action="{% url 'nuevo_local' %}" method="post" role="form" style="text-align:left;" enctype="multipart/form-data">
 	{% csrf_token %}
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="nombreSitio" class="col-2">Nombre del local</label><br>
 		<div class="col-3 col-md-4">{{ form.nombreLocal }}</div>
 	</div>
 	</div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="direccion">Dirección</label><br>
 		<div class="col-3 col-md-4">{{ form.direccion }}</div>
 	</div></div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="telefono">Teléfono</label><br>
 		<div class="col-3 col-md-4">{{ form.telefono }}</div>
 	</div></div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="email">Email</label><br>
 		<div class="col-3 col-md-4">{{ form.email }}</div>
 	</div></div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="web">Web</label><br>
 		<div class="col-3 col-md-4">{{ form.web }}</div>
 	</div></div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="descipcion">Descripción</label><br>
 		<div class="col-3 col-md-4">{{ form.descripcion }}</div>
 	</div></div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="imagen">Imagen</label><br>
 		<input type="file" name="image">
 	</div></div>
-	
+
 	<div class="row">
 	<div class="form-group">
 		<label for="categoria">Categoría</label><br>
-		{{ form.categoria }}	
+		{{ form.categoria }}
 	</div></div>
-	
+
 	<div class="form-actions">
 	  <button type="submit" class="btn btn-success">Enviar</button>
 	</div>
